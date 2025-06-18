@@ -59,7 +59,7 @@ def check_md_files(md_dir_path, raw_data_path, logger):
         for p in abnormal_files:
             f.write(p + '\n')
 
-    logger.info(f"✅ 完成，异常文件数：{len(abnormal_files)}，已保存至 abnormal_format.md")
+    print(f"✅ 完成，异常文件数：{len(abnormal_files)}，已保存至 abnormal_format.md")
     return save_path
 
 if __name__ == "__main__":

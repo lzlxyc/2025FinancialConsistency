@@ -22,13 +22,13 @@ def setup_logger(log_path):
     logger.addHandler(console_handler)
 
     # 文件处理器
-    file_handler = logging.FileHandler(log_path, mode='w', encoding='utf-8')
+    file_handler = logging.FileHandler(log_path, mode='a', encoding='utf-8')
     file_handler.setFormatter(formatter)
     logger.addHandler(file_handler)
 
     return logger
 if __name__ == '__main__':
-    model_name = 'qwen2.5-1.5b-instruct'
+    model_name = 'qwen2.5-72b-instruct'
     client = OpenAI(
         # 若没有配置环境变量，请用百炼API Key将下行替换为：api_key="sk-xxx",
         # https://bailian.console.aliyun.com/?tab=model#/api-key
@@ -49,9 +49,11 @@ if __name__ == '__main__':
     abnormal_format_path = check_md_files(md_dir_path = md_dir_path,
                                           raw_data_path = raw_data_path,
                                           logger = logger)
+
     clean_data(abnormal_format_path=abnormal_format_path,
                raw_data_path=raw_data_path,
                clean_data_path=clean_data_path,
+               log_path=log_file_path,
                client = client,
                model_name = model_name,
                logger=logger)

@@ -3,7 +3,31 @@ import pandas as pd
 import glob, json, re
 from tqdm import tqdm
 
+def get_processed_paths(log_path):
+    """
+    读取 log 文件中所有处理过的路径（不区分 normal / abnormal），返回：
+    - set: 所有路径
+    - str: 最后一条路径
+    """
+    if not os.path.exists(log_path):
+        return set(), None
 
+    processed_paths = []
+    with open(log_path, 'r', encoding='utf-8') as f:
+        for line in f:
+            # 只处理包含路径的日志行
+            if " - INFO - " in line:
+                try:
+                    log_parts = line.strip().split(" - INFO - ")
+                    if len(log_parts) < 2:
+                        continue
+                    path = log_parts[1].split(" ***")[0].strip()
+                    processed_paths.append(path)
+                except Exception:
+                    continue
+
+    last_path = processed_paths[-1] if processed_paths else None
+    return processed_paths, last_path
 
 
 
@@ -36,27 +60,33 @@ def do_align(client,model_name,memory,lines,_type):
     )
     return completion.choices[0].message.content
 
-def clean_data(abnormal_format_path, raw_data_path, clean_data_path, client,model_name,logger):
+def clean_data(abnormal_format_path, raw_data_path, clean_data_path, log_path, client, model_name, logger):
+    # 获取已处理路径列表 + 最后一条路径
+    processed_paths, last_path = get_processed_paths(log_path)
+
+    # 获取异常路径列表
     if os.path.exists(abnormal_format_path):
         with open(abnormal_format_path, 'r', encoding='utf-8') as f:
             abnormal_paths = set(line.strip() for line in f if line.strip())
     else:
         abnormal_paths = set()
 
+    # 主逻辑开始
     jsonl_path = os.path.join(raw_data_path, "data.jsonl")
     for row in tqdm(pd.read_json(jsonl_path, lines=True).iloc[:].iterrows()):
-        logger.info(f"{row[1].material_id}")
-
-        for path in glob.glob(os.path.join(raw_data_path, "materials", row[1].material_id, "*", "*")):
-            try:
-                with open(path, encoding='utf-8') as f:
-                    lines = f.readlines()
-            except UnicodeDecodeError:
-                logger.warning(f"⚠️ 解码错误: {path}")
+        material_id = row[1].material_id
+        for path in glob.glob(os.path.join(raw_data_path, "materials", material_id, "*", "*")):
+            # 相对路径用作 log 中唯一标识
+            rel_path = os.path.relpath(path, raw_data_path)
+            if path in processed_paths and path != last_path:
                 continue
+            # 是否跳过（根据 log 和 last_path）
 
-            relative_path = os.path.relpath(path, raw_data_path)
-            target_path = os.path.join(clean_data_path, relative_path)
+
+            with open(path, encoding='utf-8') as f:
+                lines = f.readlines()
+
+            target_path = os.path.join(clean_data_path, rel_path)
             os.makedirs(os.path.dirname(target_path), exist_ok=True)
 
             if path in abnormal_paths:
@@ -64,11 +94,16 @@ def clean_data(abnormal_format_path, raw_data_path, clean_data_path, client,mode
                 logger.info(f"{path} ***abnormal***")
                 content = ""
                 memory = ''
-                for chunk_lines in get_chunk_list(lines):
-                    res = do_align(client,model_name,memory,chunk_lines,_type)
-                    memory = chunk_lines
-                    if res:
-                        content += res
+                try:
+                    for chunk_lines in get_chunk_list(lines):
+                        res = do_align(client, model_name, memory, chunk_lines, _type)
+                        memory = chunk_lines
+                        if res:
+                            content += res
+                except Exception as e:
+                    logger.error(f"❌ do_align 失败跳过: {rel_path} | 错误信息: {e}")
+                    continue
+
                 with open(target_path, "w", encoding="utf-8") as f:
                     f.write(content)
             else:
