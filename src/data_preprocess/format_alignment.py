@@ -72,44 +72,41 @@ def clean_data(abnormal_format_path, raw_data_path, clean_data_path, log_path, c
         abnormal_paths = set()
 
     # 主逻辑开始
-    jsonl_path = os.path.join(raw_data_path, "data.jsonl")
-    for row in tqdm(pd.read_json(jsonl_path, lines=True).iloc[:].iterrows()):
-        material_id = row[1].material_id
-        for path in glob.glob(os.path.join(raw_data_path, "materials", material_id, "*", "*")):
-            # 相对路径用作 log 中唯一标识
-            rel_path = os.path.relpath(path, raw_data_path)
-            if path in processed_paths and path != last_path:
+    for path in glob.glob(os.path.join(raw_data_path, "materials", "**", "*.md"), recursive=True):
+        # 相对路径用作 log 中唯一标识
+        rel_path = os.path.relpath(path, raw_data_path)
+        if path in processed_paths and path != last_path:
+            continue
+        # 是否跳过（根据 log 和 last_path）
+
+
+        with open(path, encoding='utf-8') as f:
+            lines = f.readlines()
+
+        target_path = os.path.join(clean_data_path, rel_path)
+        os.makedirs(os.path.dirname(target_path), exist_ok=True)
+
+        if path in abnormal_paths:
+            _type = os.path.normpath(path).split(os.sep)[-2]
+            logger.info(f"{path} ***abnormal***")
+            content = ""
+            memory = ''
+            try:
+                for chunk_lines in get_chunk_list(lines):
+                    res = do_align(client, model_name, memory, chunk_lines, _type)
+                    memory = chunk_lines
+                    if res:
+                        content += res
+            except Exception as e:
+                logger.error(f"❌ do_align 失败跳过: {rel_path} | 错误信息: {e}")
                 continue
-            # 是否跳过（根据 log 和 last_path）
 
-
-            with open(path, encoding='utf-8') as f:
-                lines = f.readlines()
-
-            target_path = os.path.join(clean_data_path, rel_path)
-            os.makedirs(os.path.dirname(target_path), exist_ok=True)
-
-            if path in abnormal_paths:
-                _type = os.path.normpath(path).split(os.sep)[-2]
-                logger.info(f"{path} ***abnormal***")
-                content = ""
-                memory = ''
-                try:
-                    for chunk_lines in get_chunk_list(lines):
-                        res = do_align(client, model_name, memory, chunk_lines, _type)
-                        memory = chunk_lines
-                        if res:
-                            content += res
-                except Exception as e:
-                    logger.error(f"❌ do_align 失败跳过: {rel_path} | 错误信息: {e}")
-                    continue
-
-                with open(target_path, "w", encoding="utf-8") as f:
-                    f.write(content)
-            else:
-                logger.info(f"{path}")
-                with open(target_path, "w", encoding="utf-8") as f:
-                    f.writelines(lines)
+            with open(target_path, "w", encoding="utf-8") as f:
+                f.write(content)
+        else:
+            logger.info(f"{path}")
+            with open(target_path, "w", encoding="utf-8") as f:
+                f.writelines(lines)
 
 
 if __name__ =='__main__':
