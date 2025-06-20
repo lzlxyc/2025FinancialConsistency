@@ -68,7 +68,7 @@ def analysis_conflict(module_name, content1, content2):
     return basechat(messages)
 
 c = 0
-for row in pd.read_json("../DATA/测试 A 集/data.jsonl", lines=True).iloc[:].iterrows():
+for row in pd.read_json("../DATA/0/data.jsonl", lines=True).iloc[:].iterrows():
     module_name = row[1].rule.replace("该产品的", "").replace("在各材料中的定义没有冲突", "")
 
     c += 1
