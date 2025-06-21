@@ -7,7 +7,7 @@ from tqdm import tqdm
 import os
 os.environ["CUDA_VISIBLE_DEVICES"] = "0"  #
 
-model_name = 'D:/LZL/workspace/ModelHub/Qwen2.5-0.5B-Instruct'
+model_name = 'D:/LZL/workspace/ModelHub/Qwen2.5-3B-Instruct'
 
 model = AutoModelForCausalLM.from_pretrained(
     model_name,
@@ -101,7 +101,7 @@ for row in tqdm(df.iterrows(), total=len(df)):
                 else:
                     result.append(0)
     
-        with open("submit_72b_0.5b.jsonl", "a") as up:
+        with open("submit3b.jsonl", "a") as up:
             up.write(json.dumps({
                 "material_id": row[1].material_id,
                 "rule_id": row[1].rule_id,
@@ -110,7 +110,7 @@ for row in tqdm(df.iterrows(), total=len(df)):
     
         print(np.mean(result))
     except:
-        with open("submit_72b_0.5b.jsonl", "a") as up:
+        with open("submit3b.jsonl", "a") as up:
             up.write(json.dumps({
                 "material_id": row[1].material_id,
                 "rule_id": row[1].rule_id,
