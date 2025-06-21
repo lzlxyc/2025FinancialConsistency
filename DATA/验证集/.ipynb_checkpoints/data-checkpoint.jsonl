@@ -1,0 +1,20 @@
+{"material_id": "m_00001s", "rule_id": "r_00001", "rule": "该产品的保障责任在各材料中的定义没有冲突", "result": false}
+{"material_id": "m_00002s", "rule_id": "r_00002", "rule": "该产品的责任免除在各材料中的定义没有冲突", "result": false}
+{"material_id": "m_00003s", "rule_id": "r_00003", "rule": "该产品的责任免除在各材料中的定义没有冲突", "result": false}
+{"material_id": "m_00004s", "rule_id": "r_00004", "rule": "该产品的保障相关时间在各材料中的定义没有冲突", "result": true}
+{"material_id": "m_00005s", "rule_id": "r_00005", "rule": "该产品的赔付 & 领取规则在各材料中的定义没有冲突", "result": false}
+{"material_id": "m_00006s", "rule_id": "r_00006", "rule": "该产品的保障相关时间在各材料中的定义没有冲突", "result": true}
+{"material_id": "m_00007s", "rule_id": "r_00007", "rule": "该产品的投保条款在各材料中的定义没有冲突", "result": false}
+{"material_id": "m_00008s", "rule_id": "r_00008", "rule": "该产品的赔付 & 领取规则在各材料中的定义没有冲突", "result": true}
+{"material_id": "m_00009s", "rule_id": "r_00009", "rule": "该产品的基础产品销售信息在各材料中的定义没有冲突", "result": false}
+{"material_id": "m_00010s", "rule_id": "r_00010", "rule": "该产品的投保条款在各材料中的定义没有冲突", "result": true}
+{"material_id": "m_00011s", "rule_id": "r_00011", "rule": "该产品的附加条款在各材料中的定义没有冲突", "result": true}
+{"material_id": "m_00012s", "rule_id": "r_00012", "rule": "该产品的赔付 & 领取规则在各材料中的定义没有冲突", "result": false}
+{"material_id": "m_00013s", "rule_id": "r_00013", "rule": "该产品的责任免除在各材料中的定义没有冲突", "result": false}
+{"material_id": "m_00014s", "rule_id": "r_00014", "rule": "该产品的保障责任在各材料中的定义没有冲突", "result": true}
+{"material_id": "m_00002s", "rule_id": "r_00015", "rule": "该产品的基础产品销售信息在各材料中的定义没有冲突", "result": true}
+{"material_id": "m_00015s", "rule_id": "r_00016", "rule": "该产品的与保障相关的时间在各材料中的定义没有冲突", "result": false}
+{"material_id": "m_00016s", "rule_id": "r_00017", "rule": "该产品的责任免除在各材料中的定义没有冲突", "result": false}
+{"material_id": "m_00017s", "rule_id": "r_00018", "rule": "该产品的保障责任在各材料中的定义没有冲突", "result": false}
+{"material_id": "m_00018s", "rule_id": "r_00019", "rule": "该产品的保障责任在各材料中的定义没有冲突", "result": false}
+{"material_id": "m_00019s", "rule_id": "r_00020", "rule": "该产品的投保条款在各材料中的定义没有冲突", "result": true}
