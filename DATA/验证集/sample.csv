@@ -1,0 +1,7 @@
+material_id,rule_id,rule,result,ypred
+m_00001a,r_00001,基础产品销售信息,True,False
+m_00003a,r_00003,责任免除,True,True
+m_00005a,r_00005,投保条款,False,False
+m_00007a,r_00007,续保条款,False,True
+m_00139a,r_00198,基础产品销售信息,True,True
+m_00061a,r_00199,责任免除,False,False
