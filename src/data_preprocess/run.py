@@ -1,9 +1,12 @@
 import os
 import logging
 
-from format_check import check_md_files
-from format_alignment import clean_data
+
 from openai import OpenAI
+
+from format_check import check_md_files
+from format_alignment import clean_data,get_chunk_list,do_align
+from postprocess import process_failed_paths
 
 model2key = {
     'qwen2.5-72b-instruct':'sk-026d537f247f4cf6a293652b2a803ff3',
@@ -37,7 +40,7 @@ if __name__ == '__main__':
     )
 
     raw_data_path = os.path.join('../../', 'data', 'raw_data', "测试 A 集")
-    clean_data_path = os.path.join('../../', 'data', 'clean_data'+model_name, "测试 A 集")
+    clean_data_path = os.path.join('../../', 'data', 'clean_data_'+model_name, "测试 A 集")
     os.makedirs(clean_data_path, exist_ok=True)
     md_dir_path = os.path.join(raw_data_path, "materials")
     log_file_path = os.path.join(clean_data_path, "process.log")
@@ -46,14 +49,16 @@ if __name__ == '__main__':
     logger = setup_logger(log_file_path)
 
 
-    abnormal_format_path = check_md_files(md_dir_path = md_dir_path,
-                                          raw_data_path = raw_data_path,
-                                          logger = logger)
-
-    clean_data(abnormal_format_path=abnormal_format_path,
-               raw_data_path=raw_data_path,
-               clean_data_path=clean_data_path,
-               log_path=log_file_path,
-               client = client,
-               model_name = model_name,
-               logger=logger)
+    # abnormal_format_path = check_md_files(md_dir_path = md_dir_path,
+    #                                       raw_data_path = raw_data_path,
+    #                                       logger = logger)
+    #
+    # clean_data(abnormal_format_path=abnormal_format_path,
+    #            raw_data_path=raw_data_path,
+    #            clean_data_path=clean_data_path,
+    #            log_path=log_file_path,
+    #            client = client,
+    #            model_name = model_name,
+    #            logger=logger)
+    process_failed_paths(log_file_path, client, model_name, get_chunk_list, do_align,logger)
+    # Todo move the jsonl

@@ -71,13 +71,13 @@ def analysis_conflict(module_name, content1, content2):
     return completion.choices[0].message.content
 
 
-for row in tqdm(pd.read_json("../data/测试 A 集/data.jsonl", lines=True).iloc[:].iterrows()):
+for row in tqdm(pd.read_json("../data/clean_dataqwen2.5-1.5b-instruct/测试 A 集/data.jsonl", lines=True).iloc[:].iterrows()):
     module_name = row[1].rule.replace("该产品的", "").replace("在各材料中的定义没有冲突", "")
     now = datetime.now()
     print(now.strftime("2025.%m.%d %H:%M:%S"),row[1].material_id)
 
     module_content_list = []
-    for path in glob.glob(f"../data/测试 A 集/materials/{row[1].material_id}/*/*"):
+    for path in glob.glob(f"../data/clean_dataqwen2.5-1.5b-instruct/测试 A 集/materials/{row[1].material_id}/*/*"):
         now = datetime.now()
         print(now.strftime("2025.%m.%d %H:%M:%S"),path)
         lines = open(path,encoding='utf-8').readlines()
@@ -104,4 +104,4 @@ for row in tqdm(pd.read_json("../data/测试 A 集/data.jsonl", lines=True).iloc
             "result": bool(np.mean(result) < 0.3)
         }) + "\n")
     now = datetime.now()
-    print(now.strftime("2025.%m.%d %H:%M:%S"),np.meam(result))
+    print(now.strftime("2025.%m.%d %H:%M:%S"),np.mean(result))

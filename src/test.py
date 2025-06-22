@@ -3,9 +3,9 @@ import glob, json, re
 import numpy as np
 from modelscope import AutoModelForCausalLM, AutoTokenizer
 import os
-os.environ["CUDA_VISIBLE_DEVICES"] = "4"  #
+os.environ["CUDA_VISIBLE_DEVICES"] = "0"  #
 
-model_name = '/DATA/disk0/public_model_weights/qwen/Qwen2.5-0.5B-Instruct'
+model_name = "Qwen/Qwen2.5-0.5B-Instruct"
 
 model = AutoModelForCausalLM.from_pretrained(
     model_name,
@@ -13,7 +13,6 @@ model = AutoModelForCausalLM.from_pretrained(
     device_map="auto"
 )
 tokenizer = AutoTokenizer.from_pretrained(model_name)
-
 
 def basechat(messages:list) -> str:
     text = tokenizer.apply_chat_template(
@@ -67,8 +66,10 @@ def analysis_conflict(module_name, content1, content2):
     ]
     return basechat(messages)
 
+
+
 c = 0
-for row in pd.read_json("../DATA/测试 A 集/data.jsonl", lines=True).iloc[:].iterrows():
+for row in pd.read_json("../data/clean_data_qwen2.5-72b-instruct/测试 A 集/data.jsonl", lines=True).iloc[:].iterrows():
     module_name = row[1].rule.replace("该产品的", "").replace("在各材料中的定义没有冲突", "")
 
     c += 1
@@ -77,7 +78,7 @@ for row in pd.read_json("../DATA/测试 A 集/data.jsonl", lines=True).iloc[:].i
 
     try:
         module_content_list = []
-        for path in glob.glob(f"../DATA/测试 A 集/materials/{row[1].material_id}/*/*"):
+        for path in glob.glob(f"../data/clean_data_qwen2.5-72b-instruct/测试 A 集/materials/{row[1].material_id}/*/*"):
             print(path)
             lines = open(path).readlines()
             module_lines = ""

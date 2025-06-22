@@ -88,7 +88,7 @@ def clean_data(abnormal_format_path, raw_data_path, clean_data_path, log_path, c
 
         if path in abnormal_paths:
             _type = os.path.normpath(path).split(os.sep)[-2]
-            logger.info(f"{path} ***abnormal***")
+            logger.info(f"{target_path} ***abnormal***")
             content = ""
             memory = ''
             try:
@@ -98,13 +98,15 @@ def clean_data(abnormal_format_path, raw_data_path, clean_data_path, log_path, c
                     if res:
                         content += res
             except Exception as e:
-                logger.error(f"❌ do_align 失败跳过: {rel_path} | 错误信息: {e}")
+                logger.error(f"❌ do_align 失败跳过: {target_path} | 错误信息: {e}")
+                with open(target_path, "w", encoding="utf-8") as f:
+                    f.writelines(lines)
                 continue
 
             with open(target_path, "w", encoding="utf-8") as f:
                 f.write(content)
         else:
-            logger.info(f"{path}")
+            logger.info(f"{target_path}")
             with open(target_path, "w", encoding="utf-8") as f:
                 f.writelines(lines)
 
