@@ -66,11 +66,11 @@ def rule_preprocess(data_name='验证集'):
     for material in os.listdir(M_DIR):
         material_path = f'{M_DIR}/{material}'
 
-        # if material in ['m_00007a','m_00038a','m_00060a','m_00108a']: continue
+        filter_materials = ['m_00007a','m_00038a','m_00060a','m_00108a','m_00128a']
 
-        if material not in ['m_00002s', 'm_00005s', 'm_000014s', 'm_000020s', 'm_00001a', 'm_00003a','m_00004a','m_00007a','m_00139a','m_00061a']:
+        if material not in mid2rule_map or material in filter_materials:
+            print(f"Skip file {material} processing.")
             continue
-
         RULES = mid2rule_map[material]
         for rule in RULES:
             print(f'processing material_path:{material_path}<<====>>{rule}...')
@@ -78,4 +78,4 @@ def rule_preprocess(data_name='验证集'):
 
 
 if __name__ == '__main__':
-    rule_preprocess()
+    rule_preprocess("测试 A 集")

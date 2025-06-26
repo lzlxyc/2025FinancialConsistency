@@ -31,8 +31,11 @@ def get_mid2rule(data_name='验证集'):
     df = pd.read_json(f'../DATA/{data_name}/data.jsonl', lines=True)
     df['rule'] = df['rule'].apply(get_rule)
     df = df.groupby('material_id').agg(tuple).reset_index()
+    mid2rule = dict(df[['material_id','rule']].values)
+    with open(f'../DATA/{data_name}/mid2rule.json', 'w', encoding='utf-8') as f:
+        json.dump(mid2rule, f, ensure_ascii=False, indent=4)
 
-    return dict(df[['material_id','rule']].values)
+    return mid2rule
 
 def read_markdown(path:str):
     with open(path, 'r', encoding='utf-8') as f:
