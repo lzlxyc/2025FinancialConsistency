@@ -1,4 +1,4 @@
-2025-06-25 22:30:33 - text_comparison.py:79 - ===============skip cnt=0 || material_id='m_00001a' || rule='基础产品销售信息' || end_result=False===============
+ A2025-06-25 22:30:33 - text_comparison.py:79 - ===============skip cnt=0 || material_id='m_00001a' || rule='基础产品销售信息' || end_result=False===============
 2025-06-25 22:30:33 - text_comparison.py:79 - ===============skip cnt=1 || material_id='m_00002a' || rule='赔付 & 领取规则' || end_result=True===============
 2025-06-25 22:30:33 - text_comparison.py:87 - ===============cnt=2 || material_id='m_00003a' || rule='责任免除' || label=None===============
 2025-06-25 22:30:33 - text_comparison.py:93 - load data ../DATA/测试 A 集/materials/m_00003a/ADDITIONAL_AGREEMENT/责任免除.txt...

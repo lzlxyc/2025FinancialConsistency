@@ -1,0 +1,1284 @@
+2025-06-18 22:12:34,410 - INFO - ✅ 完成，异常文件数：715，已保存至 abnormal_format.md
+2025-06-18 22:12:34,414 - INFO - m_00001a
+2025-06-18 22:12:34,415 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00001a\CLAUSE\0.md
+2025-06-18 22:12:34,416 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00001a\CLAUSE\1.md ***abnormal***
+2025-06-18 22:28:28,724 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00001a\CLAUSE\2.md
+2025-06-18 22:28:28,725 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00001a\CLAUSE\3.md
+2025-06-18 22:28:28,726 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00001a\CLAUSE\4.md
+2025-06-18 22:28:28,727 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00001a\CLAUSE\5.md
+2025-06-18 22:28:28,731 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00001a\CLAUSE\6.md
+2025-06-18 22:28:28,732 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00001a\CLAUSE\7.md
+2025-06-18 22:28:28,734 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00001a\CLAUSE\8.md
+2025-06-18 22:28:28,735 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00001a\HEAD_IMG\0.md
+2025-06-18 22:28:28,736 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00001a\INSURE_NOTICE\0.md
+2025-06-18 22:28:28,737 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00001a\INTRODUCE_IMG\0.md ***abnormal***
+2025-06-18 22:29:05,183 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00001a\LIABILITY_EXCLUSION\0.md
+2025-06-18 22:29:05,184 - INFO - m_00002a
+2025-06-18 22:29:05,186 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00002a\CLAUSE\0.md
+2025-06-18 22:29:05,187 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00002a\HEAD_IMG\0.md
+2025-06-18 22:29:05,189 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00002a\INSURE_NOTICE\0.md ***abnormal***
+2025-06-18 22:36:49,043 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00002a\INTRODUCE_IMG\0.md ***abnormal***
+2025-06-18 22:36:56,829 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00002a\LIABILITY_EXCLUSION\0.md
+2025-06-18 22:36:56,830 - INFO - m_00003a
+2025-06-18 22:36:56,832 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00003a\ADDITIONAL_AGREEMENT\0.md
+2025-06-18 22:36:56,833 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00003a\CLAUSE\0.md ***abnormal***
+2025-06-18 22:41:54,883 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00003a\HEAD_IMG\0.md
+2025-06-18 22:41:54,885 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00003a\INSURE_NOTICE\0.md ***abnormal***
+2025-06-18 22:44:33,734 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00003a\INTRODUCE_IMG\0.md ***abnormal***
+2025-06-18 22:44:34,175 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00003a\LIABILITY_EXCLUSION\0.md
+2025-06-18 22:44:34,181 - INFO - m_00004a
+2025-06-18 22:44:34,183 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00004a\ADDITIONAL_AGREEMENT\0.md
+2025-06-18 22:44:34,184 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00004a\CLAUSE\0.md
+2025-06-18 22:44:34,185 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00004a\CLAUSE\1.md
+2025-06-18 22:44:34,187 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00004a\CLAUSE\2.md
+2025-06-18 22:44:34,189 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00004a\HEAD_IMG\0.md
+2025-06-18 22:44:34,190 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00004a\INSURE_NOTICE\0.md
+2025-06-18 22:44:34,192 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00004a\INTRODUCE_IMG\0.md ***abnormal***
+2025-06-18 22:44:45,410 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00004a\LIABILITY_EXCLUSION\0.md
+2025-06-18 22:44:45,411 - INFO - m_00005a
+2025-06-18 22:44:45,414 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00005a\ADDITIONAL_AGREEMENT\0.md
+2025-06-18 22:44:45,415 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00005a\CLAUSE\0.md ***abnormal***
+2025-06-18 22:48:40,099 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00005a\HEAD_IMG\0.md
+2025-06-18 22:48:40,100 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00005a\HEALTH_INFORM\0.md ***abnormal***
+2025-06-18 22:49:00,371 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00005a\INSURE_NOTICE\0.md ***abnormal***
+2025-06-18 22:51:25,906 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00005a\INTRODUCE_IMG\0.md ***abnormal***
+2025-06-18 22:51:31,090 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00005a\INTRODUCE_IMG\1.md ***abnormal***
+2025-06-18 22:51:31,510 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00005a\INTRODUCE_IMG\2.md ***abnormal***
+2025-06-18 22:51:31,940 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00005a\LIABILITY_EXCLUSION\0.md ***abnormal***
+2025-06-18 22:51:38,861 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00005a\PRODUCT_MANUAL\0.md ***abnormal***
+2025-06-18 22:52:46,860 - INFO - m_00006a
+2025-06-18 22:52:46,862 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00006a\ADDITIONAL_AGREEMENT\0.md
+2025-06-18 22:52:46,864 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00006a\CLAUSE\0.md ***abnormal***
+2025-06-18 22:55:02,357 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00006a\HEAD_IMG\0.md
+2025-06-18 22:55:02,362 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00006a\INSURE_NOTICE\0.md ***abnormal***
+2025-06-18 22:55:11,404 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00006a\LIABILITY_EXCLUSION\0.md
+2025-06-18 22:55:11,405 - INFO - m_00007a
+2025-06-18 22:55:11,408 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00007a\ADDITIONAL_AGREEMENT\0.md
+2025-06-18 22:55:11,415 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00007a\CLAUSE\0.md ***abnormal***
+2025-06-19 03:03:48,275 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00007a\CLAUSE\0.md ***abnormal***
+2025-06-19 05:05:48,127 - ERROR - ❌ do_align 失败跳过: ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00007a\CLAUSE\0.md | 错误信息: Error code: 400 - {'error': {'code': 'data_inspection_failed', 'param': None, 'message': 'Output data may contain inappropriate content.', 'type': 'data_inspection_failed'}, 'id': 'chatcmpl-9f1c8129-9484-95fe-b139-6b900fe760ed', 'request_id': '9f1c8129-9484-95fe-b139-6b900fe760ed'}
+2025-06-19 05:05:48,130 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00007a\HEAD_IMG\0.md
+2025-06-19 05:05:48,131 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00007a\INSURE_NOTICE\0.md ***abnormal***
+2025-06-19 05:18:24,636 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00007a\INTRODUCE_IMG\0.md ***abnormal***
+2025-06-19 05:18:25,041 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00007a\INTRODUCE_IMG\1.md ***abnormal***
+2025-06-19 05:18:25,524 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00007a\INTRODUCE_IMG\2.md ***abnormal***
+2025-06-19 05:18:34,875 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00007a\INTRODUCE_IMG\3.md ***abnormal***
+2025-06-19 05:18:35,311 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00007a\INTRODUCE_IMG\4.md ***abnormal***
+2025-06-19 05:18:45,137 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00007a\LIABILITY_EXCLUSION\0.md
+2025-06-19 05:18:45,138 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00007a\PRODUCT_MANUAL\0.md ***abnormal***
+2025-06-19 05:19:50,728 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00008a\CLAUSE\0.md
+2025-06-19 05:19:50,729 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00008a\CLAUSE\1.md
+2025-06-19 05:19:50,730 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00008a\CLAUSE\2.md
+2025-06-19 05:19:50,730 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00008a\CLAUSE\3.md ***abnormal***
+2025-06-19 05:20:22,341 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00008a\CLAUSE\4.md
+2025-06-19 05:20:22,342 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00008a\HEAD_IMG\0.md
+2025-06-19 05:20:22,343 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00008a\INSURE_NOTICE\0.md
+2025-06-19 05:20:22,343 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00008a\INTRODUCE_IMG\0.md ***abnormal***
+2025-06-19 05:20:58,299 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00008a\LIABILITY_EXCLUSION\0.md
+2025-06-19 05:20:58,301 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00009a\ADDITIONAL_AGREEMENT\0.md ***abnormal***
+2025-06-19 05:21:00,467 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00009a\CLAUSE\0.md
+2025-06-19 05:21:00,468 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00009a\HEAD_IMG\0.md
+2025-06-19 05:21:00,469 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00009a\INSURE_NOTICE\0.md ***abnormal***
+2025-06-19 05:21:49,017 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00009a\INTRODUCE_IMG\0.md ***abnormal***
+2025-06-19 05:22:15,251 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00009a\LIABILITY_EXCLUSION\0.md
+2025-06-19 05:22:15,252 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00009a\PRODUCT_MANUAL\0.md
+2025-06-19 05:22:15,254 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00010a\ADDITIONAL_AGREEMENT\0.md
+2025-06-19 05:22:15,255 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00010a\CLAUSE\0.md ***abnormal***
+2025-06-19 05:25:37,154 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00010a\CLAUSE\1.md ***abnormal***
+2025-06-19 05:25:42,368 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00010a\CLAUSE\2.md ***abnormal***
+2025-06-19 05:28:09,584 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00010a\CLAUSE\3.md ***abnormal***
+2025-06-19 05:28:11,485 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00010a\CLAUSE\4.md ***abnormal***
+2025-06-19 05:30:14,852 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00010a\HEAD_IMG\0.md
+2025-06-19 05:30:14,857 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00010a\INSURE_NOTICE\0.md ***abnormal***
+2025-06-19 05:40:58,197 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00010a\INTRODUCE_IMG\0.md ***abnormal***
+2025-06-19 05:41:15,797 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00010a\INTRODUCE_IMG\1.md ***abnormal***
+2025-06-19 05:42:31,158 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00010a\LIABILITY_EXCLUSION\0.md
+2025-06-19 05:42:31,163 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00011a\ADDITIONAL_AGREEMENT\0.md
+2025-06-19 05:42:31,164 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00011a\CLAUSE\0.md ***abnormal***
+2025-06-19 05:43:43,602 - ERROR - ❌ do_align 失败跳过: ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00011a\CLAUSE\0.md | 错误信息: Error code: 400 - {'error': {'code': 'data_inspection_failed', 'param': None, 'message': 'Output data may contain inappropriate content.', 'type': 'data_inspection_failed'}, 'id': 'chatcmpl-38079eaf-0b92-945e-a5c0-7334641665b1', 'request_id': '38079eaf-0b92-945e-a5c0-7334641665b1'}
+2025-06-19 05:43:43,603 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00011a\HEAD_IMG\0.md
+2025-06-19 05:43:43,605 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00011a\HEALTH_INFORM\0.md ***abnormal***
+2025-06-19 05:44:09,834 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00011a\INSURE_NOTICE\0.md ***abnormal***
+2025-06-19 05:45:36,170 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00011a\INTRODUCE_IMG\0.md
+2025-06-19 05:45:36,171 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00011a\INTRODUCE_IMG\1.md ***abnormal***
+2025-06-19 05:45:36,544 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00011a\INTRODUCE_IMG\2.md ***abnormal***
+2025-06-19 05:45:45,246 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00011a\INTRODUCE_IMG\3.md ***abnormal***
+2025-06-19 05:45:45,629 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00011a\LIABILITY_EXCLUSION\0.md
+2025-06-19 05:45:45,633 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00012a\CLAUSE\0.md ***abnormal***
+2025-06-19 05:48:55,037 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00012a\CLAUSE\1.md ***abnormal***
+2025-06-19 05:52:04,923 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00012a\HEAD_IMG\0.md
+2025-06-19 05:52:04,924 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00012a\INSURE_NOTICE\0.md
+2025-06-19 05:52:04,925 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00012a\INTRODUCE_IMG\0.md ***abnormal***
+2025-06-19 05:52:13,730 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00012a\INTRODUCE_IMG\1.md ***abnormal***
+2025-06-19 05:52:14,244 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00012a\LIABILITY_EXCLUSION\0.md
+2025-06-19 05:52:14,246 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00013a\ADDITIONAL_AGREEMENT\0.md
+2025-06-19 05:52:14,248 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00013a\CLAUSE\0.md ***abnormal***
+2025-06-19 05:56:17,417 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00013a\HEAD_IMG\0.md
+2025-06-19 05:56:17,419 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00013a\INSURE_NOTICE\0.md
+2025-06-19 05:56:17,421 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00013a\INTRODUCE_IMG\0.md ***abnormal***
+2025-06-19 05:56:37,727 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00013a\LIABILITY_EXCLUSION\0.md
+2025-06-19 05:56:37,729 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00014a\ADDITIONAL_AGREEMENT\0.md
+2025-06-19 05:56:37,730 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00014a\CLAUSE\0.md
+2025-06-19 05:56:37,731 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00014a\HEAD_IMG\0.md
+2025-06-19 05:56:37,732 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00014a\INSURE_NOTICE\0.md
+2025-06-19 05:56:37,734 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00014a\INTRODUCE_IMG\0.md ***abnormal***
+2025-06-19 05:56:40,387 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00014a\INTRODUCE_IMG\1.md ***abnormal***
+2025-06-19 05:56:40,790 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00014a\INTRODUCE_IMG\2.md ***abnormal***
+2025-06-19 05:56:44,661 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00014a\INTRODUCE_IMG\3.md ***abnormal***
+2025-06-19 05:56:45,083 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00014a\INTRODUCE_IMG\4.md ***abnormal***
+2025-06-19 05:56:45,451 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00014a\INTRODUCE_IMG\5.md ***abnormal***
+2025-06-19 05:56:46,817 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00014a\INTRODUCE_IMG\6.md ***abnormal***
+2025-06-19 05:56:47,218 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00014a\LIABILITY_EXCLUSION\0.md
+2025-06-19 05:56:47,221 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00015a\ADDITIONAL_AGREEMENT\0.md
+2025-06-19 05:56:47,223 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00015a\CLAUSE\0.md
+2025-06-19 05:56:47,224 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00015a\CLAUSE\1.md ***abnormal***
+2025-06-19 05:58:11,154 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00015a\CLAUSE\2.md
+2025-06-19 05:58:11,155 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00015a\HEAD_IMG\0.md
+2025-06-19 05:58:11,157 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00015a\HEALTH_INFORM\0.md ***abnormal***
+2025-06-19 05:58:20,265 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00015a\INSURE_NOTICE\0.md ***abnormal***
+2025-06-19 05:58:50,151 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00015a\INTRODUCE_IMG\0.md ***abnormal***
+2025-06-19 05:58:50,569 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00015a\INTRODUCE_IMG\1.md ***abnormal***
+2025-06-19 05:58:51,019 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00015a\INTRODUCE_IMG\2.md ***abnormal***
+2025-06-19 05:58:55,465 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00015a\INTRODUCE_IMG\3.md ***abnormal***
+2025-06-19 05:58:59,382 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00015a\INTRODUCE_IMG\4.md ***abnormal***
+2025-06-19 05:59:18,876 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00015a\LIABILITY_EXCLUSION\0.md ***abnormal***
+2025-06-19 05:59:28,635 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00016a\ADDITIONAL_AGREEMENT\0.md
+2025-06-19 05:59:28,637 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00016a\CLAUSE\0.md
+2025-06-19 05:59:28,638 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00016a\CLAUSE\1.md
+2025-06-19 05:59:28,640 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00016a\CLAUSE\10.md
+2025-06-19 05:59:28,641 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00016a\CLAUSE\11.md
+2025-06-19 05:59:28,642 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00016a\CLAUSE\12.md
+2025-06-19 05:59:28,643 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00016a\CLAUSE\2.md
+2025-06-19 05:59:28,644 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00016a\CLAUSE\3.md
+2025-06-19 05:59:28,645 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00016a\CLAUSE\4.md
+2025-06-19 05:59:28,647 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00016a\CLAUSE\5.md
+2025-06-19 05:59:28,648 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00016a\CLAUSE\6.md
+2025-06-19 05:59:28,651 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00016a\CLAUSE\7.md
+2025-06-19 05:59:28,652 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00016a\CLAUSE\8.md
+2025-06-19 05:59:28,654 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00016a\CLAUSE\9.md
+2025-06-19 05:59:28,656 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00016a\HEAD_IMG\0.md
+2025-06-19 05:59:28,657 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00016a\INSURE_NOTICE\0.md
+2025-06-19 05:59:28,659 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00016a\INTRODUCE_IMG\0.md ***abnormal***
+2025-06-19 05:59:29,047 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00016a\INTRODUCE_IMG\1.md ***abnormal***
+2025-06-19 05:59:29,497 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00016a\INTRODUCE_IMG\2.md ***abnormal***
+2025-06-19 06:00:07,156 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00016a\INTRODUCE_IMG\3.md ***abnormal***
+2025-06-19 06:00:13,651 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00016a\INTRODUCE_IMG\4.md ***abnormal***
+2025-06-19 06:00:18,308 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00016a\INTRODUCE_IMG\5.md ***abnormal***
+2025-06-19 06:00:18,722 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00016a\INTRODUCE_IMG\6.md ***abnormal***
+2025-06-19 06:00:19,169 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00016a\INTRODUCE_IMG\7.md ***abnormal***
+2025-06-19 06:00:19,680 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00016a\INTRODUCE_IMG\8.md ***abnormal***
+2025-06-19 06:00:20,130 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00016a\LIABILITY_EXCLUSION\0.md
+2025-06-19 06:00:20,133 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00017a\ADDITIONAL_AGREEMENT\0.md
+2025-06-19 06:00:20,134 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00017a\CLAUSE\0.md
+2025-06-19 06:00:20,136 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00017a\INSURE_NOTICE\0.md ***abnormal***
+2025-06-19 06:04:45,507 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00017a\LIABILITY_EXCLUSION\0.md
+2025-06-19 06:04:45,510 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00018a\ADDITIONAL_AGREEMENT\0.md
+2025-06-19 06:04:45,512 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00018a\CLAUSE\0.md ***abnormal***
+2025-06-19 06:08:23,742 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00018a\HEALTH_INFORM\0.md ***abnormal***
+2025-06-19 06:08:40,996 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00018a\INSURE_NOTICE\0.md ***abnormal***
+2025-06-19 06:10:27,599 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00018a\LIABILITY_EXCLUSION\0.md
+2025-06-19 06:10:27,605 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00019a\ADDITIONAL_AGREEMENT\0.md
+2025-06-19 06:10:27,607 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00019a\CLAUSE\0.md ***abnormal***
+2025-06-19 06:12:46,974 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00019a\CLAUSE\1.md ***abnormal***
+2025-06-19 06:13:08,339 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00019a\CLAUSE\2.md ***abnormal***
+2025-06-19 06:14:22,352 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00019a\CLAUSE\3.md ***abnormal***
+2025-06-19 06:14:53,774 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00019a\CLAUSE\4.md ***abnormal***
+2025-06-19 06:15:20,303 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00019a\HEAD_IMG\0.md
+2025-06-19 06:15:20,309 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00019a\INSURE_NOTICE\0.md ***abnormal***
+2025-06-19 06:22:18,805 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00019a\INTRODUCE_IMG\0.md ***abnormal***
+2025-06-19 06:22:19,285 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00019a\INTRODUCE_IMG\1.md ***abnormal***
+2025-06-19 06:22:28,596 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00019a\INTRODUCE_IMG\10.md ***abnormal***
+2025-06-19 06:22:29,060 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00019a\INTRODUCE_IMG\12.md ***abnormal***
+2025-06-19 06:22:35,651 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00019a\INTRODUCE_IMG\2.md
+2025-06-19 06:22:35,652 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00019a\INTRODUCE_IMG\3.md ***abnormal***
+2025-06-19 06:22:55,474 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00019a\INTRODUCE_IMG\4.md ***abnormal***
+2025-06-19 06:23:15,605 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00019a\INTRODUCE_IMG\5.md ***abnormal***
+2025-06-19 06:23:23,812 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00019a\INTRODUCE_IMG\6.md ***abnormal***
+2025-06-19 06:23:26,258 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00019a\INTRODUCE_IMG\7.md ***abnormal***
+2025-06-19 06:23:26,713 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00019a\INTRODUCE_IMG\8.md ***abnormal***
+2025-06-19 06:23:27,151 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00019a\INTRODUCE_IMG\9.md ***abnormal***
+2025-06-19 06:23:27,682 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00019a\LIABILITY_EXCLUSION\0.md
+2025-06-19 06:23:27,685 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00020a\ADDITIONAL_AGREEMENT\0.md
+2025-06-19 06:23:27,687 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00020a\CLAUSE\0.md
+2025-06-19 06:23:27,688 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00020a\HEAD_IMG\0.md
+2025-06-19 06:23:27,689 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00020a\INSURE_NOTICE\0.md ***abnormal***
+2025-06-19 06:24:51,927 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00020a\INTRODUCE_IMG\0.md ***abnormal***
+2025-06-19 06:24:52,468 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00020a\LIABILITY_EXCLUSION\0.md
+2025-06-19 06:24:52,470 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00021a\ADDITIONAL_AGREEMENT\0.md
+2025-06-19 06:24:52,472 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00021a\CLAUSE\0.md ***abnormal***
+2025-06-19 06:40:11,573 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00021a\HEAD_IMG\0.md
+2025-06-19 06:40:11,577 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00021a\HEAD_IMG\1.md
+2025-06-19 06:40:11,578 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00021a\HEALTH_INFORM\0.md ***abnormal***
+2025-06-19 06:41:02,820 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00021a\INSURE_NOTICE\0.md ***abnormal***
+2025-06-19 06:41:51,900 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00021a\INTRODUCE_IMG\0.md ***abnormal***
+2025-06-19 06:42:07,527 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00021a\INTRODUCE_IMG\1.md ***abnormal***
+2025-06-19 06:42:08,056 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00021a\INTRODUCE_IMG\2.md ***abnormal***
+2025-06-19 06:42:23,127 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00021a\LIABILITY_EXCLUSION\0.md
+2025-06-19 06:42:23,130 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00022a\ADDITIONAL_AGREEMENT\0.md
+2025-06-19 06:42:23,132 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00022a\CLAUSE\0.md ***abnormal***
+2025-06-19 06:45:46,257 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00022a\HEAD_IMG\0.md
+2025-06-19 06:45:46,258 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00022a\INSURE_NOTICE\0.md ***abnormal***
+2025-06-19 06:46:38,910 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00022a\INTRODUCE_IMG\0.md ***abnormal***
+2025-06-19 06:46:39,339 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00022a\INTRODUCE_IMG\1.md ***abnormal***
+2025-06-19 06:46:42,308 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00022a\INTRODUCE_IMG\2.md ***abnormal***
+2025-06-19 06:46:42,684 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00022a\INTRODUCE_IMG\3.md ***abnormal***
+2025-06-19 06:46:47,894 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00022a\INTRODUCE_IMG\4.md ***abnormal***
+2025-06-19 06:46:48,380 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00022a\LIABILITY_EXCLUSION\0.md ***abnormal***
+2025-06-19 06:46:56,114 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00023a\CLAUSE\0.md ***abnormal***
+2025-06-19 06:46:56,533 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00023a\HEAD_IMG\0.md
+2025-06-19 06:46:56,534 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00023a\INSURE_NOTICE\0.md ***abnormal***
+2025-06-19 06:46:56,972 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00023a\LIABILITY_EXCLUSION\0.md
+2025-06-19 06:46:56,976 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00024a\ADDITIONAL_AGREEMENT\0.md
+2025-06-19 06:46:56,979 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00024a\CLAUSE\0.md
+2025-06-19 06:46:56,981 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00024a\HEAD_IMG\0.md
+2025-06-19 06:46:56,982 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00024a\HEALTH_INFORM\0.md ***abnormal***
+2025-06-19 06:48:03,223 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00024a\INSURE_NOTICE\0.md ***abnormal***
+2025-06-19 07:03:51,466 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00024a\INTRODUCE_IMG\0.md ***abnormal***
+2025-06-19 07:06:07,294 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00024a\LIABILITY_EXCLUSION\0.md
+2025-06-19 07:06:07,297 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00025a\ADDITIONAL_AGREEMENT\0.md
+2025-06-19 07:06:07,298 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00025a\CLAUSE\0.md
+2025-06-19 07:06:07,299 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00025a\HEALTH_INFORM\0.md ***abnormal***
+2025-06-19 07:06:23,216 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00025a\INSURE_NOTICE\0.md
+2025-06-19 07:06:23,217 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00025a\LIABILITY_EXCLUSION\0.md
+2025-06-19 07:06:23,218 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00025a\PRODUCT_MANUAL\0.md
+2025-06-19 07:11:00,190 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00026a\ADDITIONAL_AGREEMENT\0.md
+2025-06-19 07:11:00,192 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00026a\CLAUSE\0.md
+2025-06-19 07:11:00,193 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00026a\HEAD_IMG\0.md
+2025-06-19 07:11:00,195 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00026a\INSURE_NOTICE\0.md ***abnormal***
+2025-06-19 07:13:59,123 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00026a\INTRODUCE_IMG\0.md ***abnormal***
+2025-06-19 07:13:59,502 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00026a\LIABILITY_EXCLUSION\0.md
+2025-06-19 07:13:59,506 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00027a\ADDITIONAL_AGREEMENT\0.md
+2025-06-19 07:13:59,507 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00027a\CLAUSE\0.md ***abnormal***
+2025-06-19 07:15:46,649 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00027a\HEALTH_INFORM\0.md ***abnormal***
+2025-06-19 07:15:47,127 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00027a\INSURE_NOTICE\0.md
+2025-06-19 07:15:47,129 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00027a\LIABILITY_EXCLUSION\0.md
+2025-06-19 07:45:11,809 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00028a\ADDITIONAL_AGREEMENT\0.md
+2025-06-19 07:45:11,810 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00028a\CLAUSE\0.md ***abnormal***
+2025-06-19 07:46:03,319 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00028a\CLAUSE\1.md ***abnormal***
+2025-06-19 07:46:12,611 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00028a\CLAUSE\2.md ***abnormal***
+2025-06-19 07:47:23,656 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00028a\HEAD_IMG\0.md
+2025-06-19 07:47:23,657 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00028a\INSURE_NOTICE\0.md ***abnormal***
+2025-06-19 07:48:29,375 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00028a\INTRODUCE_IMG\0.md
+2025-06-19 07:48:29,377 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00028a\LIABILITY_EXCLUSION\0.md
+2025-06-19 07:48:29,379 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00029a\ADDITIONAL_AGREEMENT\0.md
+2025-06-19 07:48:29,381 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00029a\CLAUSE\0.md ***abnormal***
+2025-06-19 07:54:44,870 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00029a\HEALTH_INFORM\0.md ***abnormal***
+2025-06-19 07:55:11,795 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00029a\INSURE_NOTICE\0.md ***abnormal***
+2025-06-19 07:57:23,679 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00029a\INTRODUCE_IMG\0.md ***abnormal***
+2025-06-19 07:57:24,195 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00029a\INTRODUCE_IMG\1.md ***abnormal***
+2025-06-19 07:57:34,008 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00029a\INTRODUCE_IMG\10.md ***abnormal***
+2025-06-19 07:57:34,390 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00029a\INTRODUCE_IMG\11.md ***abnormal***
+2025-06-19 07:57:34,763 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00029a\INTRODUCE_IMG\12.md ***abnormal***
+2025-06-19 07:57:38,162 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00029a\INTRODUCE_IMG\13.md ***abnormal***
+2025-06-19 07:57:41,671 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00029a\INTRODUCE_IMG\14.md ***abnormal***
+2025-06-19 07:57:42,082 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00029a\INTRODUCE_IMG\2.md ***abnormal***
+2025-06-19 07:57:44,142 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00029a\INTRODUCE_IMG\3.md ***abnormal***
+2025-06-19 07:57:44,620 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00029a\INTRODUCE_IMG\4.md ***abnormal***
+2025-06-19 07:57:45,093 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00029a\INTRODUCE_IMG\5.md ***abnormal***
+2025-06-19 07:57:45,514 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00029a\INTRODUCE_IMG\6.md ***abnormal***
+2025-06-19 07:57:47,722 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00029a\INTRODUCE_IMG\7.md ***abnormal***
+2025-06-19 07:58:02,995 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00029a\INTRODUCE_IMG\8.md ***abnormal***
+2025-06-19 07:58:03,435 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00029a\INTRODUCE_IMG\9.md ***abnormal***
+2025-06-19 07:58:07,066 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00029a\LIABILITY_EXCLUSION\0.md
+2025-06-19 07:58:07,070 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00030a\ADDITIONAL_AGREEMENT\0.md
+2025-06-19 07:58:07,071 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00030a\CLAUSE\0.md ***abnormal***
+2025-06-19 07:58:24,579 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00030a\CLAUSE\1.md ***abnormal***
+2025-06-19 08:00:26,645 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00030a\CLAUSE\2.md ***abnormal***
+2025-06-19 08:01:42,767 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00030a\CLAUSE\3.md ***abnormal***
+2025-06-19 08:02:38,946 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00030a\HEAD_IMG\0.md
+2025-06-19 08:02:38,952 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00030a\INSURE_NOTICE\0.md ***abnormal***
+2025-06-19 08:06:19,009 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00030a\INTRODUCE_IMG\0.md ***abnormal***
+2025-06-19 08:06:19,506 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00030a\LIABILITY_EXCLUSION\0.md
+2025-06-19 08:06:19,512 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00031a\CLAUSE\0.md ***abnormal***
+2025-06-19 08:07:46,693 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00031a\CLAUSE\1.md ***abnormal***
+2025-06-19 08:09:41,818 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00031a\CLAUSE\2.md ***abnormal***
+2025-06-19 08:13:02,942 - ERROR - ❌ do_align 失败跳过: ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00031a\CLAUSE\2.md | 错误信息: Error code: 400 - {'error': {'code': 'data_inspection_failed', 'param': None, 'message': 'Output data may contain inappropriate content.', 'type': 'data_inspection_failed'}, 'id': 'chatcmpl-09ae0028-bfec-91c3-8b0e-661db6763245', 'request_id': '09ae0028-bfec-91c3-8b0e-661db6763245'}
+2025-06-19 08:13:02,946 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00031a\HEAD_IMG\0.md
+2025-06-19 08:13:02,947 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00031a\INSURE_NOTICE\0.md ***abnormal***
+2025-06-19 08:14:36,363 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00031a\INTRODUCE_IMG\0.md ***abnormal***
+2025-06-19 08:14:36,979 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00031a\INTRODUCE_IMG\1.md ***abnormal***
+2025-06-19 08:14:51,606 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00031a\LIABILITY_EXCLUSION\0.md
+2025-06-19 08:14:51,608 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00032a\ADDITIONAL_AGREEMENT\0.md
+2025-06-19 08:14:51,610 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00032a\CLAUSE\0.md ***abnormal***
+2025-06-19 08:19:02,695 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00032a\HEAD_IMG\0.md
+2025-06-19 08:19:02,698 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00032a\INSURE_NOTICE\0.md ***abnormal***
+2025-06-19 08:22:31,395 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00032a\INTRODUCE_IMG\0.md ***abnormal***
+2025-06-19 08:22:31,840 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00032a\LIABILITY_EXCLUSION\0.md
+2025-06-19 08:22:31,843 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00033a\ADDITIONAL_AGREEMENT\0.md
+2025-06-19 08:22:31,844 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00033a\CLAUSE\0.md ***abnormal***
+2025-06-19 08:24:38,085 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00033a\CLAUSE\1.md ***abnormal***
+2025-06-19 08:24:49,560 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00033a\CLAUSE\2.md ***abnormal***
+2025-06-19 08:33:06,884 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00033a\CLAUSE\3.md ***abnormal***
+2025-06-19 08:33:27,399 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00033a\CLAUSE\4.md ***abnormal***
+2025-06-19 08:33:36,116 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00033a\CLAUSE\5.md ***abnormal***
+2025-06-19 08:34:06,257 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00033a\HEAD_IMG\0.md ***abnormal***
+2025-06-19 08:34:06,709 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00033a\INSURE_NOTICE\0.md ***abnormal***
+2025-06-19 08:34:20,994 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00033a\LIABILITY_EXCLUSION\0.md
+2025-06-19 08:34:20,997 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00034a\CLAUSE\0.md ***abnormal***
+2025-06-19 08:36:30,365 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00034a\HEAD_IMG\0.md
+2025-06-19 08:36:30,366 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00034a\INSURE_NOTICE\0.md ***abnormal***
+2025-06-19 08:37:40,031 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00034a\INTRODUCE_IMG\0.md ***abnormal***
+2025-06-19 08:37:42,181 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00034a\INTRODUCE_IMG\1.md ***abnormal***
+2025-06-19 08:37:42,642 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00034a\INTRODUCE_IMG\2.md ***abnormal***
+2025-06-19 08:37:49,700 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00034a\INTRODUCE_IMG\3.md ***abnormal***
+2025-06-19 08:37:50,538 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00034a\INTRODUCE_IMG\5.md ***abnormal***
+2025-06-19 08:37:53,254 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00034a\LIABILITY_EXCLUSION\0.md
+2025-06-19 08:37:53,257 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00035a\ADDITIONAL_AGREEMENT\0.md
+2025-06-19 08:37:53,259 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00035a\CLAUSE\0.md ***abnormal***
+2025-06-19 08:41:23,941 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00035a\HEALTH_INFORM\0.md ***abnormal***
+2025-06-19 08:41:34,302 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00035a\INSURE_NOTICE\0.md
+2025-06-19 08:41:34,304 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00035a\INTRODUCE_IMG\0.md ***abnormal***
+2025-06-19 08:41:34,665 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00035a\LIABILITY_EXCLUSION\0.md
+2025-06-19 08:41:34,667 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00036a\ADDITIONAL_AGREEMENT\0.md
+2025-06-19 08:41:34,669 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00036a\CLAUSE\0.md
+2025-06-19 08:41:34,671 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00036a\HEAD_IMG\0.md
+2025-06-19 08:41:34,672 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00036a\HEALTH_INFORM\0.md ***abnormal***
+2025-06-19 08:41:38,644 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00036a\INSURE_NOTICE\0.md ***abnormal***
+2025-06-19 08:48:07,817 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00036a\INTRODUCE_IMG\0.md ***abnormal***
+2025-06-19 08:48:08,236 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00036a\INTRODUCE_IMG\1.md ***abnormal***
+2025-06-19 08:48:08,634 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00036a\INTRODUCE_IMG\2.md ***abnormal***
+2025-06-19 08:48:09,127 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00036a\INTRODUCE_IMG\3.md ***abnormal***
+2025-06-19 08:48:09,658 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00036a\LIABILITY_EXCLUSION\0.md
+2025-06-19 08:48:09,661 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00037a\ADDITIONAL_AGREEMENT\0.md ***abnormal***
+2025-06-19 08:48:14,187 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00037a\CLAUSE\0.md ***abnormal***
+2025-06-19 08:51:44,120 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00037a\INSURE_NOTICE\0.md ***abnormal***
+2025-06-19 08:53:04,131 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00037a\LIABILITY_EXCLUSION\0.md
+2025-06-19 08:53:04,138 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00038a\CLAUSE\0.md ***abnormal***
+2025-06-19 11:17:36,071 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00038a\HEAD_IMG\0.md
+2025-06-19 11:17:36,073 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00038a\HEALTH_INFORM\0.md ***abnormal***
+2025-06-19 11:18:08,657 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00038a\INSURE_NOTICE\0.md ***abnormal***
+2025-06-19 11:37:08,117 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00038a\INTRODUCE_IMG\0.md
+2025-06-19 11:37:08,118 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00038a\INTRODUCE_IMG\1.md ***abnormal***
+2025-06-19 11:37:18,110 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00038a\INTRODUCE_IMG\10.md
+2025-06-19 11:37:18,115 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00038a\INTRODUCE_IMG\11.md
+2025-06-19 11:37:18,116 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00038a\INTRODUCE_IMG\12.md ***abnormal***
+2025-06-19 11:37:18,533 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00038a\INTRODUCE_IMG\13.md ***abnormal***
+2025-06-19 11:37:19,050 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00038a\INTRODUCE_IMG\14.md ***abnormal***
+2025-06-19 11:37:19,473 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00038a\INTRODUCE_IMG\15.md ***abnormal***
+2025-06-19 11:37:23,073 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00038a\INTRODUCE_IMG\16.md ***abnormal***
+2025-06-19 11:37:23,525 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00038a\INTRODUCE_IMG\17.md ***abnormal***
+2025-06-19 11:37:33,429 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00038a\INTRODUCE_IMG\18.md ***abnormal***
+2025-06-19 11:37:33,811 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00038a\INTRODUCE_IMG\19.md ***abnormal***
+2025-06-19 11:37:34,304 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00038a\INTRODUCE_IMG\2.md
+2025-06-19 11:37:34,305 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00038a\INTRODUCE_IMG\20.md ***abnormal***
+2025-06-19 11:37:34,739 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00038a\INTRODUCE_IMG\21.md ***abnormal***
+2025-06-19 11:37:35,418 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00038a\INTRODUCE_IMG\22.md ***abnormal***
+2025-06-19 11:37:35,841 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00038a\INTRODUCE_IMG\23.md ***abnormal***
+2025-06-19 11:37:42,688 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00038a\INTRODUCE_IMG\24.md ***abnormal***
+2025-06-19 11:37:51,769 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00038a\INTRODUCE_IMG\25.md ***abnormal***
+2025-06-19 11:37:53,763 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00038a\INTRODUCE_IMG\26.md
+2025-06-19 11:37:53,764 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00038a\INTRODUCE_IMG\27.md ***abnormal***
+2025-06-19 11:37:57,882 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00038a\INTRODUCE_IMG\28.md
+2025-06-19 11:37:57,883 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00038a\INTRODUCE_IMG\29.md
+2025-06-19 11:37:57,885 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00038a\INTRODUCE_IMG\3.md ***abnormal***
+2025-06-19 11:37:58,354 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00038a\INTRODUCE_IMG\30.md
+2025-06-19 11:37:58,356 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00038a\INTRODUCE_IMG\31.md
+2025-06-19 11:37:58,357 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00038a\INTRODUCE_IMG\33.md ***abnormal***
+2025-06-19 11:38:04,831 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00038a\INTRODUCE_IMG\34.md ***abnormal***
+2025-06-19 11:38:05,296 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00038a\INTRODUCE_IMG\4.md ***abnormal***
+2025-06-19 11:38:05,850 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00038a\INTRODUCE_IMG\5.md ***abnormal***
+2025-06-19 11:38:06,307 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00038a\INTRODUCE_IMG\6.md ***abnormal***
+2025-06-19 11:38:06,785 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00038a\INTRODUCE_IMG\7.md ***abnormal***
+2025-06-19 11:38:07,207 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00038a\INTRODUCE_IMG\8.md ***abnormal***
+2025-06-19 11:38:07,583 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00038a\INTRODUCE_IMG\9.md
+2025-06-19 11:38:07,589 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00038a\LIABILITY_EXCLUSION\0.md
+2025-06-19 11:45:59,768 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00039a\ADDITIONAL_AGREEMENT\0.md
+2025-06-19 11:45:59,771 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00039a\CLAUSE\0.md ***abnormal***
+2025-06-19 11:48:37,767 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00039a\HEAD_IMG\0.md
+2025-06-19 11:48:37,771 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00039a\HEALTH_INFORM\0.md ***abnormal***
+2025-06-19 11:48:53,496 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00039a\INTRODUCE_IMG\0.md ***abnormal***
+2025-06-19 11:48:54,048 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00039a\LIABILITY_EXCLUSION\0.md
+2025-06-19 11:48:54,050 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00039a\PRODUCT_MANUAL\0.md ***abnormal***
+2025-06-19 11:50:16,211 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00040a\ADDITIONAL_AGREEMENT\0.md ***abnormal***
+2025-06-19 11:50:19,230 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00040a\CLAUSE\0.md ***abnormal***
+2025-06-19 11:53:36,141 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00040a\HEAD_IMG\0.md
+2025-06-19 11:53:36,142 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00040a\INSURE_NOTICE\0.md ***abnormal***
+2025-06-19 11:54:24,722 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00040a\INTRODUCE_IMG\0.md ***abnormal***
+2025-06-19 11:54:25,163 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00040a\INTRODUCE_IMG\1.md ***abnormal***
+2025-06-19 11:54:25,566 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00040a\INTRODUCE_IMG\2.md ***abnormal***
+2025-06-19 11:54:26,009 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00040a\INTRODUCE_IMG\3.md ***abnormal***
+2025-06-19 11:54:26,449 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00040a\INTRODUCE_IMG\4.md ***abnormal***
+2025-06-19 11:54:26,840 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00040a\INTRODUCE_IMG\5.md ***abnormal***
+2025-06-19 11:54:27,428 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00040a\LIABILITY_EXCLUSION\0.md
+2025-06-19 11:54:27,429 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00040a\PRODUCT_MANUAL\0.md ***abnormal***
+2025-06-19 11:55:09,988 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00041a\ADDITIONAL_AGREEMENT\0.md
+2025-06-19 11:55:09,990 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00041a\CLAUSE\0.md ***abnormal***
+2025-06-19 11:58:09,544 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00041a\INSURE_NOTICE\0.md ***abnormal***
+2025-06-19 11:59:11,214 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00041a\LIABILITY_EXCLUSION\0.md
+2025-06-19 12:15:42,608 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00042a\CLAUSE\0.md
+2025-06-19 12:15:42,613 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00042a\HEALTH_INFORM\0.md ***abnormal***
+2025-06-19 12:15:54,555 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00042a\INSURE_NOTICE\0.md
+2025-06-19 12:15:54,557 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00042a\INTRODUCE_IMG\0.md ***abnormal***
+2025-06-19 12:15:54,975 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00042a\LIABILITY_EXCLUSION\0.md
+2025-06-19 12:15:54,980 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00042a\PRODUCT_MANUAL\0.md ***abnormal***
+2025-06-19 12:16:12,492 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00043a\ADDITIONAL_AGREEMENT\0.md
+2025-06-19 12:16:12,495 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00043a\CLAUSE\0.md
+2025-06-19 12:16:12,497 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00043a\HEAD_IMG\0.md
+2025-06-19 12:16:12,498 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00043a\HEALTH_INFORM\0.md ***abnormal***
+2025-06-19 12:16:38,053 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00043a\INSURE_NOTICE\0.md
+2025-06-19 12:16:38,055 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00043a\INTRODUCE_IMG\0.md ***abnormal***
+2025-06-19 12:18:06,966 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00043a\LIABILITY_EXCLUSION\0.md
+2025-06-19 12:20:43,816 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00044a\ADDITIONAL_AGREEMENT\0.md
+2025-06-19 12:20:43,822 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00044a\CLAUSE\0.md ***abnormal***
+2025-06-19 12:23:04,200 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00044a\CLAUSE\1.md ***abnormal***
+2025-06-19 12:26:22,620 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00044a\HEALTH_INFORM\0.md ***abnormal***
+2025-06-19 12:26:49,690 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00044a\INSURE_NOTICE\0.md ***abnormal***
+2025-06-19 12:29:29,274 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00044a\LIABILITY_EXCLUSION\0.md
+2025-06-19 12:29:29,276 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00045a\ADDITIONAL_AGREEMENT\0.md
+2025-06-19 12:29:29,278 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00045a\CLAUSE\0.md
+2025-06-19 12:29:29,280 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00045a\CLAUSE\1.md
+2025-06-19 12:29:29,282 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00045a\CLAUSE\2.md ***abnormal***
+2025-06-19 12:29:50,821 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00045a\HEAD_IMG\0.md
+2025-06-19 12:29:50,822 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00045a\HEALTH_INFORM\0.md ***abnormal***
+2025-06-19 12:30:21,598 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00045a\INSURE_NOTICE\0.md
+2025-06-19 12:30:21,600 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00045a\INTRODUCE_IMG\0.md ***abnormal***
+2025-06-19 12:30:22,072 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00045a\INTRODUCE_IMG\1.md ***abnormal***
+2025-06-19 12:30:22,473 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00045a\INTRODUCE_IMG\2.md ***abnormal***
+2025-06-19 12:30:22,883 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00045a\INTRODUCE_IMG\3.md ***abnormal***
+2025-06-19 12:30:25,338 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00045a\INTRODUCE_IMG\4.md ***abnormal***
+2025-06-19 12:30:36,245 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00045a\INTRODUCE_IMG\5.md ***abnormal***
+2025-06-19 12:30:36,632 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00045a\INTRODUCE_IMG\6.md ***abnormal***
+2025-06-19 12:30:37,001 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00045a\INTRODUCE_IMG\7.md ***abnormal***
+2025-06-19 12:30:37,396 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00045a\LIABILITY_EXCLUSION\0.md
+2025-06-19 12:44:13,348 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00046a\ADDITIONAL_AGREEMENT\0.md
+2025-06-19 12:44:13,353 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00046a\CLAUSE\0.md ***abnormal***
+2025-06-19 12:45:00,111 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00046a\CLAUSE\1.md ***abnormal***
+2025-06-19 12:46:29,642 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00046a\CLAUSE\2.md ***abnormal***
+2025-06-19 12:47:33,610 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00046a\CLAUSE\3.md
+2025-06-19 12:47:33,612 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00046a\CLAUSE\4.md
+2025-06-19 12:47:33,613 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00046a\INSURE_NOTICE\0.md
+2025-06-19 12:47:33,614 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00046a\LIABILITY_EXCLUSION\0.md
+2025-06-19 12:47:33,616 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00047a\ADDITIONAL_AGREEMENT\0.md
+2025-06-19 12:47:33,618 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00047a\CLAUSE\0.md ***abnormal***
+2025-06-19 12:52:42,643 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00047a\HEALTH_INFORM\0.md ***abnormal***
+2025-06-19 12:52:52,032 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00047a\INSURE_NOTICE\0.md ***abnormal***
+2025-06-19 12:59:40,064 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00047a\LIABILITY_EXCLUSION\0.md
+2025-06-19 12:59:40,070 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00048a\ADDITIONAL_AGREEMENT\0.md
+2025-06-19 12:59:40,071 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00048a\CLAUSE\0.md ***abnormal***
+2025-06-19 13:00:39,607 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00048a\CLAUSE\1.md ***abnormal***
+2025-06-19 13:02:45,457 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00048a\CLAUSE\2.md ***abnormal***
+2025-06-19 13:02:55,706 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00048a\CLAUSE\3.md ***abnormal***
+2025-06-19 13:03:14,529 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00048a\HEAD_IMG\0.md
+2025-06-19 13:03:14,530 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00048a\INSURE_NOTICE\0.md
+2025-06-19 13:03:14,532 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00048a\INTRODUCE_IMG\0.md ***abnormal***
+2025-06-19 13:03:35,378 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00048a\LIABILITY_EXCLUSION\0.md
+2025-06-19 13:03:35,380 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00049a\ADDITIONAL_AGREEMENT\0.md
+2025-06-19 13:03:35,382 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00049a\CLAUSE\0.md ***abnormal***
+2025-06-19 13:13:39,433 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00049a\HEAD_IMG\0.md
+2025-06-19 13:13:39,438 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00049a\INSURE_NOTICE\0.md
+2025-06-19 13:13:39,439 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00049a\INTRODUCE_IMG\0.md ***abnormal***
+2025-06-19 13:13:44,886 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00049a\LIABILITY_EXCLUSION\0.md ***abnormal***
+2025-06-19 13:14:09,068 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00050a\ADDITIONAL_AGREEMENT\0.md ***abnormal***
+2025-06-19 13:14:11,790 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00050a\CLAUSE\0.md ***abnormal***
+2025-06-19 13:17:18,602 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00050a\HEAD_IMG\0.md
+2025-06-19 13:17:18,606 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00050a\INSURE_NOTICE\0.md ***abnormal***
+2025-06-19 13:18:23,336 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00050a\LIABILITY_EXCLUSION\0.md
+2025-06-19 13:18:23,338 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00051a\ADDITIONAL_AGREEMENT\0.md
+2025-06-19 13:18:23,340 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00051a\CLAUSE\0.md
+2025-06-19 13:18:23,341 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00051a\CLAUSE\1.md ***abnormal***
+2025-06-19 13:27:27,908 - ERROR - ❌ do_align 失败跳过: ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00051a\CLAUSE\1.md | 错误信息: Error code: 500 - {'error': {'code': 'RequestTimeOut', 'param': None, 'message': 'Request timed out, please try again later.', 'type': 'RequestTimeOut'}, 'id': 'chatcmpl-a95a88af-810e-9949-95ac-833abbfacf9d', 'request_id': 'a95a88af-810e-9949-95ac-833abbfacf9d'}
+2025-06-19 13:27:27,909 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00051a\CLAUSE\2.md
+2025-06-19 13:27:27,915 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00051a\HEAD_IMG\0.md
+2025-06-19 13:27:27,916 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00051a\INSURE_NOTICE\0.md
+2025-06-19 13:27:27,918 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00051a\INTRODUCE_IMG\0.md ***abnormal***
+2025-06-19 13:27:28,396 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00051a\LIABILITY_EXCLUSION\0.md ***abnormal***
+2025-06-19 13:27:52,147 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00052a\ADDITIONAL_AGREEMENT\0.md
+2025-06-19 13:27:52,149 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00052a\CLAUSE\0.md
+2025-06-19 13:27:52,152 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00052a\CLAUSE\1.md
+2025-06-19 13:27:52,155 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00052a\CLAUSE\2.md
+2025-06-19 13:27:52,156 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00052a\HEAD_IMG\0.md
+2025-06-19 13:27:52,157 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00052a\HEALTH_INFORM\0.md ***abnormal***
+2025-06-19 13:28:51,868 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00052a\INSURE_NOTICE\0.md ***abnormal***
+2025-06-19 13:29:44,976 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00052a\INTRODUCE_IMG\0.md ***abnormal***
+2025-06-19 13:29:45,575 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00052a\LIABILITY_EXCLUSION\0.md
+2025-06-19 13:29:45,577 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00053a\CLAUSE\0.md
+2025-06-19 13:29:45,579 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00053a\HEAD_IMG\0.md
+2025-06-19 13:29:45,580 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00053a\INSURE_NOTICE\0.md ***abnormal***
+2025-06-19 13:29:45,951 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00053a\LIABILITY_EXCLUSION\0.md
+2025-06-19 13:29:45,954 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00054a\ADDITIONAL_AGREEMENT\0.md
+2025-06-19 13:29:45,955 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00054a\CLAUSE\0.md
+2025-06-19 13:29:45,956 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00054a\CLAUSE\1.md
+2025-06-19 13:29:45,957 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00054a\CLAUSE\2.md
+2025-06-19 13:29:45,958 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00054a\CLAUSE\3.md
+2025-06-19 13:29:45,959 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00054a\CLAUSE\4.md
+2025-06-19 13:29:45,960 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00054a\HEAD_IMG\0.md
+2025-06-19 13:29:45,961 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00054a\INSURE_NOTICE\0.md
+2025-06-19 13:29:45,963 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00054a\INTRODUCE_IMG\0.md ***abnormal***
+2025-06-19 13:31:07,588 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00054a\LIABILITY_EXCLUSION\0.md
+2025-06-19 13:32:55,345 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00055a\ADDITIONAL_AGREEMENT\0.md
+2025-06-19 13:32:55,346 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00055a\CLAUSE\0.md ***abnormal***
+2025-06-19 13:35:51,100 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00055a\CLAUSE\1.md ***abnormal***
+2025-06-19 14:09:11,438 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00055a\CLAUSE\1.md ***abnormal***
+2025-06-19 14:13:28,756 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00055a\CLAUSE\2.md ***abnormal***
+2025-06-19 14:16:25,892 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00055a\HEAD_IMG\0.md
+2025-06-19 14:16:25,893 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00055a\INSURE_NOTICE\0.md
+2025-06-19 14:16:25,893 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00055a\INTRODUCE_IMG\0.md ***abnormal***
+2025-06-19 14:16:46,275 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00055a\LIABILITY_EXCLUSION\0.md
+2025-06-19 14:16:46,276 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00056a\ADDITIONAL_AGREEMENT\0.md
+2025-06-19 14:16:46,277 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00056a\CLAUSE\0.md ***abnormal***
+2025-06-19 14:16:54,153 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00056a\CLAUSE\1.md ***abnormal***
+2025-06-19 14:18:21,630 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00056a\CLAUSE\2.md
+2025-06-19 14:18:21,631 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00056a\CLAUSE\3.md
+2025-06-19 14:18:21,632 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00056a\CLAUSE\4.md
+2025-06-19 14:18:21,632 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00056a\CLAUSE\5.md
+2025-06-19 14:18:21,634 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00056a\CLAUSE\6.md
+2025-06-19 14:18:21,635 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00056a\CLAUSE\7.md
+2025-06-19 14:18:21,636 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00056a\CLAUSE\8.md ***abnormal***
+2025-06-19 14:18:43,701 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00056a\CLAUSE\9.md
+2025-06-19 14:18:43,703 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00056a\INSURE_NOTICE\0.md
+2025-06-19 14:18:43,706 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00056a\LIABILITY_EXCLUSION\0.md
+2025-06-19 14:18:43,707 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00057a\CLAUSE\0.md
+2025-06-19 14:18:43,708 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00057a\HEAD_IMG\0.md ***abnormal***
+2025-06-19 14:18:44,118 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00057a\INSURE_NOTICE\0.md ***abnormal***
+2025-06-19 14:18:56,666 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00057a\LIABILITY_EXCLUSION\0.md
+2025-06-19 14:18:56,667 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00058a\ADDITIONAL_AGREEMENT\0.md
+2025-06-19 14:18:56,669 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00058a\CLAUSE\0.md ***abnormal***
+2025-06-19 14:30:55,184 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00058a\CLAUSE\1.md ***abnormal***
+2025-06-19 14:46:04,535 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00058a\HEAD_IMG\0.md
+2025-06-19 14:46:04,536 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00058a\HEALTH_INFORM\0.md ***abnormal***
+2025-06-19 14:46:18,249 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00058a\INSURE_NOTICE\0.md
+2025-06-19 14:46:18,250 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00058a\INTRODUCE_IMG\0.md ***abnormal***
+2025-06-19 14:46:18,755 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00058a\INTRODUCE_IMG\1.md ***abnormal***
+2025-06-19 14:46:32,444 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00058a\INTRODUCE_IMG\2.md
+2025-06-19 14:46:32,445 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00058a\INTRODUCE_IMG\3.md ***abnormal***
+2025-06-19 14:46:32,900 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00058a\INTRODUCE_IMG\4.md ***abnormal***
+2025-06-19 14:46:33,390 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00058a\INTRODUCE_IMG\5.md ***abnormal***
+2025-06-19 14:46:33,852 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00058a\LIABILITY_EXCLUSION\0.md
+2025-06-19 14:46:33,853 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00059a\ADDITIONAL_AGREEMENT\0.md ***abnormal***
+2025-06-19 14:46:36,383 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00059a\CLAUSE\0.md ***abnormal***
+2025-06-19 14:48:40,396 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00059a\INSURE_NOTICE\0.md ***abnormal***
+2025-06-19 14:49:49,271 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00059a\LIABILITY_EXCLUSION\0.md
+2025-06-19 14:49:49,272 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00060a\ADDITIONAL_AGREEMENT\0.md
+2025-06-19 14:49:49,276 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00060a\CLAUSE\0.md ***abnormal***
+2025-06-19 16:12:06,023 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00060a\CLAUSE\1.md ***abnormal***
+2025-06-19 16:16:33,569 - ERROR - ❌ do_align 失败跳过: ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00060a\CLAUSE\1.md | 错误信息: Error code: 400 - {'error': {'code': 'data_inspection_failed', 'param': None, 'message': 'Output data may contain inappropriate content.', 'type': 'data_inspection_failed'}, 'id': 'chatcmpl-a2b0b7e6-58dc-993c-b35b-c1722bd878c4', 'request_id': 'a2b0b7e6-58dc-993c-b35b-c1722bd878c4'}
+2025-06-19 16:16:33,570 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00060a\HEAD_IMG\0.md
+2025-06-19 16:16:33,575 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00060a\HEALTH_INFORM\0.md ***abnormal***
+2025-06-19 16:16:51,460 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00060a\INSURE_NOTICE\0.md ***abnormal***
+2025-06-19 16:30:21,512 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00060a\INTRODUCE_IMG\0.md ***abnormal***
+2025-06-19 16:30:27,147 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00060a\INTRODUCE_IMG\1.md ***abnormal***
+2025-06-19 16:30:29,400 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00060a\INTRODUCE_IMG\2.md ***abnormal***
+2025-06-19 16:30:59,323 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00060a\INTRODUCE_IMG\3.md ***abnormal***
+2025-06-19 16:31:00,874 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00060a\INTRODUCE_IMG\4.md ***abnormal***
+2025-06-19 16:31:01,289 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00060a\INTRODUCE_IMG\5.md ***abnormal***
+2025-06-19 16:31:08,896 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00060a\INTRODUCE_IMG\6.md ***abnormal***
+2025-06-19 16:31:11,677 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00060a\INTRODUCE_IMG\7.md ***abnormal***
+2025-06-19 16:31:12,131 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00060a\LIABILITY_EXCLUSION\0.md
+2025-06-19 16:31:12,132 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00061a\ADDITIONAL_AGREEMENT\0.md
+2025-06-19 16:31:12,139 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00061a\CLAUSE\0.md ***abnormal***
+2025-06-19 16:50:49,112 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00061a\CLAUSE\1.md ***abnormal***
+2025-06-19 16:53:46,711 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00061a\HEAD_IMG\0.md
+2025-06-19 16:53:46,712 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00061a\HEALTH_INFORM\0.md ***abnormal***
+2025-06-19 16:54:12,697 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00061a\INSURE_NOTICE\0.md ***abnormal***
+2025-06-19 16:58:20,718 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00061a\INTRODUCE_IMG\0.md ***abnormal***
+2025-06-19 16:58:21,147 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00061a\INTRODUCE_IMG\1.md ***abnormal***
+2025-06-19 16:58:21,581 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00061a\INTRODUCE_IMG\2.md ***abnormal***
+2025-06-19 16:58:28,141 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00061a\INTRODUCE_IMG\3.md ***abnormal***
+2025-06-19 16:58:31,779 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00061a\INTRODUCE_IMG\4.md
+2025-06-19 16:58:31,780 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00061a\LIABILITY_EXCLUSION\0.md
+2025-06-19 16:58:31,781 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00061a\PRODUCT_MANUAL\0.md ***abnormal***
+2025-06-19 17:07:37,291 - ERROR - ❌ do_align 失败跳过: ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00061a\PRODUCT_MANUAL\0.md | 错误信息: Error code: 500 - {'error': {'code': 'RequestTimeOut', 'param': None, 'message': 'Request timed out, please try again later.', 'type': 'RequestTimeOut'}, 'id': 'chatcmpl-55b25601-2c71-9b60-8cf4-a1bedc28465b', 'request_id': '55b25601-2c71-9b60-8cf4-a1bedc28465b'}
+2025-06-19 17:07:37,297 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00062a\ADDITIONAL_AGREEMENT\0.md
+2025-06-19 17:07:37,298 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00062a\CLAUSE\0.md ***abnormal***
+2025-06-19 17:08:11,737 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00062a\CLAUSE\1.md ***abnormal***
+2025-06-19 17:10:50,891 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00062a\CLAUSE\2.md ***abnormal***
+2025-06-19 17:11:53,668 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00062a\CLAUSE\3.md ***abnormal***
+2025-06-19 17:12:40,222 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00062a\CLAUSE\4.md ***abnormal***
+2025-06-19 17:13:19,499 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00062a\CLAUSE\5.md ***abnormal***
+2025-06-19 17:15:51,958 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00062a\HEAD_IMG\0.md
+2025-06-19 17:15:51,960 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00062a\INSURE_NOTICE\0.md ***abnormal***
+2025-06-19 17:21:05,159 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00062a\INTRODUCE_IMG\0.md ***abnormal***
+2025-06-19 17:21:05,666 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00062a\INTRODUCE_IMG\1.md ***abnormal***
+2025-06-19 17:21:14,833 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00062a\LIABILITY_EXCLUSION\0.md
+2025-06-19 17:21:14,834 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00063a\ADDITIONAL_AGREEMENT\0.md
+2025-06-19 17:21:14,834 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00063a\CLAUSE\0.md
+2025-06-19 17:21:14,839 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00063a\HEAD_IMG\0.md
+2025-06-19 17:21:14,840 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00063a\HEALTH_INFORM\0.md ***abnormal***
+2025-06-19 17:21:28,375 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00063a\INSURE_NOTICE\0.md
+2025-06-19 17:21:28,375 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00063a\INTRODUCE_IMG\0.md ***abnormal***
+2025-06-19 17:21:28,861 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00063a\LIABILITY_EXCLUSION\0.md
+2025-06-19 17:21:28,862 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00064a\ADDITIONAL_AGREEMENT\0.md
+2025-06-19 17:21:28,863 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00064a\CLAUSE\0.md ***abnormal***
+2025-06-19 17:24:43,293 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00064a\INSURE_NOTICE\0.md ***abnormal***
+2025-06-19 17:28:40,538 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00064a\PRODUCT_MANUAL\0.md ***abnormal***
+2025-06-19 17:30:35,050 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00065a\CLAUSE\0.md ***abnormal***
+2025-06-19 17:32:42,256 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00065a\HEAD_IMG\0.md
+2025-06-19 17:32:42,256 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00065a\HEALTH_INFORM\0.md ***abnormal***
+2025-06-19 17:33:27,819 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00065a\INSURE_NOTICE\0.md ***abnormal***
+2025-06-19 17:34:27,825 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00065a\INTRODUCE_IMG\0.md ***abnormal***
+2025-06-19 17:34:28,955 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00065a\LIABILITY_EXCLUSION\0.md ***abnormal***
+2025-06-19 17:34:35,517 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00065a\PRODUCT_MANUAL\0.md ***abnormal***
+2025-06-19 17:35:50,594 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00066a\ADDITIONAL_AGREEMENT\0.md
+2025-06-19 17:35:50,598 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00066a\CLAUSE\0.md ***abnormal***
+2025-06-19 17:39:18,621 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00066a\INSURE_NOTICE\0.md ***abnormal***
+2025-06-19 17:41:03,581 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00066a\LIABILITY_EXCLUSION\0.md
+2025-06-19 17:41:03,581 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00067a\ADDITIONAL_AGREEMENT\0.md
+2025-06-19 17:41:03,582 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00067a\CLAUSE\0.md ***abnormal***
+2025-06-19 17:44:34,063 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00067a\HEAD_IMG\0.md
+2025-06-19 17:44:34,064 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00067a\INSURE_NOTICE\0.md
+2025-06-19 17:44:34,066 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00067a\INTRODUCE_IMG\0.md ***abnormal***
+2025-06-19 17:45:00,151 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00067a\PRODUCT_MANUAL\0.md
+2025-06-19 17:45:00,152 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00068a\ADDITIONAL_AGREEMENT\0.md
+2025-06-19 17:45:00,153 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00068a\CLAUSE\0.md ***abnormal***
+2025-06-19 17:48:39,305 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00068a\CLAUSE\1.md ***abnormal***
+2025-06-19 17:52:35,072 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00068a\HEAD_IMG\0.md
+2025-06-19 17:52:35,073 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00068a\INSURE_NOTICE\0.md ***abnormal***
+2025-06-19 17:55:30,510 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00068a\INTRODUCE_IMG\0.md ***abnormal***
+2025-06-19 17:55:33,510 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00068a\INTRODUCE_IMG\1.md ***abnormal***
+2025-06-19 17:55:49,938 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00068a\LIABILITY_EXCLUSION\0.md
+2025-06-19 17:55:49,939 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00069a\ADDITIONAL_AGREEMENT\0.md
+2025-06-19 17:55:49,940 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00069a\CLAUSE\0.md ***abnormal***
+2025-06-19 18:01:31,272 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00069a\HEAD_IMG\0.md
+2025-06-19 18:01:31,273 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00069a\HEALTH_INFORM\0.md ***abnormal***
+2025-06-19 18:01:50,391 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00069a\INSURE_NOTICE\0.md ***abnormal***
+2025-06-19 18:04:40,754 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00069a\INTRODUCE_IMG\0.md ***abnormal***
+2025-06-19 18:04:41,155 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00069a\INTRODUCE_IMG\1.md ***abnormal***
+2025-06-19 18:04:43,259 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00069a\INTRODUCE_IMG\2.md ***abnormal***
+2025-06-19 18:04:43,689 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00069a\INTRODUCE_IMG\3.md ***abnormal***
+2025-06-19 18:04:44,138 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00069a\LIABILITY_EXCLUSION\0.md
+2025-06-19 18:04:44,139 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00070a\ADDITIONAL_AGREEMENT\0.md ***abnormal***
+2025-06-19 18:04:50,476 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00070a\CLAUSE\0.md ***abnormal***
+2025-06-19 18:07:12,002 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00070a\HEALTH_INFORM\0.md ***abnormal***
+2025-06-19 18:07:28,816 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00070a\INSURE_NOTICE\0.md ***abnormal***
+2025-06-19 18:11:22,326 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00070a\LIABILITY_EXCLUSION\0.md
+2025-06-19 18:11:22,326 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00071a\ADDITIONAL_AGREEMENT\0.md
+2025-06-19 18:11:22,327 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00071a\CLAUSE\0.md
+2025-06-19 18:11:22,328 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00071a\HEAD_IMG\0.md
+2025-06-19 18:11:22,329 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00071a\HEALTH_INFORM\0.md ***abnormal***
+2025-06-19 18:12:37,245 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00071a\INSURE_NOTICE\0.md ***abnormal***
+2025-06-19 18:13:05,423 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00071a\INTRODUCE_IMG\0.md ***abnormal***
+2025-06-19 18:13:30,062 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00071a\LIABILITY_EXCLUSION\0.md
+2025-06-19 18:13:30,064 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00072a\CLAUSE\0.md ***abnormal***
+2025-06-19 18:14:31,827 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00072a\CLAUSE\1.md ***abnormal***
+2025-06-19 18:16:50,796 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00072a\CLAUSE\2.md ***abnormal***
+2025-06-19 18:16:51,548 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00072a\CLAUSE\3.md ***abnormal***
+2025-06-19 18:17:21,403 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00072a\CLAUSE\4.md ***abnormal***
+2025-06-19 18:17:59,262 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00072a\HEAD_IMG\0.md
+2025-06-19 18:17:59,268 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00072a\INSURE_NOTICE\0.md ***abnormal***
+2025-06-19 18:21:41,850 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00072a\INTRODUCE_IMG\0.md ***abnormal***
+2025-06-19 18:21:42,300 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00072a\LIABILITY_EXCLUSION\0.md
+2025-06-19 18:21:42,301 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00073a\ADDITIONAL_AGREEMENT\0.md
+2025-06-19 18:21:42,302 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00073a\CLAUSE\0.md
+2025-06-19 18:21:42,303 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00073a\CLAUSE\1.md
+2025-06-19 18:21:42,304 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00073a\CLAUSE\2.md ***abnormal***
+2025-06-19 18:22:05,938 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00073a\CLAUSE\3.md
+2025-06-19 18:22:05,939 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00073a\CLAUSE\4.md
+2025-06-19 18:22:05,939 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00073a\HEAD_IMG\0.md
+2025-06-19 18:22:05,940 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00073a\INTRODUCE_IMG\0.md ***abnormal***
+2025-06-19 18:22:06,507 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00073a\LIABILITY_EXCLUSION\0.md
+2025-06-19 18:22:06,508 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00074a\ADDITIONAL_AGREEMENT\0.md
+2025-06-19 18:22:06,514 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00074a\CLAUSE\0.md ***abnormal***
+2025-06-19 18:26:53,241 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00074a\HEAD_IMG\0.md
+2025-06-19 18:26:53,241 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00074a\INSURE_NOTICE\0.md ***abnormal***
+2025-06-19 18:29:15,250 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00074a\INTRODUCE_IMG\0.md ***abnormal***
+2025-06-19 18:29:15,668 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00074a\INTRODUCE_IMG\1.md ***abnormal***
+2025-06-19 18:29:16,105 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00074a\INTRODUCE_IMG\2.md ***abnormal***
+2025-06-19 18:29:42,240 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00074a\LIABILITY_EXCLUSION\0.md
+2025-06-19 18:29:42,241 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00074a\PRODUCT_MANUAL\0.md ***abnormal***
+2025-06-19 18:31:31,316 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00075a\CLAUSE\0.md
+2025-06-19 18:31:31,318 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00075a\HEAD_IMG\0.md
+2025-06-19 18:31:31,319 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00075a\INSURE_NOTICE\0.md
+2025-06-19 18:31:31,320 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00075a\INTRODUCE_IMG\0.md ***abnormal***
+2025-06-19 18:31:50,292 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00075a\INTRODUCE_IMG\1.md ***abnormal***
+2025-06-19 18:31:50,715 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00075a\INTRODUCE_IMG\10.md ***abnormal***
+2025-06-19 18:32:02,808 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00075a\INTRODUCE_IMG\11.md ***abnormal***
+2025-06-19 18:32:03,373 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00075a\INTRODUCE_IMG\2.md ***abnormal***
+2025-06-19 18:32:03,807 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00075a\INTRODUCE_IMG\3.md ***abnormal***
+2025-06-19 18:32:04,987 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00075a\INTRODUCE_IMG\4.md ***abnormal***
+2025-06-19 18:32:13,105 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00075a\INTRODUCE_IMG\5.md ***abnormal***
+2025-06-19 18:32:21,914 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00075a\INTRODUCE_IMG\6.md ***abnormal***
+2025-06-19 18:32:22,412 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00075a\INTRODUCE_IMG\7.md ***abnormal***
+2025-06-19 18:32:22,936 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00075a\INTRODUCE_IMG\8.md ***abnormal***
+2025-06-19 18:32:26,014 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00075a\LIABILITY_EXCLUSION\0.md
+2025-06-19 18:32:26,014 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00076a\ADDITIONAL_AGREEMENT\0.md
+2025-06-19 18:32:26,015 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00076a\CLAUSE\0.md ***abnormal***
+2025-06-19 18:33:48,817 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00076a\CLAUSE\1.md ***abnormal***
+2025-06-19 18:47:19,707 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00076a\HEAD_IMG\0.md
+2025-06-19 18:47:19,708 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00076a\HEALTH_INFORM\0.md ***abnormal***
+2025-06-19 18:47:48,677 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00076a\INSURE_NOTICE\0.md ***abnormal***
+2025-06-19 18:58:13,340 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00076a\INTRODUCE_IMG\0.md ***abnormal***
+2025-06-19 18:58:13,940 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00076a\INTRODUCE_IMG\1.md ***abnormal***
+2025-06-19 18:58:14,412 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00076a\INTRODUCE_IMG\2.md ***abnormal***
+2025-06-19 18:58:19,280 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00076a\INTRODUCE_IMG\3.md ***abnormal***
+2025-06-19 18:58:20,032 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00076a\LIABILITY_EXCLUSION\0.md
+2025-06-19 18:58:20,033 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00077a\ADDITIONAL_AGREEMENT\0.md
+2025-06-19 18:58:20,034 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00077a\CLAUSE\0.md ***abnormal***
+2025-06-19 18:59:59,195 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00077a\HEAD_IMG\0.md
+2025-06-19 18:59:59,200 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00077a\HEALTH_INFORM\0.md ***abnormal***
+2025-06-19 19:01:28,707 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00077a\INSURE_NOTICE\0.md ***abnormal***
+2025-06-19 19:01:30,874 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00077a\INTRODUCE_IMG\0.md ***abnormal***
+2025-06-19 19:01:35,956 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00077a\LIABILITY_EXCLUSION\0.md
+2025-06-19 19:01:35,957 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00078a\ADDITIONAL_AGREEMENT\0.md
+2025-06-19 19:01:35,959 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00078a\CLAUSE\0.md ***abnormal***
+2025-06-19 19:05:28,939 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00078a\HEAD_IMG\0.md
+2025-06-19 19:05:28,944 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00078a\INSURE_NOTICE\0.md
+2025-06-19 19:05:28,945 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00078a\INTRODUCE_IMG\0.md ***abnormal***
+2025-06-19 19:05:29,443 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00078a\INTRODUCE_IMG\1.md ***abnormal***
+2025-06-19 19:05:37,787 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00078a\INTRODUCE_IMG\2.md ***abnormal***
+2025-06-19 19:05:38,241 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00078a\INTRODUCE_IMG\3.md ***abnormal***
+2025-06-19 19:05:38,645 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00078a\INTRODUCE_IMG\4.md
+2025-06-19 19:05:38,645 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00078a\INTRODUCE_IMG\5.md ***abnormal***
+2025-06-19 19:05:39,089 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00078a\LIABILITY_EXCLUSION\0.md
+2025-06-19 19:05:39,090 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00079a\ADDITIONAL_AGREEMENT\0.md
+2025-06-19 19:05:39,091 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00079a\CLAUSE\0.md ***abnormal***
+2025-06-19 19:11:02,079 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00079a\HEAD_IMG\0.md
+2025-06-19 19:11:02,081 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00079a\INSURE_NOTICE\0.md
+2025-06-19 19:11:02,082 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00079a\LIABILITY_EXCLUSION\0.md
+2025-06-19 19:11:02,083 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00079a\PRODUCT_MANUAL\0.md
+2025-06-19 19:11:02,084 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00080a\ADDITIONAL_AGREEMENT\0.md
+2025-06-19 19:11:02,085 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00080a\CLAUSE\0.md
+2025-06-19 19:11:02,086 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00080a\HEAD_IMG\0.md
+2025-06-19 19:11:02,087 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00080a\INSURE_NOTICE\0.md
+2025-06-19 19:11:02,088 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00080a\INTRODUCE_IMG\0.md ***abnormal***
+2025-06-19 19:11:02,585 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00080a\LIABILITY_EXCLUSION\0.md
+2025-06-19 19:11:02,586 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00081a\ADDITIONAL_AGREEMENT\0.md
+2025-06-19 19:11:02,587 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00081a\CLAUSE\0.md ***abnormal***
+2025-06-19 19:22:05,388 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00081a\CLAUSE\1.md ***abnormal***
+2025-06-19 19:34:48,871 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00081a\CLAUSE\2.md ***abnormal***
+2025-06-19 19:47:37,793 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00081a\HEALTH_INFORM\0.md ***abnormal***
+2025-06-19 19:48:10,960 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00081a\INSURE_NOTICE\0.md
+2025-06-19 19:48:10,961 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00081a\LIABILITY_EXCLUSION\0.md
+2025-06-19 19:48:10,966 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00082a\CLAUSE\0.md ***abnormal***
+2025-06-19 20:11:51,778 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00082a\HEAD_IMG\0.md
+2025-06-19 20:11:51,780 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00082a\HEALTH_INFORM\0.md ***abnormal***
+2025-06-19 20:12:08,432 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00082a\INSURE_NOTICE\0.md ***abnormal***
+2025-06-19 20:13:03,917 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00082a\INTRODUCE_IMG\0.md ***abnormal***
+2025-06-19 20:13:04,416 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00082a\INTRODUCE_IMG\1.md ***abnormal***
+2025-06-19 20:13:16,825 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00082a\INTRODUCE_IMG\2.md
+2025-06-19 20:13:16,827 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00082a\LIABILITY_EXCLUSION\0.md
+2025-06-19 20:13:16,829 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00082a\PRODUCT_MANUAL\0.md ***abnormal***
+2025-06-19 20:14:27,519 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00083a\ADDITIONAL_AGREEMENT\0.md
+2025-06-19 20:14:27,519 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00083a\CLAUSE\0.md ***abnormal***
+2025-06-19 20:15:09,471 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00083a\CLAUSE\1.md ***abnormal***
+2025-06-19 20:15:26,729 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00083a\CLAUSE\2.md ***abnormal***
+2025-06-19 20:17:41,559 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00083a\CLAUSE\3.md ***abnormal***
+2025-06-19 20:19:06,937 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00083a\CLAUSE\4.md ***abnormal***
+2025-06-19 20:19:09,828 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00083a\CLAUSE\5.md ***abnormal***
+2025-06-19 20:19:37,844 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00083a\CLAUSE\6.md
+2025-06-19 20:19:37,846 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00083a\INSURE_NOTICE\0.md ***abnormal***
+2025-06-19 20:33:06,869 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00083a\LIABILITY_EXCLUSION\0.md
+2025-06-19 20:33:06,874 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00084a\ADDITIONAL_AGREEMENT\0.md
+2025-06-19 20:33:06,875 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00084a\CLAUSE\0.md ***abnormal***
+2025-06-19 20:37:49,143 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00084a\INSURE_NOTICE\0.md
+2025-06-19 20:37:49,149 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00084a\PRODUCT_MANUAL\0.md
+2025-06-19 20:37:49,154 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00085a\ADDITIONAL_AGREEMENT\0.md
+2025-06-19 20:37:49,155 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00085a\CLAUSE\0.md ***abnormal***
+2025-06-19 20:40:10,798 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00085a\HEAD_IMG\0.md
+2025-06-19 20:40:10,800 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00085a\INSURE_NOTICE\0.md ***abnormal***
+2025-06-19 20:41:04,792 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00085a\INTRODUCE_IMG\0.md ***abnormal***
+2025-06-19 20:41:05,415 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00085a\LIABILITY_EXCLUSION\0.md
+2025-06-19 20:41:05,417 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00086a\ADDITIONAL_AGREEMENT\0.md
+2025-06-19 20:41:05,418 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00086a\CLAUSE\0.md ***abnormal***
+2025-06-19 20:43:58,963 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00086a\CLAUSE\1.md ***abnormal***
+2025-06-19 20:46:00,206 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00086a\CLAUSE\2.md ***abnormal***
+2025-06-19 20:55:29,475 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00086a\HEALTH_INFORM\0.md ***abnormal***
+2025-06-19 20:56:18,875 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00086a\INSURE_NOTICE\0.md
+2025-06-19 20:56:18,877 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00086a\LIABILITY_EXCLUSION\0.md
+2025-06-19 20:56:18,878 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00087a\ADDITIONAL_AGREEMENT\0.md
+2025-06-19 20:56:18,882 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00087a\CLAUSE\0.md ***abnormal***
+2025-06-19 21:14:14,816 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00087a\CLAUSE\1.md ***abnormal***
+2025-06-19 21:35:59,233 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00087a\HEALTH_INFORM\0.md ***abnormal***
+2025-06-19 21:35:59,677 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00087a\INSURE_NOTICE\0.md
+2025-06-19 21:35:59,678 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00087a\LIABILITY_EXCLUSION\0.md
+2025-06-19 21:35:59,679 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00088a\ADDITIONAL_AGREEMENT\0.md
+2025-06-19 21:35:59,680 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00088a\CLAUSE\0.md
+2025-06-19 21:35:59,681 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00088a\CLAUSE\1.md
+2025-06-19 21:35:59,682 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00088a\CLAUSE\2.md
+2025-06-19 21:35:59,682 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00088a\CLAUSE\3.md
+2025-06-19 21:35:59,683 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00088a\CLAUSE\4.md
+2025-06-19 21:35:59,684 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00088a\CLAUSE\5.md
+2025-06-19 21:35:59,685 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00088a\HEAD_IMG\0.md
+2025-06-19 21:35:59,687 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00088a\INSURE_NOTICE\0.md
+2025-06-19 21:35:59,689 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00088a\INTRODUCE_IMG\0.md ***abnormal***
+2025-06-19 21:36:15,828 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00088a\LIABILITY_EXCLUSION\0.md
+2025-06-19 21:36:15,833 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00089a\ADDITIONAL_AGREEMENT\0.md
+2025-06-19 21:36:15,834 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00089a\CLAUSE\0.md ***abnormal***
+2025-06-19 21:39:00,177 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00089a\HEAD_IMG\0.md
+2025-06-19 21:39:00,180 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00089a\INSURE_NOTICE\0.md ***abnormal***
+2025-06-19 21:39:52,810 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00089a\INTRODUCE_IMG\0.md ***abnormal***
+2025-06-19 21:39:53,198 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00089a\INTRODUCE_IMG\1.md ***abnormal***
+2025-06-19 21:39:53,612 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00089a\INTRODUCE_IMG\2.md ***abnormal***
+2025-06-19 21:39:54,074 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00089a\LIABILITY_EXCLUSION\0.md
+2025-06-19 21:39:54,075 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00089a\PRODUCT_MANUAL\0.md
+2025-06-19 21:39:54,076 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00090a\ADDITIONAL_AGREEMENT\0.md
+2025-06-19 21:39:54,077 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00090a\CLAUSE\0.md
+2025-06-19 21:39:54,080 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00090a\CLAUSE\1.md ***abnormal***
+2025-06-19 21:41:27,630 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00090a\CLAUSE\2.md ***abnormal***
+2025-06-19 21:42:24,378 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00090a\HEAD_IMG\0.md
+2025-06-19 21:42:24,384 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00090a\INSURE_NOTICE\0.md
+2025-06-19 21:42:24,385 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00090a\INTRODUCE_IMG\0.md ***abnormal***
+2025-06-19 21:42:24,834 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00090a\INTRODUCE_IMG\1.md ***abnormal***
+2025-06-19 21:42:25,290 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00090a\INTRODUCE_IMG\2.md ***abnormal***
+2025-06-19 21:42:27,807 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00090a\INTRODUCE_IMG\3.md ***abnormal***
+2025-06-19 21:42:29,076 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00090a\INTRODUCE_IMG\4.md ***abnormal***
+2025-06-19 21:42:35,572 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00090a\INTRODUCE_IMG\5.md ***abnormal***
+2025-06-19 21:42:35,978 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00090a\LIABILITY_EXCLUSION\0.md
+2025-06-19 21:42:35,979 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00091a\ADDITIONAL_AGREEMENT\0.md
+2025-06-19 21:42:35,981 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00091a\CLAUSE\0.md ***abnormal***
+2025-06-19 21:44:52,937 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00091a\INSURE_NOTICE\0.md
+2025-06-19 21:44:52,943 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00091a\LIABILITY_EXCLUSION\0.md
+2025-06-19 21:44:52,945 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00091a\PRODUCT_MANUAL\0.md
+2025-06-19 21:44:52,952 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00092a\ADDITIONAL_AGREEMENT\0.md
+2025-06-19 21:44:52,953 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00092a\CLAUSE\0.md ***abnormal***
+2025-06-19 21:49:20,511 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00092a\HEAD_IMG\0.md
+2025-06-19 21:49:20,512 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00092a\INSURE_NOTICE\0.md ***abnormal***
+2025-06-19 21:52:24,864 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00092a\INTRODUCE_IMG\0.md ***abnormal***
+2025-06-19 21:52:25,290 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00092a\LIABILITY_EXCLUSION\0.md
+2025-06-19 21:52:25,291 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00093a\ADDITIONAL_AGREEMENT\0.md
+2025-06-19 21:52:25,293 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00093a\CLAUSE\0.md
+2025-06-19 21:52:25,298 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00093a\HEAD_IMG\0.md
+2025-06-19 21:52:25,299 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00093a\HEALTH_INFORM\0.md ***abnormal***
+2025-06-19 21:53:14,233 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00093a\INSURE_NOTICE\0.md ***abnormal***
+2025-06-19 21:54:10,866 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00093a\INTRODUCE_IMG\0.md ***abnormal***
+2025-06-19 21:54:11,471 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00093a\LIABILITY_EXCLUSION\0.md
+2025-06-19 21:54:11,472 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00094a\ADDITIONAL_AGREEMENT\0.md
+2025-06-19 21:54:11,473 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00094a\CLAUSE\0.md
+2025-06-19 21:54:11,473 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00094a\HEAD_IMG\0.md
+2025-06-19 21:54:11,480 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00094a\INSURE_NOTICE\0.md
+2025-06-19 21:54:11,481 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00094a\INTRODUCE_IMG\0.md ***abnormal***
+2025-06-19 21:54:20,295 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00094a\LIABILITY_EXCLUSION\0.md
+2025-06-19 21:54:20,296 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00095a\ADDITIONAL_AGREEMENT\0.md
+2025-06-19 21:54:20,296 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00095a\CLAUSE\0.md
+2025-06-19 21:54:20,297 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00095a\INSURE_NOTICE\0.md ***abnormal***
+2025-06-19 21:54:47,535 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00095a\LIABILITY_EXCLUSION\0.md
+2025-06-19 21:54:47,536 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00096a\ADDITIONAL_AGREEMENT\0.md
+2025-06-19 21:54:47,538 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00096a\CLAUSE\0.md ***abnormal***
+2025-06-19 22:04:38,948 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00096a\HEAD_IMG\0.md
+2025-06-19 22:04:38,948 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00096a\HEAD_IMG\1.md
+2025-06-19 22:04:38,952 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00096a\HEALTH_INFORM\0.md ***abnormal***
+2025-06-19 22:05:45,317 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00096a\INSURE_NOTICE\0.md
+2025-06-19 22:05:45,318 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00096a\INTRODUCE_IMG\0.md ***abnormal***
+2025-06-19 22:05:45,747 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00096a\INTRODUCE_IMG\1.md ***abnormal***
+2025-06-19 22:05:49,057 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00096a\INTRODUCE_IMG\10.md ***abnormal***
+2025-06-19 22:05:49,481 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00096a\INTRODUCE_IMG\11.md ***abnormal***
+2025-06-19 22:05:54,692 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00096a\INTRODUCE_IMG\12.md ***abnormal***
+2025-06-19 22:05:55,142 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00096a\INTRODUCE_IMG\13.md ***abnormal***
+2025-06-19 22:06:02,490 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00096a\INTRODUCE_IMG\14.md ***abnormal***
+2025-06-19 22:06:02,930 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00096a\INTRODUCE_IMG\2.md ***abnormal***
+2025-06-19 22:06:04,859 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00096a\INTRODUCE_IMG\3.md
+2025-06-19 22:06:04,859 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00096a\INTRODUCE_IMG\4.md ***abnormal***
+2025-06-19 22:06:05,334 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00096a\INTRODUCE_IMG\5.md ***abnormal***
+2025-06-19 22:06:05,731 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00096a\INTRODUCE_IMG\6.md ***abnormal***
+2025-06-19 22:06:06,176 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00096a\INTRODUCE_IMG\7.md ***abnormal***
+2025-06-19 22:06:08,852 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00096a\INTRODUCE_IMG\8.md ***abnormal***
+2025-06-19 22:06:09,290 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00096a\INTRODUCE_IMG\9.md ***abnormal***
+2025-06-19 22:06:09,727 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00096a\LIABILITY_EXCLUSION\0.md
+2025-06-19 22:06:09,728 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00097a\ADDITIONAL_AGREEMENT\0.md
+2025-06-19 22:06:09,729 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00097a\CLAUSE\0.md ***abnormal***
+2025-06-19 22:10:05,491 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00097a\HEAD_IMG\0.md
+2025-06-19 22:10:05,497 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00097a\INSURE_NOTICE\0.md ***abnormal***
+2025-06-19 22:14:17,015 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00097a\INTRODUCE_IMG\0.md ***abnormal***
+2025-06-19 22:14:17,466 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00097a\LIABILITY_EXCLUSION\0.md
+2025-06-19 22:14:17,468 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00098a\ADDITIONAL_AGREEMENT\0.md
+2025-06-19 22:14:17,469 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00098a\CLAUSE\0.md
+2025-06-19 22:14:17,470 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00098a\CLAUSE\1.md
+2025-06-19 22:14:17,471 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00098a\CLAUSE\2.md ***abnormal***
+2025-06-19 22:14:43,608 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00098a\CLAUSE\3.md
+2025-06-19 22:14:43,610 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00098a\CLAUSE\4.md ***abnormal***
+2025-06-19 22:14:44,385 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00098a\CLAUSE\5.md ***abnormal***
+2025-06-19 22:15:39,262 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00098a\CLAUSE\6.md ***abnormal***
+2025-06-19 22:18:05,820 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00098a\HEAD_IMG\0.md
+2025-06-19 22:18:05,821 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00098a\INSURE_NOTICE\0.md
+2025-06-19 22:18:05,829 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00098a\INTRODUCE_IMG\0.md ***abnormal***
+2025-06-19 22:18:38,715 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00098a\INTRODUCE_IMG\1.md ***abnormal***
+2025-06-19 22:18:39,167 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00098a\LIABILITY_EXCLUSION\0.md
+2025-06-19 22:18:39,168 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00099a\ADDITIONAL_AGREEMENT\0.md
+2025-06-19 22:18:39,169 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00099a\CLAUSE\0.md ***abnormal***
+2025-06-19 22:20:41,580 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00099a\HEAD_IMG\0.md
+2025-06-19 22:20:41,581 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00099a\INSURE_NOTICE\0.md ***abnormal***
+2025-06-19 22:27:22,402 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00099a\LIABILITY_EXCLUSION\0.md
+2025-06-19 22:27:22,403 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00100a\ADDITIONAL_AGREEMENT\0.md
+2025-06-19 22:27:22,404 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00100a\CLAUSE\0.md ***abnormal***
+2025-06-19 22:27:45,973 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00100a\CLAUSE\1.md ***abnormal***
+2025-06-19 22:28:10,180 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00100a\CLAUSE\2.md ***abnormal***
+2025-06-19 22:30:41,971 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00100a\CLAUSE\3.md ***abnormal***
+2025-06-19 22:32:10,560 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00100a\CLAUSE\4.md ***abnormal***
+2025-06-19 22:33:04,497 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00100a\CLAUSE\5.md ***abnormal***
+2025-06-19 22:33:40,581 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00100a\CLAUSE\6.md ***abnormal***
+2025-06-19 22:35:01,114 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00100a\HEAD_IMG\0.md
+2025-06-19 22:35:01,115 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00100a\INSURE_NOTICE\0.md ***abnormal***
+2025-06-19 22:36:06,575 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00100a\INTRODUCE_IMG\0.md ***abnormal***
+2025-06-19 22:36:29,463 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00100a\LIABILITY_EXCLUSION\0.md
+2025-06-19 22:36:29,468 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00101a\ADDITIONAL_AGREEMENT\0.md
+2025-06-19 22:36:29,469 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00101a\CLAUSE\0.md ***abnormal***
+2025-06-19 22:40:05,927 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00101a\HEAD_IMG\0.md
+2025-06-19 22:40:05,929 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00101a\HEALTH_INFORM\0.md ***abnormal***
+2025-06-19 22:40:36,053 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00101a\INSURE_NOTICE\0.md ***abnormal***
+2025-06-19 22:41:39,131 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00101a\INTRODUCE_IMG\0.md ***abnormal***
+2025-06-19 22:41:39,740 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00101a\INTRODUCE_IMG\1.md ***abnormal***
+2025-06-19 22:42:01,684 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00101a\LIABILITY_EXCLUSION\0.md
+2025-06-19 22:42:01,685 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00102a\CLAUSE\0.md ***abnormal***
+2025-06-19 22:42:02,578 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00102a\CLAUSE\1.md
+2025-06-19 22:42:02,583 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00102a\CLAUSE\2.md ***abnormal***
+2025-06-19 22:42:03,028 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00102a\CLAUSE\3.md ***abnormal***
+2025-06-19 22:42:03,550 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00102a\CLAUSE\4.md ***abnormal***
+2025-06-19 22:42:04,479 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00102a\HEAD_IMG\0.md
+2025-06-19 22:42:04,480 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00102a\INSURE_NOTICE\0.md
+2025-06-19 22:42:04,482 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00102a\INTRODUCE_IMG\0.md ***abnormal***
+2025-06-19 22:42:29,494 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00102a\LIABILITY_EXCLUSION\0.md
+2025-06-19 22:42:29,496 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00103a\ADDITIONAL_AGREEMENT\0.md
+2025-06-19 22:42:29,497 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00103a\CLAUSE\0.md ***abnormal***
+2025-06-19 22:43:08,321 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00103a\CLAUSE\1.md ***abnormal***
+2025-06-19 22:44:08,118 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00103a\CLAUSE\10.md ***abnormal***
+2025-06-19 22:44:35,378 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00103a\CLAUSE\11.md ***abnormal***
+2025-06-19 22:44:35,954 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00103a\CLAUSE\12.md ***abnormal***
+2025-06-19 22:46:23,943 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00103a\CLAUSE\13.md ***abnormal***
+2025-06-19 22:46:25,387 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00103a\CLAUSE\14.md ***abnormal***
+2025-06-19 22:46:27,275 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00103a\CLAUSE\15.md ***abnormal***
+2025-06-19 22:47:18,121 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00103a\CLAUSE\16.md ***abnormal***
+2025-06-19 22:47:47,898 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00103a\CLAUSE\17.md ***abnormal***
+2025-06-19 22:48:17,440 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00103a\CLAUSE\2.md ***abnormal***
+2025-06-19 22:49:09,718 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00103a\CLAUSE\3.md ***abnormal***
+2025-06-19 22:49:14,543 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00103a\CLAUSE\4.md ***abnormal***
+2025-06-19 22:49:45,387 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00103a\CLAUSE\5.md ***abnormal***
+2025-06-19 22:50:21,636 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00103a\CLAUSE\6.md ***abnormal***
+2025-06-19 22:50:40,505 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00103a\CLAUSE\7.md ***abnormal***
+2025-06-19 22:52:25,352 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00103a\CLAUSE\8.md ***abnormal***
+2025-06-19 22:53:00,783 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00103a\CLAUSE\9.md ***abnormal***
+2025-06-19 22:54:17,215 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00103a\HEAD_IMG\0.md
+2025-06-19 22:54:17,217 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00103a\INSURE_NOTICE\0.md ***abnormal***
+2025-06-19 22:58:39,654 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00103a\INTRODUCE_IMG\0.md ***abnormal***
+2025-06-19 22:59:45,925 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00103a\LIABILITY_EXCLUSION\0.md
+2025-06-19 22:59:45,929 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00104a\ADDITIONAL_AGREEMENT\0.md
+2025-06-19 22:59:45,933 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00104a\CLAUSE\0.md ***abnormal***
+2025-06-19 23:10:00,375 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00104a\HEAD_IMG\0.md
+2025-06-19 23:10:00,376 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00104a\INSURE_NOTICE\0.md
+2025-06-19 23:10:00,378 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00104a\INTRODUCE_IMG\1.md ***abnormal***
+2025-06-19 23:10:00,851 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00104a\LIABILITY_EXCLUSION\0.md
+2025-06-19 23:10:00,853 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00105a\ADDITIONAL_AGREEMENT\0.md
+2025-06-19 23:10:00,856 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00105a\CLAUSE\0.md ***abnormal***
+2025-06-19 23:13:31,601 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00105a\INSURE_NOTICE\0.md
+2025-06-19 23:13:31,605 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00105a\PRODUCT_MANUAL\0.md
+2025-06-19 23:13:31,607 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00106a\ADDITIONAL_AGREEMENT\0.md
+2025-06-19 23:13:31,609 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00106a\CLAUSE\0.md
+2025-06-19 23:13:31,611 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00106a\HEALTH_INFORM\0.md ***abnormal***
+2025-06-19 23:13:32,187 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00106a\INSURE_NOTICE\0.md
+2025-06-19 23:13:32,189 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00106a\LIABILITY_EXCLUSION\0.md
+2025-06-19 23:13:32,193 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00107a\CLAUSE\0.md
+2025-06-19 23:13:32,195 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00107a\HEAD_IMG\0.md
+2025-06-19 23:13:32,198 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00107a\INSURE_NOTICE\0.md ***abnormal***
+2025-06-19 23:17:25,442 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00107a\INTRODUCE_IMG\0.md ***abnormal***
+2025-06-19 23:17:25,864 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00107a\INTRODUCE_IMG\1.md ***abnormal***
+2025-06-19 23:17:26,236 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00107a\INTRODUCE_IMG\2.md ***abnormal***
+2025-06-19 23:17:28,238 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00107a\INTRODUCE_IMG\3.md ***abnormal***
+2025-06-19 23:17:28,613 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00107a\INTRODUCE_IMG\4.md ***abnormal***
+2025-06-19 23:17:31,220 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00107a\LIABILITY_EXCLUSION\0.md
+2025-06-19 23:17:31,226 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00108a\ADDITIONAL_AGREEMENT\0.md
+2025-06-19 23:17:31,237 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00108a\CLAUSE\0.md ***abnormal***
+2025-06-20 02:06:26,199 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00108a\HEAD_IMG\0.md
+2025-06-20 02:06:26,210 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00108a\HEALTH_INFORM\0.md ***abnormal***
+2025-06-20 02:07:06,059 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00108a\INSURE_NOTICE\0.md ***abnormal***
+2025-06-20 02:08:06,032 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00108a\INTRODUCE_IMG\0.md ***abnormal***
+2025-06-20 02:08:06,437 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00108a\INTRODUCE_IMG\1.md ***abnormal***
+2025-06-20 02:08:06,929 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00108a\INTRODUCE_IMG\2.md ***abnormal***
+2025-06-20 02:08:08,201 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00108a\INTRODUCE_IMG\3.md ***abnormal***
+2025-06-20 02:08:11,746 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00108a\INTRODUCE_IMG\4.md ***abnormal***
+2025-06-20 02:08:19,237 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00108a\INTRODUCE_IMG\5.md ***abnormal***
+2025-06-20 02:08:19,699 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00108a\INTRODUCE_IMG\6.md ***abnormal***
+2025-06-20 02:08:20,123 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00108a\INTRODUCE_IMG\8.md ***abnormal***
+2025-06-20 02:08:20,544 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00108a\LIABILITY_EXCLUSION\0.md
+2025-06-20 02:08:20,547 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00109a\ADDITIONAL_AGREEMENT\0.md
+2025-06-20 02:08:20,549 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00109a\CLAUSE\0.md ***abnormal***
+2025-06-20 02:12:44,526 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00109a\CLAUSE\1.md ***abnormal***
+2025-06-20 02:16:50,196 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00109a\CLAUSE\10.md ***abnormal***
+2025-06-20 02:21:03,766 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00109a\CLAUSE\11.md ***abnormal***
+2025-06-20 02:29:05,728 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00109a\CLAUSE\2.md
+2025-06-20 02:29:05,729 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00109a\CLAUSE\3.md ***abnormal***
+2025-06-20 02:31:48,735 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00109a\CLAUSE\4.md ***abnormal***
+2025-06-20 02:35:07,489 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00109a\CLAUSE\5.md ***abnormal***
+2025-06-20 02:40:10,776 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00109a\CLAUSE\6.md ***abnormal***
+2025-06-20 02:43:50,420 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00109a\CLAUSE\7.md ***abnormal***
+2025-06-20 02:48:08,318 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00109a\CLAUSE\8.md
+2025-06-20 02:48:08,320 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00109a\CLAUSE\9.md ***abnormal***
+2025-06-20 02:52:48,285 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00109a\HEALTH_INFORM\0.md ***abnormal***
+2025-06-20 02:52:58,862 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00109a\INSURE_NOTICE\0.md ***abnormal***
+2025-06-20 02:53:29,314 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00109a\INTRODUCE_IMG\0.md ***abnormal***
+2025-06-20 02:53:30,624 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00109a\INTRODUCE_IMG\1.md ***abnormal***
+2025-06-20 02:53:31,163 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00109a\INTRODUCE_IMG\2.md
+2025-06-20 02:53:31,165 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00109a\INTRODUCE_IMG\3.md ***abnormal***
+2025-06-20 02:53:36,131 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00109a\INTRODUCE_IMG\4.md
+2025-06-20 02:53:36,133 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00109a\LIABILITY_EXCLUSION\0.md
+2025-06-20 02:53:36,134 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00110a\ADDITIONAL_AGREEMENT\0.md
+2025-06-20 02:53:36,137 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00110a\CLAUSE\0.md
+2025-06-20 02:53:36,139 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00110a\INSURE_NOTICE\0.md
+2025-06-20 02:53:36,140 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00110a\LIABILITY_EXCLUSION\0.md
+2025-06-20 02:53:36,143 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00111a\ADDITIONAL_AGREEMENT\0.md
+2025-06-20 02:53:36,145 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00111a\CLAUSE\0.md ***abnormal***
+2025-06-20 02:57:58,674 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00111a\HEAD_IMG\0.md
+2025-06-20 02:57:58,676 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00111a\HEALTH_INFORM\0.md ***abnormal***
+2025-06-20 02:58:24,712 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00111a\INSURE_NOTICE\0.md
+2025-06-20 02:58:24,713 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00111a\INTRODUCE_IMG\0.md ***abnormal***
+2025-06-20 02:58:36,657 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00111a\INTRODUCE_IMG\1.md ***abnormal***
+2025-06-20 02:58:37,086 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00111a\LIABILITY_EXCLUSION\0.md ***abnormal***
+2025-06-20 02:58:44,202 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00111a\PRODUCT_MANUAL\0.md ***abnormal***
+2025-06-20 02:59:09,387 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00112a\ADDITIONAL_AGREEMENT\0.md
+2025-06-20 02:59:09,392 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00112a\CLAUSE\0.md
+2025-06-20 02:59:09,395 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00112a\CLAUSE\1.md
+2025-06-20 02:59:09,397 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00112a\HEAD_IMG\0.md
+2025-06-20 02:59:09,398 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00112a\INSURE_NOTICE\0.md
+2025-06-20 02:59:09,398 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00112a\INTRODUCE_IMG\0.md ***abnormal***
+2025-06-20 02:59:21,523 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00112a\LIABILITY_EXCLUSION\0.md
+2025-06-20 02:59:21,528 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00113a\ADDITIONAL_AGREEMENT\0.md
+2025-06-20 02:59:21,530 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00113a\CLAUSE\0.md ***abnormal***
+2025-06-20 03:01:07,117 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00113a\HEAD_IMG\0.md
+2025-06-20 03:01:07,119 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00113a\INSURE_NOTICE\0.md
+2025-06-20 03:01:07,120 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00113a\INTRODUCE_IMG\0.md ***abnormal***
+2025-06-20 03:01:21,010 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00113a\PRODUCT_MANUAL\0.md
+2025-06-20 03:01:21,012 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00114a\ADDITIONAL_AGREEMENT\0.md
+2025-06-20 03:01:21,016 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00114a\CLAUSE\0.md ***abnormal***
+2025-06-20 03:15:47,362 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00114a\CLAUSE\1.md ***abnormal***
+2025-06-20 03:17:09,558 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00114a\CLAUSE\2.md ***abnormal***
+2025-06-20 03:18:29,871 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00114a\HEAD_IMG\0.md
+2025-06-20 03:18:29,874 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00114a\HEALTH_INFORM\0.md ***abnormal***
+2025-06-20 03:18:41,692 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00114a\INSURE_NOTICE\0.md ***abnormal***
+2025-06-20 03:23:14,838 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00114a\INTRODUCE_IMG\0.md ***abnormal***
+2025-06-20 03:23:15,266 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00114a\INTRODUCE_IMG\1.md ***abnormal***
+2025-06-20 03:23:18,689 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00114a\INTRODUCE_IMG\2.md ***abnormal***
+2025-06-20 03:23:28,814 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00114a\INTRODUCE_IMG\3.md ***abnormal***
+2025-06-20 03:23:39,102 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00114a\INTRODUCE_IMG\4.md ***abnormal***
+2025-06-20 03:23:43,015 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00114a\INTRODUCE_IMG\5.md
+2025-06-20 03:23:43,017 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00114a\INTRODUCE_IMG\6.md ***abnormal***
+2025-06-20 03:23:43,445 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00114a\LIABILITY_EXCLUSION\0.md
+2025-06-20 03:23:43,447 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00115a\ADDITIONAL_AGREEMENT\0.md
+2025-06-20 03:23:43,449 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00115a\CLAUSE\0.md
+2025-06-20 03:23:43,450 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00115a\INSURE_NOTICE\0.md ***abnormal***
+2025-06-20 03:23:55,005 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00115a\LIABILITY_EXCLUSION\0.md
+2025-06-20 03:23:55,007 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00116a\ADDITIONAL_AGREEMENT\0.md
+2025-06-20 03:23:55,010 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00116a\CLAUSE\0.md
+2025-06-20 03:23:55,011 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00116a\INSURE_NOTICE\0.md ***abnormal***
+2025-06-20 03:24:36,321 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00116a\LIABILITY_EXCLUSION\0.md
+2025-06-20 03:24:36,324 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00117a\ADDITIONAL_AGREEMENT\0.md
+2025-06-20 03:24:36,326 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00117a\CLAUSE\0.md
+2025-06-20 03:24:36,328 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00117a\HEAD_IMG\0.md
+2025-06-20 03:24:36,330 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00117a\HEALTH_INFORM\0.md ***abnormal***
+2025-06-20 03:25:12,742 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00117a\INSURE_NOTICE\0.md
+2025-06-20 03:25:12,744 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00117a\INTRODUCE_IMG\0.md ***abnormal***
+2025-06-20 03:25:13,196 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00117a\INTRODUCE_IMG\1.md ***abnormal***
+2025-06-20 03:25:22,080 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00117a\INTRODUCE_IMG\2.md ***abnormal***
+2025-06-20 03:25:22,489 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00117a\INTRODUCE_IMG\3.md ***abnormal***
+2025-06-20 03:25:23,014 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00117a\INTRODUCE_IMG\4.md ***abnormal***
+2025-06-20 03:25:23,515 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00117a\INTRODUCE_IMG\5.md ***abnormal***
+2025-06-20 03:25:23,974 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00117a\LIABILITY_EXCLUSION\0.md
+2025-06-20 03:25:23,976 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00118a\ADDITIONAL_AGREEMENT\0.md
+2025-06-20 03:25:23,978 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00118a\CLAUSE\0.md
+2025-06-20 03:25:23,981 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00118a\INSURE_NOTICE\0.md
+2025-06-20 03:25:23,982 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00118a\LIABILITY_EXCLUSION\0.md ***abnormal***
+2025-06-20 03:25:32,783 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00118a\PRODUCT_MANUAL\0.md ***abnormal***
+2025-06-20 03:25:33,985 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00119a\ADDITIONAL_AGREEMENT\0.md
+2025-06-20 03:25:33,988 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00119a\CLAUSE\0.md ***abnormal***
+2025-06-20 03:30:07,834 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00119a\CLAUSE\1.md ***abnormal***
+2025-06-20 03:32:19,558 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00119a\HEAD_IMG\0.md
+2025-06-20 03:32:19,560 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00119a\INSURE_NOTICE\0.md
+2025-06-20 03:32:19,562 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00119a\INTRODUCE_IMG\0.md
+2025-06-20 03:32:19,563 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00119a\LIABILITY_EXCLUSION\0.md
+2025-06-20 03:32:19,564 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00120a\ADDITIONAL_AGREEMENT\0.md
+2025-06-20 03:32:19,566 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00120a\CLAUSE\0.md ***abnormal***
+2025-06-20 03:35:18,102 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00120a\CLAUSE\1.md ***abnormal***
+2025-06-20 03:35:35,141 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00120a\HEAD_IMG\0.md
+2025-06-20 03:35:35,146 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00120a\INSURE_NOTICE\0.md ***abnormal***
+2025-06-20 03:38:04,720 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00120a\LIABILITY_EXCLUSION\0.md ***abnormal***
+2025-06-20 03:38:58,114 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00121a\ADDITIONAL_AGREEMENT\0.md
+2025-06-20 03:38:58,118 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00121a\CLAUSE\0.md
+2025-06-20 03:38:58,121 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00121a\HEALTH_INFORM\0.md ***abnormal***
+2025-06-20 03:40:06,852 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00121a\INSURE_NOTICE\0.md
+2025-06-20 03:40:06,854 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00121a\LIABILITY_EXCLUSION\0.md
+2025-06-20 03:40:06,857 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00121a\PRODUCT_MANUAL\0.md
+2025-06-20 03:40:06,859 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00122a\ADDITIONAL_AGREEMENT\0.md
+2025-06-20 03:40:06,867 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00122a\CLAUSE\0.md ***abnormal***
+2025-06-20 03:40:18,532 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00122a\CLAUSE\1.md ***abnormal***
+2025-06-20 03:41:41,401 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00122a\CLAUSE\10.md ***abnormal***
+2025-06-20 03:41:56,982 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00122a\CLAUSE\2.md ***abnormal***
+2025-06-20 03:43:10,636 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00122a\CLAUSE\3.md ***abnormal***
+2025-06-20 03:44:50,770 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00122a\CLAUSE\4.md ***abnormal***
+2025-06-20 03:45:23,861 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00122a\CLAUSE\5.md ***abnormal***
+2025-06-20 03:47:57,122 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00122a\CLAUSE\6.md ***abnormal***
+2025-06-20 03:49:08,144 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00122a\CLAUSE\7.md ***abnormal***
+2025-06-20 03:51:09,526 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00122a\CLAUSE\8.md ***abnormal***
+2025-06-20 03:51:49,900 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00122a\CLAUSE\9.md ***abnormal***
+2025-06-20 03:52:57,803 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00122a\HEAD_IMG\0.md
+2025-06-20 03:52:57,806 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00122a\INSURE_NOTICE\0.md ***abnormal***
+2025-06-20 03:57:38,308 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00122a\LIABILITY_EXCLUSION\0.md
+2025-06-20 03:57:38,311 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00123a\ADDITIONAL_AGREEMENT\0.md
+2025-06-20 03:57:38,313 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00123a\CLAUSE\0.md ***abnormal***
+2025-06-20 04:01:07,241 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00123a\HEAD_IMG\0.md
+2025-06-20 04:01:07,242 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00123a\INSURE_NOTICE\0.md ***abnormal***
+2025-06-20 04:01:07,795 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00123a\LIABILITY_EXCLUSION\0.md
+2025-06-20 04:01:07,797 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00124a\ADDITIONAL_AGREEMENT\0.md
+2025-06-20 04:01:07,799 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00124a\CLAUSE\0.md ***abnormal***
+2025-06-20 04:03:51,530 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00124a\HEAD_IMG\0.md
+2025-06-20 04:03:51,533 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00124a\INSURE_NOTICE\0.md ***abnormal***
+2025-06-20 04:07:32,218 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00124a\INTRODUCE_IMG\0.md ***abnormal***
+2025-06-20 04:07:32,702 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00124a\LIABILITY_EXCLUSION\0.md
+2025-06-20 04:07:32,704 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00125a\ADDITIONAL_AGREEMENT\0.md
+2025-06-20 04:07:32,706 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00125a\CLAUSE\0.md ***abnormal***
+2025-06-20 04:10:35,987 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00125a\HEAD_IMG\0.md
+2025-06-20 04:10:35,988 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00125a\HEALTH_INFORM\0.md ***abnormal***
+2025-06-20 04:10:47,855 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00125a\INSURE_NOTICE\0.md
+2025-06-20 04:10:47,856 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00125a\LIABILITY_EXCLUSION\0.md
+2025-06-20 04:10:47,859 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00126a\ADDITIONAL_AGREEMENT\0.md
+2025-06-20 04:10:47,860 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00126a\CLAUSE\0.md
+2025-06-20 04:10:47,862 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00126a\HEALTH_INFORM\0.md ***abnormal***
+2025-06-20 04:10:59,276 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00126a\INSURE_NOTICE\0.md
+2025-06-20 04:10:59,278 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00126a\INTRODUCE_IMG\0.md ***abnormal***
+2025-06-20 04:10:59,764 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00126a\LIABILITY_EXCLUSION\0.md
+2025-06-20 04:10:59,766 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00126a\PRODUCT_MANUAL\0.md
+2025-06-20 04:10:59,768 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00127a\ADDITIONAL_AGREEMENT\0.md
+2025-06-20 04:10:59,770 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00127a\CLAUSE\0.md ***abnormal***
+2025-06-20 04:13:42,299 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00127a\CLAUSE\1.md ***abnormal***
+2025-06-20 04:21:05,689 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00127a\CLAUSE\2.md ***abnormal***
+2025-06-20 04:21:24,281 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00127a\CLAUSE\3.md ***abnormal***
+2025-06-20 04:22:26,226 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00127a\CLAUSE\4.md ***abnormal***
+2025-06-20 04:25:06,862 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00127a\CLAUSE\5.md ***abnormal***
+2025-06-20 04:28:08,136 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00127a\CLAUSE\6.md ***abnormal***
+2025-06-20 04:28:31,577 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00127a\HEAD_IMG\0.md
+2025-06-20 04:28:31,579 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00127a\INSURE_NOTICE\0.md ***abnormal***
+2025-06-20 04:28:37,853 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00127a\INTRODUCE_IMG\0.md ***abnormal***
+2025-06-20 04:28:38,301 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00127a\INTRODUCE_IMG\1.md ***abnormal***
+2025-06-20 04:28:44,050 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00127a\INTRODUCE_IMG\2.md ***abnormal***
+2025-06-20 04:28:56,758 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00127a\INTRODUCE_IMG\3.md ***abnormal***
+2025-06-20 04:29:41,844 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00127a\INTRODUCE_IMG\4.md ***abnormal***
+2025-06-20 04:29:42,360 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00127a\LIABILITY_EXCLUSION\0.md
+2025-06-20 04:29:42,363 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00128a\ADDITIONAL_AGREEMENT\0.md
+2025-06-20 04:29:42,365 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00128a\CLAUSE\0.md ***abnormal***
+2025-06-20 04:32:42,658 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00128a\CLAUSE\1.md ***abnormal***
+2025-06-20 04:33:16,659 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00128a\CLAUSE\2.md ***abnormal***
+2025-06-20 04:33:42,864 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00128a\CLAUSE\3.md ***abnormal***
+2025-06-20 04:34:10,311 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00128a\CLAUSE\4.md ***abnormal***
+2025-06-20 04:34:16,988 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00128a\INSURE_NOTICE\0.md ***abnormal***
+2025-06-20 04:36:20,364 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00128a\INTRODUCE_IMG\0.md ***abnormal***
+2025-06-20 04:36:34,980 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00128a\INTRODUCE_IMG\1.md ***abnormal***
+2025-06-20 04:36:35,390 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00128a\INTRODUCE_IMG\2.md ***abnormal***
+2025-06-20 04:36:37,759 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00128a\LIABILITY_EXCLUSION\0.md ***abnormal***
+2025-06-20 04:37:23,520 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00129a\ADDITIONAL_AGREEMENT\0.md
+2025-06-20 04:37:23,522 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00129a\CLAUSE\0.md
+2025-06-20 04:37:23,524 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00129a\INSURE_NOTICE\0.md ***abnormal***
+2025-06-20 04:38:28,189 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00129a\LIABILITY_EXCLUSION\0.md ***abnormal***
+2025-06-20 04:38:34,449 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00130a\ADDITIONAL_AGREEMENT\0.md
+2025-06-20 04:38:34,451 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00130a\CLAUSE\0.md
+2025-06-20 04:38:34,452 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00130a\HEAD_IMG\0.md
+2025-06-20 04:38:34,453 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00130a\HEALTH_INFORM\0.md ***abnormal***
+2025-06-20 04:38:59,320 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00130a\INSURE_NOTICE\0.md
+2025-06-20 04:38:59,322 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00130a\INTRODUCE_IMG\0.md ***abnormal***
+2025-06-20 04:38:59,925 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00130a\LIABILITY_EXCLUSION\0.md
+2025-06-20 04:38:59,927 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00130a\PRODUCT_MANUAL\0.md
+2025-06-20 04:38:59,929 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00131a\ADDITIONAL_AGREEMENT\0.md
+2025-06-20 04:38:59,932 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00131a\CLAUSE\0.md ***abnormal***
+2025-06-20 04:44:48,639 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00131a\HEAD_IMG\0.md
+2025-06-20 04:44:48,641 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00131a\INSURE_NOTICE\0.md ***abnormal***
+2025-06-20 04:47:42,604 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00131a\INTRODUCE_IMG\0.md ***abnormal***
+2025-06-20 04:47:43,021 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00131a\LIABILITY_EXCLUSION\0.md
+2025-06-20 04:47:43,023 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00132a\ADDITIONAL_AGREEMENT\0.md
+2025-06-20 04:47:43,027 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00132a\CLAUSE\0.md ***abnormal***
+2025-06-20 04:56:19,786 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00132a\CLAUSE\1.md
+2025-06-20 04:56:19,787 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00132a\HEAD_IMG\0.md
+2025-06-20 04:56:19,788 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00132a\HEALTH_INFORM\0.md ***abnormal***
+2025-06-20 04:56:57,903 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00132a\INSURE_NOTICE\0.md
+2025-06-20 04:56:57,904 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00132a\INTRODUCE_IMG\0.md ***abnormal***
+2025-06-20 04:57:00,348 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00132a\INTRODUCE_IMG\1.md
+2025-06-20 04:57:00,349 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00132a\INTRODUCE_IMG\2.md ***abnormal***
+2025-06-20 04:57:00,766 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00132a\INTRODUCE_IMG\3.md ***abnormal***
+2025-06-20 04:57:03,118 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00132a\INTRODUCE_IMG\4.md ***abnormal***
+2025-06-20 04:57:06,505 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00132a\INTRODUCE_IMG\5.md ***abnormal***
+2025-06-20 04:57:06,900 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00132a\INTRODUCE_IMG\6.md ***abnormal***
+2025-06-20 04:57:13,851 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00132a\LIABILITY_EXCLUSION\0.md
+2025-06-20 04:57:13,852 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00132a\PRODUCT_MANUAL\0.md ***abnormal***
+2025-06-20 04:58:15,864 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00133a\ADDITIONAL_AGREEMENT\0.md
+2025-06-20 04:58:15,866 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00133a\CLAUSE\0.md ***abnormal***
+2025-06-20 05:03:35,389 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00133a\CLAUSE\1.md ***abnormal***
+2025-06-20 05:19:47,301 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00133a\HEAD_IMG\0.md
+2025-06-20 05:19:47,303 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00133a\HEALTH_INFORM\0.md ***abnormal***
+2025-06-20 05:20:37,202 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00133a\INSURE_NOTICE\0.md
+2025-06-20 05:20:37,204 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00133a\INTRODUCE_IMG\0.md ***abnormal***
+2025-06-20 05:20:40,093 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00133a\INTRODUCE_IMG\1.md ***abnormal***
+2025-06-20 05:20:40,504 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00133a\INTRODUCE_IMG\2.md ***abnormal***
+2025-06-20 05:20:44,013 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00133a\INTRODUCE_IMG\3.md ***abnormal***
+2025-06-20 05:20:44,409 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00133a\INTRODUCE_IMG\4.md ***abnormal***
+2025-06-20 05:20:44,879 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00133a\INTRODUCE_IMG\5.md ***abnormal***
+2025-06-20 05:20:49,113 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00133a\INTRODUCE_IMG\6.md ***abnormal***
+2025-06-20 05:20:57,277 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00133a\INTRODUCE_IMG\7.md ***abnormal***
+2025-06-20 05:21:05,871 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00133a\INTRODUCE_IMG\8.md ***abnormal***
+2025-06-20 05:21:12,131 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00133a\LIABILITY_EXCLUSION\0.md
+2025-06-20 05:21:12,133 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00134a\ADDITIONAL_AGREEMENT\0.md
+2025-06-20 05:21:12,135 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00134a\CLAUSE\0.md ***abnormal***
+2025-06-20 05:26:20,767 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00134a\INSURE_NOTICE\0.md ***abnormal***
+2025-06-20 05:26:21,539 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00134a\LIABILITY_EXCLUSION\0.md
+2025-06-20 05:26:21,540 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00135a\ADDITIONAL_AGREEMENT\0.md
+2025-06-20 05:26:21,542 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00135a\CLAUSE\0.md ***abnormal***
+2025-06-20 05:28:26,079 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00135a\HEALTH_INFORM\0.md ***abnormal***
+2025-06-20 05:28:32,663 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00135a\INSURE_NOTICE\0.md
+2025-06-20 05:28:32,664 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00135a\INTRODUCE_IMG\0.md ***abnormal***
+2025-06-20 05:28:33,083 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00135a\LIABILITY_EXCLUSION\0.md
+2025-06-20 05:28:33,086 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00136a\ADDITIONAL_AGREEMENT\0.md
+2025-06-20 05:28:33,088 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00136a\CLAUSE\0.md ***abnormal***
+2025-06-20 05:30:52,973 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00136a\CLAUSE\1.md ***abnormal***
+2025-06-20 05:31:32,787 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00136a\CLAUSE\2.md ***abnormal***
+2025-06-20 05:32:56,870 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00136a\CLAUSE\3.md ***abnormal***
+2025-06-20 05:33:23,241 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00136a\CLAUSE\4.md ***abnormal***
+2025-06-20 06:00:05,559 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00136a\CLAUSE\5.md ***abnormal***
+2025-06-20 06:28:24,326 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00136a\HEALTH_INFORM\0.md ***abnormal***
+2025-06-20 06:29:03,603 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00136a\INSURE_NOTICE\0.md ***abnormal***
+2025-06-20 06:29:19,100 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00136a\LIABILITY_EXCLUSION\0.md
+2025-06-20 06:29:19,102 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00137a\ADDITIONAL_AGREEMENT\0.md
+2025-06-20 06:29:19,108 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00137a\CLAUSE\0.md
+2025-06-20 06:29:19,111 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00137a\CLAUSE\1.md ***abnormal***
+2025-06-20 06:32:15,688 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00137a\CLAUSE\2.md ***abnormal***
+2025-06-20 06:33:24,807 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00137a\CLAUSE\3.md ***abnormal***
+2025-06-20 06:45:47,491 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00137a\HEALTH_INFORM\0.md ***abnormal***
+2025-06-20 06:46:35,026 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00137a\INSURE_NOTICE\0.md ***abnormal***
+2025-06-20 06:47:33,984 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00137a\LIABILITY_EXCLUSION\0.md
+2025-06-20 06:47:33,985 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00138a\ADDITIONAL_AGREEMENT\0.md ***abnormal***
+2025-06-20 06:47:37,861 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00138a\CLAUSE\0.md
+2025-06-20 06:47:37,863 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00138a\INSURE_NOTICE\0.md ***abnormal***
+2025-06-20 06:49:36,481 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00138a\LIABILITY_EXCLUSION\0.md
+2025-06-20 06:49:36,482 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00138a\PRODUCT_MANUAL\0.md
+2025-06-20 06:49:36,487 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00139a\ADDITIONAL_AGREEMENT\0.md ***abnormal***
+2025-06-20 06:49:38,769 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00139a\CLAUSE\0.md ***abnormal***
+2025-06-20 06:51:49,133 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00139a\HEAD_IMG\0.md ***abnormal***
+2025-06-20 06:51:49,538 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00139a\INSURE_NOTICE\0.md ***abnormal***
+2025-06-20 06:52:44,766 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00139a\LIABILITY_EXCLUSION\0.md
+2025-06-20 06:52:44,767 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00140a\ADDITIONAL_AGREEMENT\0.md
+2025-06-20 06:52:44,768 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00140a\CLAUSE\0.md ***abnormal***
+2025-06-20 06:52:45,374 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00140a\INSURE_NOTICE\0.md ***abnormal***
+2025-06-20 06:52:45,788 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00140a\LIABILITY_EXCLUSION\0.md
+2025-06-20 06:52:45,790 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00141a\CLAUSE\0.md
+2025-06-20 06:52:45,793 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00141a\HEAD_IMG\0.md
+2025-06-20 06:52:45,795 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00141a\INSURE_NOTICE\0.md ***abnormal***
+2025-06-20 06:57:49,849 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00141a\INTRODUCE_IMG\0.md ***abnormal***
+2025-06-20 06:57:55,451 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00141a\INTRODUCE_IMG\1.md ***abnormal***
+2025-06-20 06:57:55,906 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00141a\INTRODUCE_IMG\2.md ***abnormal***
+2025-06-20 06:57:56,329 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00141a\INTRODUCE_IMG\3.md ***abnormal***
+2025-06-20 06:57:56,780 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00141a\INTRODUCE_IMG\4.md ***abnormal***
+2025-06-20 06:57:57,160 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00141a\LIABILITY_EXCLUSION\0.md
+2025-06-20 06:57:57,162 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00142a\ADDITIONAL_AGREEMENT\0.md
+2025-06-20 06:57:57,163 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00142a\CLAUSE\0.md ***abnormal***
+2025-06-20 06:59:57,212 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00142a\CLAUSE\1.md ***abnormal***
+2025-06-20 07:00:09,314 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00142a\CLAUSE\10.md ***abnormal***
+2025-06-20 07:01:24,371 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00142a\CLAUSE\2.md ***abnormal***
+2025-06-20 07:04:26,454 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00142a\CLAUSE\3.md ***abnormal***
+2025-06-20 07:06:04,659 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00142a\CLAUSE\4.md ***abnormal***
+2025-06-20 07:07:05,422 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00142a\CLAUSE\5.md ***abnormal***
+2025-06-20 07:08:54,697 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00142a\CLAUSE\6.md ***abnormal***
+2025-06-20 07:11:29,635 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00142a\CLAUSE\7.md ***abnormal***
+2025-06-20 07:12:24,294 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00142a\CLAUSE\8.md ***abnormal***
+2025-06-20 07:12:24,818 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00142a\CLAUSE\9.md ***abnormal***
+2025-06-20 07:13:04,668 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00142a\HEAD_IMG\0.md
+2025-06-20 07:13:04,670 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00142a\INSURE_NOTICE\0.md ***abnormal***
+2025-06-20 07:18:13,128 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00142a\LIABILITY_EXCLUSION\0.md
+2025-06-20 07:18:13,130 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00143a\ADDITIONAL_AGREEMENT\0.md
+2025-06-20 07:18:13,131 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00143a\CLAUSE\0.md ***abnormal***
+2025-06-20 07:21:22,444 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00143a\HEAD_IMG\0.md
+2025-06-20 07:21:22,446 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00143a\HEALTH_INFORM\0.md ***abnormal***
+2025-06-20 07:21:47,065 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00143a\INSURE_NOTICE\0.md ***abnormal***
+2025-06-20 07:24:32,174 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00143a\INTRODUCE_IMG\0.md ***abnormal***
+2025-06-20 07:24:32,695 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00143a\LIABILITY_EXCLUSION\0.md
+2025-06-21 04:11:16,672 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00007a\CLAUSE\0.md ***abnormal***
+2025-06-21 05:18:25,560 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00007a\CLAUSE\0.md ***abnormal***
+2025-06-21 05:54:02,486 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00007a\CLAUSE\0.md ***abnormal***
+2025-06-21 07:59:13,345 - ERROR - ❌ do_align 失败跳过 chunk: ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00007a\CLAUSE\0.md | 错误信息: Error code: 400 - {'error': {'code': 'data_inspection_failed', 'param': None, 'message': 'Output data may contain inappropriate content.', 'type': 'data_inspection_failed'}, 'id': 'chatcmpl-209312ca-60bc-9b32-ba31-5c48414352fd', 'request_id': '209312ca-60bc-9b32-ba31-5c48414352fd'}
+2025-06-21 08:01:02,762 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00011a\CLAUSE\0.md ***abnormal***
+2025-06-21 08:04:23,135 - ERROR - ❌ do_align 失败跳过 chunk: ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00011a\CLAUSE\0.md | 错误信息: Error code: 400 - {'error': {'code': 'data_inspection_failed', 'param': None, 'message': 'Output data may contain inappropriate content.', 'type': 'data_inspection_failed'}, 'id': 'chatcmpl-313c6bf8-0141-9e90-838a-b6d4cc3a9c19', 'request_id': '313c6bf8-0141-9e90-838a-b6d4cc3a9c19'}
+2025-06-21 08:04:23,136 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00031a\CLAUSE\2.md ***abnormal***
+2025-06-21 08:07:46,526 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00051a\CLAUSE\1.md ***abnormal***
+2025-06-21 08:16:14,039 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00060a\CLAUSE\1.md ***abnormal***
+2025-06-21 08:20:46,029 - ERROR - ❌ do_align 失败跳过 chunk: ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00060a\CLAUSE\1.md | 错误信息: Error code: 400 - {'error': {'code': 'data_inspection_failed', 'param': None, 'message': 'Output data may contain inappropriate content.', 'type': 'data_inspection_failed'}, 'id': 'chatcmpl-045ef73a-a74d-9bc0-87d2-d0c76758d3d1', 'request_id': '045ef73a-a74d-9bc0-87d2-d0c76758d3d1'}
+2025-06-21 08:20:57,302 - INFO - ../../data\clean_data_qwen2.5-72b-instruct\测试 A 集\materials\m_00061a\PRODUCT_MANUAL\0.md ***abnormal***

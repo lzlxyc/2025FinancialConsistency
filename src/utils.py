@@ -37,6 +37,7 @@ def get_mid2rule(data_name='验证集'):
 
     return mid2rule
 
+
 def read_markdown(path:str):
     with open(path, 'r', encoding='utf-8') as f:
         text = f.read()

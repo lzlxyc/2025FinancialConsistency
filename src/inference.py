@@ -3,9 +3,13 @@ import glob, json, re
 import numpy as np
 from modelscope import AutoModelForCausalLM, AutoTokenizer
 import os
-os.environ["CUDA_VISIBLE_DEVICES"] = "4"  #
 
-model_name = '/DATA/disk0/public_model_weights/qwen/Qwen2.5-0.5B-Instruct'
+from mylogger import setup_logger
+logger = setup_logger('../logs/cache.log')
+
+os.environ["CUDA_VISIBLE_DEVICES"] = "0"  #
+
+model_name = 'D:/LZL/workspace/ModelHub/Qwen2.5-0.5B-Instruct'
 
 model = AutoModelForCausalLM.from_pretrained(
     model_name,
@@ -68,46 +72,61 @@ def analysis_conflict(module_name, content1, content2):
     return basechat(messages)
 
 c = 0
-for row in pd.read_json("../DATA/0/data.jsonl", lines=True).iloc[:].iterrows():
+for row in pd.read_json("../DATA/测试 A 集/data.jsonl", lines=True).iloc[:].iterrows():
     module_name = row[1].rule.replace("该产品的", "").replace("在各材料中的定义没有冲突", "")
-
+    mid = row[1].material_id
     c += 1
-    print(f"----------------------------{c}-----------------------------------")
-    print(row[1].material_id)
 
+    if '责任免除' not in module_name or mid not in ['m_00003a', 'm_00006a', 'm_00024a', 'm_00027a', 'm_00055a',
+       'm_00059a', 'm_00082a', 'm_00119a', 'm_00041a', 'm_00116a',
+       'm_00133a']:
+        continue
+    logger.info(f'\n\n-----------------------{c=} || {mid=} || {module_name=}-----------------------------')
     try:
         module_content_list = []
-        for path in glob.glob(f"../DATA/测试 A 集/materials/{row[1].material_id}/*/*"):
+
+        for path in glob.glob(f"../DATA/测试 A 集/materials/{mid}/*/*.md"):
             print(path)
             lines = open(path).readlines()
             module_lines = ""
             for chunk_lines in get_chunk_list(lines):
                 res = exteract_module_raw_text(module_name, chunk_lines)
-                if res:
+                if res not in ['','空格']:
                     module_lines = module_lines + res
-            
-            module_content_list.append(module_lines)
+
+            if module_lines:
+                module_content_list.append(module_lines)
     
         result = [0, 1]
         for i in range(len(module_content_list)):
             for j in range(i, len(module_content_list)):
-                if "不一致" in analysis_conflict(module_name, module_content_list[i], module_content_list[j]):
+                res = analysis_conflict(module_name, module_content_list[i], module_content_list[j])
+                if "不一致" in res:
                     result.append(1)
                 else:
                     result.append(0)
-    
-        with open("submit.jsonl", "a") as up:
-            up.write(json.dumps({
-                "material_id": row[1].material_id,
-                "rule_id": row[1].rule_id,
-                "result": bool(np.mean(result) < 0.3)
-            }) + "\n")
-    
-        print(np.mean(result))
+                logger.info(f'START@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@')
+                logger.info(module_content_list[i])
+                logger.info('---------------------------------vs----------------------------------')
+                logger.info(module_content_list[j])
+                logger.info(f'>>>>>>>比对结果{res=}')
+                logger.info(f'START@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@')
+        logger.info(f'end:::{result=}\n\n')
+
+
+    #     with open("submit.jsonl", "a") as up:
+    #         up.write(json.dumps({
+    #             "material_id": row[1].material_id,
+    #             "rule_id": row[1].rule_id,
+    #             "result": bool(np.mean(result) < 0.3)
+    #         }) + "\n")
+    #
+    #     print(np.mean(result))
     except:
-        with open("submit.jsonl", "a") as up:
-            up.write(json.dumps({
-                "material_id": row[1].material_id,
-                "rule_id": row[1].rule_id,
-                "result": False
-            }) + "\n")
+        pass
+    #     with open("submit.jsonl", "a") as up:
+    #         up.write(json.dumps({
+    #             "material_id": row[1].material_id,
+    #             "rule_id": row[1].rule_id,
+    #             "result": False
+    #         }) + "\n")
