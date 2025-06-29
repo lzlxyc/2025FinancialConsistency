@@ -90,7 +90,7 @@ class AiBox:
             messages = self.message_make(prompt, system)
             response = self.client.chat.completions.create(
                 model=self.MODEL, messages=messages,
-                temperature=0.6,# top_p=0.7 #,extra_body={"enable_thinking": False}
+                temperature=0.2,# top_p=0.7 #,extra_body={"enable_thinking": False}
             ).choices[0].message.content
         else:
             response = self.local_chat(prompt, system)
