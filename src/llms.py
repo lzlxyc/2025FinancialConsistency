@@ -15,11 +15,11 @@ class AiBox:
         if mode == 'api':
             if model == 'ds':
                 self.MODEL = "deepseek-chat"
-                API_KEY = "sk-c6cd584debfa4eba866e430fab25252a"
+                API_KEY = "sk-2f73f0e455d54bb9a756757df0c7ea2d"
                 BASE_URL = "https://api.deepseek.com"
             elif model == 'qw':
                 self.MODEL = "qwen2.5-7b"
-                API_KEY = "EMPTY"
+                API_KEY = "sk-2f73f0e455d54bb9a756757df0c7ea2d"
                 BASE_URL = "http://36.103.167.205:1189/v1"
             else:
                 self.MODEL = "qwen2.5-72b-instruct"

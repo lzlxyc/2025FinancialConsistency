@@ -1,7 +1,7 @@
 import re
-from patterns import disclaimer_patterns
+from src.data_splits.patterns import disclaimer_patterns
 
-from tools import (
+from src.data_splits.tools import (
     zh_same_string,
     diff_similarity,
     keep_only_chinese_strict,

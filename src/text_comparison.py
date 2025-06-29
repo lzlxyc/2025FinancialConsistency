@@ -14,7 +14,6 @@ from prompts import Rule_PT_Map
 
 from src.data_splits.tools import spilt_block_by_socre
 
-
 def sample_comparison(rule:str, text1:str, text2:str, aibox: AiBox):
     rule_des = f"“{rule}”（{rule_clauses[rule]}）"
     RulePT = Rule_PT_Map.get(rule,'')
