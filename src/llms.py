@@ -1,6 +1,5 @@
 from openai import AsyncOpenAI, OpenAI
-from modelscope import AutoModelForCausalLM, AutoTokenizer
-
+from modelscope import AutoModelForCausalLM, AutoTokenizer, snapshot_download, GenerationConfig
 import logging
 
 logger = logging.getLogger(__name__)
@@ -16,11 +15,11 @@ class AiBox:
         if mode == 'api':
             if model == 'ds':
                 self.MODEL = "deepseek-chat"
-                API_KEY = "sk-c6cd584debfa4eba866e430fab25252a"
+                API_KEY = "sk-2f73f0e455d54bb9a756757df0c7ea2d"
                 BASE_URL = "https://api.deepseek.com"
             elif model == 'qw':
                 self.MODEL = "qwen2.5-7b"
-                API_KEY = "EMPTY"
+                API_KEY = "sk-2f73f0e455d54bb9a756757df0c7ea2d"
                 BASE_URL = "http://36.103.167.205:1189/v1"
             else:
                 self.MODEL = "qwen2.5-72b-instruct"
@@ -35,14 +34,17 @@ class AiBox:
 
             
     def init_local_model(self):
-        model_name = 'D:/LZL/workspace/ModelHub/Qwen2.5-0.5B-Instruct'
-        self.model = AutoModelForCausalLM.from_pretrained(
-            model_name,
-            torch_dtype="auto",
-            device_map="auto"
-        )
-        self.tokenizer = AutoTokenizer.from_pretrained(model_name)
-        
+        # model_name = 'D:/LZL/workspace/ModelHub/Qwen2.5-0.5B-Instruct'
+        model_dir = snapshot_download('TongyiFinance/Tongyi-Finance-14B-Chat-Int4')
+        # self.model = AutoModelForCausalLM.from_pretrained(
+        #     model_dir,
+        #     torch_dtype="auto",
+        #     device_map="auto"
+        # )
+        # self.tokenizer = AutoTokenizer.from_pretrained(model_name)
+        self.model = AutoModelForCausalLM.from_pretrained(model_dir, device_map="cuda:0", trust_remote_code=True).eval()
+        self.tokenizer = AutoTokenizer.from_pretrained(model_dir, trust_remote_code=True)
+        self.model.generation_config = GenerationConfig.from_pretrained(model_dir, trust_remote_code=True)
 
 
     def message_make(self, prompt:str, system=None):
@@ -56,24 +58,27 @@ class AiBox:
 
             
     def local_chat(self, prompt:str, system=None) -> str:
-        messages = self.message_make(prompt, system)
-        
-        text = self.tokenizer.apply_chat_template(
-            messages,
-            tokenize=False,
-            add_generation_prompt=True
-        )
-        model_inputs = self.tokenizer([text], return_tensors="pt").to(self.model.device)
-        
-        generated_ids = self.model.generate(
-            **model_inputs,
-            max_new_tokens=8900
-        )
-        generated_ids = [
-            output_ids[len(input_ids):] for input_ids, output_ids in zip(model_inputs.input_ids, generated_ids)
-        ]
-        
-        response = self.tokenizer.batch_decode(generated_ids, skip_special_tokens=True)[0]
+        # messages = self.message_make(prompt, system)
+        # print(messages)
+        # text = self.tokenizer.apply_chat_template(
+        #     messages,
+        #     tokenize=False,
+        #     add_generation_prompt=True
+        # )
+        # model_inputs = self.tokenizer([text], return_tensors="pt").to(self.model.device)
+        #
+        # generated_ids = self.model.generate(
+        #     **model_inputs,
+        #     max_new_tokens=8900
+        # )
+        # generated_ids = [
+        #     output_ids[len(input_ids):] for input_ids, output_ids in zip(model_inputs.input_ids, generated_ids)
+        # ]
+        #
+        # response = self.tokenizer.batch_decode(generated_ids, skip_special_tokens=True)[0]
+        response, history = self.model.chat(self.tokenizer, query=prompt, history=None,system=system)
+
+
         return response
 
 
@@ -104,10 +109,9 @@ class AiBox:
 if __name__ == "__main__":
     import os
     os.environ["CUDA_VISIBLE_DEVICES"] = "0" 
-    aibox = AiBox(mode='api',model='qw72')
-    print(aibox.chat(prompt='你好，你是谁,你的参数有多大'))
-
-
+    aibox = AiBox(mode='local')
+    Comparison_System = f"你是一个专业的金融保险行业信息处理专家"
+    print(aibox.chat(prompt='你好，你是谁,你的参数有多大',system=Comparison_System))
 
 
 
