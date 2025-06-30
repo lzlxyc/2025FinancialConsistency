@@ -5,7 +5,7 @@ import pandas as pd
 import os
 
 from mylogger import setup_logger
-logger = setup_logger(os.makedirs('logs', exist_ok=True) or 'logs/clean_data_赔付 & 领取规则.log')
+logger = setup_logger(os.makedirs('logs', exist_ok=True) or 'logs/clean_data_投保条款.log')
 
 from llms import AiBox
 from utils import rule_clauses, get_rule, save_sample
@@ -42,13 +42,13 @@ def text_comparison_main(data_name:str='验证集', nrows=None):
 
     aibox = AiBox(mode='api',model='qw2')
     M_DIR = f'data/{data_name}/materials'
-    SAVE_PATH = f'data/{data_name}/clean_data_赔付 & 领取规则_splitv2.jsonl'
+    SAVE_PATH = f'data/{data_name}/clean_data_投保条款_splitv2.jsonl'
     if os.path.exists(SAVE_PATH):
         os.remove(SAVE_PATH)
 
     df = pd.read_json(f"data/{data_name}/data.jsonl", lines=True)
 
-    df_sample = pd.read_json(f"src/outputs/submit0.8.jsonl", lines=True)
+    df_sample = pd.read_json(f"src/outputs/submit0.83.jsonl", lines=True)
     assert len(df) == len(df_sample)
 
     ypreds = []
@@ -67,7 +67,7 @@ def text_comparison_main(data_name:str='验证集', nrows=None):
 
         filter_materials = []
 
-        if material_id in filter_materials or rule != '赔付 & 领取规则':
+        if material_id in filter_materials or rule != '投保条款':
             material_id = df_sample.iloc[cnt].material_id
             rule_id = df_sample.iloc[cnt].rule_id
             end_result = bool(df_sample.iloc[cnt].result)
@@ -136,16 +136,3 @@ def text_comparison_main(data_name:str='验证集', nrows=None):
 
 if __name__ == '__main__':
     text_comparison_main(data_name='clean_data_qwen2.5-72b-instruct')
-    # data
-    # ├── clean_data_qwen2.5-72b-instruct
-    # │   └── data.jsonl
-    # src
-    # ├── data_preprocess
-    # ├── data_splits
-    # │   └── __pycache__
-    # ├── model - dir
-    # ├── outputs
-    # ├── __pycache__
-    # ├── rag_modules
-    # ├── text_comparison.py
-    # └── serves
