@@ -4,15 +4,16 @@
 import pandas as pd
 import os
 
-from mylogger import setup_logger
-logger = setup_logger(os.makedirs('logs', exist_ok=True) or 'logs/clean_data_投保条款.log')
+from src.mylogger import setup_logger
+my_rule = '保障责任'
+logger = setup_logger(os.makedirs('logs', exist_ok=True) or f'logs/clean_data_{my_rule}.log')
 
-from llms import AiBox
-from utils import rule_clauses, get_rule, save_sample
+from src.llms import AiBox
+from src.utils import rule_clauses, get_rule, save_sample
 
-from prompts import Rule_PT_Map
+from src.prompts import Rule_PT_Map
 
-from data_splits import data_split_block
+from src.data_splits import data_split_block
 
 
 def sample_comparison(rule:str, text1:str, text2:str, aibox: AiBox):
@@ -42,13 +43,13 @@ def text_comparison_main(data_name:str='验证集', nrows=None):
 
     aibox = AiBox(mode='api',model='qw2')
     M_DIR = f'data/{data_name}/materials'
-    SAVE_PATH = f'data/{data_name}/clean_data_投保条款_splitv2.jsonl'
+    SAVE_PATH = f'data/{data_name}/clean_data_{my_rule}_splitv2.jsonl'
     if os.path.exists(SAVE_PATH):
         os.remove(SAVE_PATH)
 
     df = pd.read_json(f"data/{data_name}/data.jsonl", lines=True)
 
-    df_sample = pd.read_json(f"src/outputs/submit0.83.jsonl", lines=True)
+    df_sample = pd.read_json(f"src/outputs/submit0.8669.jsonl", lines=True)
     assert len(df) == len(df_sample)
 
     ypreds = []
@@ -67,7 +68,7 @@ def text_comparison_main(data_name:str='验证集', nrows=None):
 
         filter_materials = []
 
-        if material_id in filter_materials or rule != '投保条款':
+        if material_id in filter_materials or rule != my_rule:
             material_id = df_sample.iloc[cnt].material_id
             rule_id = df_sample.iloc[cnt].rule_id
             end_result = bool(df_sample.iloc[cnt].result)

@@ -6,10 +6,17 @@ from src.data_splits.tools import (
     ngram_similarity
 )
 
+
+
 from tqdm import tqdm
 
 def contains_chinese(text):
     return re.search(r'[\u4e00-\u9fff]', text) is not None
+
+def remove_blank_line(text: str) -> str:
+    lines = text.splitlines()
+    non_blank_lines = [line for line in lines if line.strip() != ""]
+    return "\n".join(non_blank_lines)
 
 def translate2ENG(text,aibox,rule):
     translate2Eng_System = f'''
@@ -62,16 +69,13 @@ def data_presplit(data:str,aibox,chunker,rule:str) -> list:
     #     print(i)
     #     print('----------------------')
 
-def remove_blank_line(text: str) -> str:
-    lines = text.splitlines()
-    non_blank_lines = [line for line in lines if line.strip() != ""]
-    return "\n".join(non_blank_lines)
+
 
 def data_split(all_infos:list,aibox,chunker,rule):
     inputs = []
     for info in all_infos:
         blocks = data_presplit(info,aibox,chunker,rule)
-        blocks = [s for s in blocks if len(s.split()) > 1 or len(s) >= 50]
+        # blocks = [s for s in blocks if len(s.split()) > 1 or len(s) >= 50]
         blocks = list(dict.fromkeys(blocks))
         inputs.append(blocks)
 

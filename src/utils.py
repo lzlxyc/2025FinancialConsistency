@@ -1,6 +1,6 @@
 import markdown
 import glob, os, re
-from llms import AiBox
+from src.llms import AiBox
 from tqdm import tqdm
 import pandas as pd
 import json

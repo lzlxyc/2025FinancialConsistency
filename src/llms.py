@@ -1,5 +1,5 @@
 from openai import AsyncOpenAI, OpenAI
-from modelscope import AutoModelForCausalLM, AutoTokenizer, snapshot_download, GenerationConfig
+# from modelscope import AutoModelForCausalLM, AutoTokenizer, snapshot_download, GenerationConfig
 import logging
 
 logger = logging.getLogger(__name__)

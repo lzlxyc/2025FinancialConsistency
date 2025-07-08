@@ -1,35 +1,32 @@
 import logging
 import os
 
-def setup_logger(log_file='app.log'):
-    if os.path.exists(log_file):
+def setup_logger(log_file='app.log', overwrite=False):
+    # 如果设置了 overwrite，则删除旧日志文件
+    if overwrite and os.path.exists(log_file):
         os.remove(log_file)
 
     # 创建 logger 实例
-    logger = logging.getLogger(__name__)
-    logger.setLevel(logging.DEBUG)  # 设置全局日志级别
+    logger = logging.getLogger(log_file)  # 用 log_file 做唯一标识，避免多个 logger 混淆
+    logger.setLevel(logging.DEBUG)
 
-    # 防止重复添加 handler（避免重复日志）
     if logger.handlers:
         logger.handlers = []
 
-    # 创建 formatter
     formatter = logging.Formatter(
         '%(asctime)s - %(filename)s:%(lineno)d - %(message)s',
         datefmt='%Y-%m-%d %H:%M:%S'
     )
 
-    # 1. 创建文件 handler 并设置级别为 DEBUG
-    file_handler = logging.FileHandler(log_file)
+    # 🔑 使用追加模式 'a'
+    file_handler = logging.FileHandler(log_file, mode='a', encoding='utf-8')
     file_handler.setLevel(logging.DEBUG)
     file_handler.setFormatter(formatter)
 
-    # 2. 创建控制台 handler 并设置级别为 INFO
     console_handler = logging.StreamHandler()
     console_handler.setLevel(logging.INFO)
     console_handler.setFormatter(formatter)
 
-    # 将 handlers 添加到 logger
     logger.addHandler(file_handler)
     logger.addHandler(console_handler)
 
