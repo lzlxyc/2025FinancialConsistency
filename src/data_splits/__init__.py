@@ -14,7 +14,12 @@ from .multi_task_split_block import \
     insurance_time_data_split,\
     product_sales_information_data_split,\
     term_explanation_data_split,\
-    indemnity_responsibility_data_split
+    indemnity_responsibility_data_split,\
+    surrender_data_split,\
+    additional_term_data_split,\
+    renewal_term_data_split,\
+    claim_clause_data_split,\
+    disclaimer_data_split_v2
 
 data_split_map = {
     '责任免除': disclaimer_data_split,
@@ -23,7 +28,12 @@ data_split_map = {
     '保障相关时间': insurance_time_data_split,
     '基础产品销售信息': product_sales_information_data_split,
     '术语解释': term_explanation_data_split,
-    '保障责任': indemnity_responsibility_data_split
+    '保障责任': indemnity_responsibility_data_split,
+    '退保条款': surrender_data_split,
+    '附加条款': additional_term_data_split,
+    '续保条款': renewal_term_data_split,
+    '出险条款': claim_clause_data_split,
+
 }
 
 

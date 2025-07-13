@@ -17,13 +17,13 @@ class AiBox:
                 self.MODEL = "deepseek-chat"
                 API_KEY = "sk-2f73f0e455d54bb9a756757df0c7ea2d"
                 BASE_URL = "https://api.deepseek.com"
-            elif model == 'qw':
-                self.MODEL = "qwen2.5-7b"
-                API_KEY = "sk-2f73f0e455d54bb9a756757df0c7ea2d"
-                BASE_URL = "http://36.103.167.205:1189/v1"
+            elif model == 'qw3':
+                self.MODEL = "qwen3-32b"
+                API_KEY = "sk-026d537f247f4cf6a293652b2a803ff3"
+                BASE_URL = "https://dashscope.aliyuncs.com/compatible-mode/v1"
             else:
                 self.MODEL = "qwen2.5-72b-instruct"
-                API_KEY = "sk-f208bdeb39714ec68c84c524005104ee"
+                API_KEY = "sk-026d537f247f4cf6a293652b2a803ff3"
                 BASE_URL = "https://dashscope.aliyuncs.com/compatible-mode/v1"
             
             print(f"{mode=} || {self.MODEL=}")
@@ -90,7 +90,9 @@ class AiBox:
             messages = self.message_make(prompt, system)
             response = self.client.chat.completions.create(
                 model=self.MODEL, messages=messages,
-                temperature=0.2,# top_p=0.7 #,extra_body={"enable_thinking": False}
+                temperature=0.0001,# top_p=0.7 ,
+                extra_body={"enable_thinking": False},
+                top_p = 0.0001
             ).choices[0].message.content
         else:
             response = self.local_chat(prompt, system)

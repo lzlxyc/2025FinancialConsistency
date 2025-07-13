@@ -15,8 +15,8 @@ def contains_chinese(text):
 
 def remove_blank_line(text: str) -> str:
     lines = text.splitlines()
-    non_blank_lines = [line for line in lines if line.strip() != ""]
-    return "\n".join(non_blank_lines)
+    chinese_lines = [line for line in lines if re.search(r'[\u4e00-\u9fff]', line)]
+    return "\n".join(chinese_lines)
 
 def translate2ENG(text,aibox,rule):
     translate2Eng_System = f'''
@@ -38,31 +38,47 @@ def data_presplit(data:str,aibox,chunker,rule:str) -> list:
 
     # 遍历并翻译为英文
     translated_lines = []
+    eng2zh_map = []
     for line in tqdm(lines):
-        eng = line
-        for attempt in range(3):
-            try:
-                eng = translate2ENG(line,aibox,rule).strip()
-                break
-            except Exception as e:
-                print(f"翻译失败，第 {attempt + 1} 次尝试: {e}")
-        translated_lines.append(eng)
+        sentences = re.split(r'(?<=[。；;])', line)
+        sentences = [s.strip() for s in sentences if s.strip()]
+        translated_sentences = []
+        for sentence in sentences:
+            eng = sentence
+            for attempt in range(3):
+                try:
+                    eng = translate2ENG(sentence,aibox,rule).strip()
+                    break
+                except Exception as e:
+                    print(f"翻译失败，第 {attempt + 1} 次尝试: {e}")
+            eng2zh_map.append((eng,sentence))
+            translated_sentences.append(eng)
         # print(line)
         # print(eng)
-    text_eng = "\n".join(translated_lines)
-    chunks = chunker.chunk(text_eng)
-    eng2zh_map = list(zip(translated_lines, lines))
+        text_eng = " ".join(translated_sentences)
+        translated_lines.append(text_eng)
+    text_eng = '\n'.join(translated_lines)
 
+    chunks = chunker.chunk(text_eng)
     blocks = []
     for chunk in chunks:
         chunk_text = chunk.text.strip()
-        # print(chunk_text)
         # 收集 chunk 中涉及到的中文原文
         chunk_zh = []
         for eng_line, zh_line in eng2zh_map:
             if eng_line in chunk_text:
                 chunk_zh.append(zh_line)
-        blocks.append("\n".join(chunk_zh))  # block 中是该chunk对应的中文内容
+        # if len(chunk_zh) != 0:
+        blocks.append(" ".join(chunk_zh))  # block 中是该chunk对应的中文内容
+
+    def contains_chinese(text: str) -> bool:
+        return re.search(r'[\u4e00-\u9fff]', text) is not None
+
+    # 如果 blocks 是一个字符串列表
+    if not any(contains_chinese(block) for block in blocks):
+        for chunk in chunks:
+            print(chunk.text.strip(), '+++++++++++++++++++++\n')
+            print(eng2zh_map, '******************************\n')
     return blocks
     #    print('==============================')
     # for i in blocks:

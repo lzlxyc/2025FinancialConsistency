@@ -5,7 +5,9 @@ import pandas as pd
 import os
 
 from src.mylogger import setup_logger
-my_rule = '保障责任'
+my_rule = ['保障责任',
+
+]
 logger = setup_logger(os.makedirs('logs', exist_ok=True) or f'logs/clean_data_{my_rule}.log')
 
 from src.llms import AiBox
@@ -21,11 +23,17 @@ def sample_comparison(rule:str, text1:str, text2:str, aibox: AiBox):
     RulePT = Rule_PT_Map.get(rule,'')
 
     Comparison_System = f'''
-    你是一个专业的金融保险行业信息处理专家，需要对下面两份文本片段进行冲突分析，不同文本段的部分关键信息可能会被多处定义，售卖平台需要保证这些定义的一致性，
-    {RulePT}这就要求对产品物料、售卖素材等进行严格的一致性校验，从而满足监管要求，同时保障客户的合法权益。\n已知：{rule_des}
+    你是一个专业的金融保险行业信息处理专家，需要对下面两份文本片段进行冲突分析，不同文本段的部分关键信息可能会被多处定义，售卖平台需要保证这些定义的一致性,主要对比数值类型的一致性\n已知：{rule_des}
     '''
     PT_Text_Comparison = (f"请对两份片段中的相同条款下的“{rule}”进行比对分析，判断是否存在相互冲突、明显不一致的情况。\n"
                           f"相同情形下条款的数量差异不纳入冲突范围,只对比同个条款的差异。\n"
+                          f"请开始你的分析：\n\n【片段1】：\n{text1}\n\n【片段2】\n{text2}\n\n"
+                          f"1) 如果存在冲突，就输出：<res>文本冲突</res>\n<冲突文本段>：\n"
+                          f"1) 如果不存在冲突，就输出：<res>文本一致</res>\n<冲突文本段>：无。不要有多余信息。")
+    PT_Text_Comparison = (
+                         #  f"请对两份片段中的相同条款下的“{rule}”进行比对分析，判断是否存在相互冲突、明显不一致的情况。\n"
+                         #  f"相同情形下条款的数量差异不纳入冲突范围,只对比同个条款的差异。\n"
+                          f"你必须遵循的是:只对比双方都共同描述的内容。有某一方未提及的不对比，直接输出:<res>文本一致</res>\n"
                           f"请开始你的分析：\n\n【片段1】：\n{text1}\n\n【片段2】\n{text2}\n\n"
                           f"1) 如果存在冲突，就输出：<res>文本冲突</res>\n<冲突文本段>：\n"
                           f"1) 如果不存在冲突，就输出：<res>文本一致</res>\n<冲突文本段>：无。不要有多余信息。")
@@ -39,9 +47,9 @@ def text_comparison_main(data_name:str='验证集', nrows=None):
     def check(result_str: str) -> bool:
         if '文本冲突' in result_str: return False
         if '文本一致' in result_str: return True
-        return -1
+        return True # 这个地方不能false和-1 效果会差
 
-    aibox = AiBox(mode='api',model='qw2')
+    aibox = AiBox(mode='api',model='qw3')
     M_DIR = f'data/{data_name}/materials'
     SAVE_PATH = f'data/{data_name}/clean_data_{my_rule}_splitv2.jsonl'
     if os.path.exists(SAVE_PATH):
@@ -49,7 +57,7 @@ def text_comparison_main(data_name:str='验证集', nrows=None):
 
     df = pd.read_json(f"data/{data_name}/data.jsonl", lines=True)
 
-    df_sample = pd.read_json(f"src/outputs/submit0.8669.jsonl", lines=True)
+    df_sample = pd.read_json(f"src/outputs/submit0.8827.jsonl", lines=True)
     assert len(df) == len(df_sample)
 
     ypreds = []
@@ -68,7 +76,7 @@ def text_comparison_main(data_name:str='验证集', nrows=None):
 
         filter_materials = []
 
-        if material_id in filter_materials or rule != my_rule:
+        if material_id in filter_materials or rule not in my_rule:
             material_id = df_sample.iloc[cnt].material_id
             rule_id = df_sample.iloc[cnt].rule_id
             end_result = bool(df_sample.iloc[cnt].result)
@@ -100,31 +108,40 @@ def text_comparison_main(data_name:str='验证集', nrows=None):
         spilt_blocks = data_split_block(module_content_list, rule)
 
         if len(module_content_list) <= 1 or not spilt_blocks:
-            end_result = False
+            end_result = True
             logger.info(f"===============<=1 {cnt=} || {material_id=} || {rule=} || {end_result=}===============")
             ypreds.append(end_result)
             save_sample(SAVE_PATH, material_id, rule_id, end_result)
             continue
 
         results = []
-        try:
-            for pair in spilt_blocks:
-                text1, text2 = pair[0], pair[1]
-                sample = sample_comparison(rule, text1, text2, aibox)
-                result = check(sample)
-                results.append(result)
-                logger.info(f"{text1} \nvs\n {text2} \n>>> result={sample}")
+        # try:
+        #     for pair in spilt_blocks:
+        #         text1, text2 = pair[0], pair[1]
+        #         sample = sample_comparison(rule, text1, text2, aibox)
+        #         result = check(sample)
+        #         results.append(result)
+        #         logger.info(f"{text1} \nvs\n {text2} \n>>> result={sample}")
+        #
+        #         if not result: break
+        #
+        #     logger.info(f"results: {results}")
+        #     end_result = all(res for res in results) if results else True
+        #
+        # except Exception as e:
+        #     logger.error(e)
+        #     end_result = False
 
-                if not result: break
+        for pair in spilt_blocks:
+            text1, text2 = pair[0], pair[1]
+            sample = sample_comparison(rule, text1, text2, aibox)
+            result = check(sample)
+            results.append(result)
+            logger.info(f"{text1} \nvs\n {text2} \n>>> result={sample}")
 
-            logger.info(f"results: {results}")
-            end_result = all(res for res in results) if results else True
-
-        except Exception as e:
-            logger.error(e)
-            end_result = False
-
-    #
+        logger.info(f"results: {results}")
+        end_result = all(res for res in results) if results else True
+        logger.info(f"end_result list: {end_result}")
         logger.info(f"==============={cnt=} || {material_id=} || {rule=} || {end_result=}===============")
         ypreds.append(end_result)
         save_sample(SAVE_PATH, material_id, rule_id, end_result)
