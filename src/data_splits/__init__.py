@@ -8,24 +8,29 @@
 #     indemnity_responsibility_data_split
 
 from .disclaimer_split_block import disclaimer_data_split
-from .multi_task_split_block import \
-    compensation_data_split,\
-    insurance_data_split,\
-    insurance_time_data_split,\
-    product_sales_information_data_split,\
-    term_explanation_data_split,\
-    indemnity_responsibility_data_split,\
-    surrender_data_split,\
-    additional_term_data_split,\
-    renewal_term_data_split,\
-    claim_clause_data_split,\
+from .indemnity_time_split_block import indemnity_time_data_split
+from .multi_task_split_block import (
+    compensation_data_split,
+    insurance_data_split,
+    insurance_time_data_split,
+    product_sales_information_data_split,
+    term_explanation_data_split,
+    indemnity_responsibility_data_split,
+    surrender_data_split,
+    additional_term_data_split,
+    renewal_term_data_split,
+    claim_clause_data_split,
     disclaimer_data_split_v2
+)
+
+
+
 
 data_split_map = {
     '责任免除': disclaimer_data_split,
     '赔付 & 领取规则': compensation_data_split,
     '投保条款': insurance_data_split,
-    '保障相关时间': insurance_time_data_split,
+    '保障相关时间': indemnity_time_data_split,
     '基础产品销售信息': product_sales_information_data_split,
     '术语解释': term_explanation_data_split,
     '保障责任': indemnity_responsibility_data_split,

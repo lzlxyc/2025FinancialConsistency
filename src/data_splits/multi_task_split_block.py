@@ -40,12 +40,15 @@ aibox, chunker = init()
 #     return data_split(all_infos,aibox,chunker,rule='赔付&领取规则')
 
 def compensation_data_split(all_infos:list):
-    from src.data_splits.surrender_data_split_block import surrender_data_split
-    return surrender_data_split(all_infos, aibox, chunker, rule='赔付&领取规则')
+    # from src.data_splits.surrender_data_split_block import surrender_data_split
+    # return surrender_data_split(all_infos, aibox, chunker, rule='赔付&领取规则')
+    return  data_split(all_infos, aibox, chunker, rule='赔付&领取规则')
 
 def insurance_data_split(all_infos:list):
-    from src.data_splits.surrender_data_split_block import surrender_data_split
-    return surrender_data_split(all_infos, aibox, chunker, rule='投保条款')
+    # from src.data_splits.surrender_data_split_block import surrender_data_split
+    # return surrender_data_split(all_infos, aibox, chunker, rule='投保条款')
+    from src.data_splits.insurance_data_split_block import insurance_data_split
+    return insurance_data_split(all_infos)
 
 
 def insurance_time_data_split(all_infos:list):
@@ -58,7 +61,7 @@ def product_sales_information_data_split(all_infos:list):
     from src.data_splits.surrender_data_split_block import surrender_data_split
     return surrender_data_split(all_infos, aibox, chunker, rule='基础产品销售信息')
 
-def indemnity_responsibility_data_split(all_infos:list):
+def indemnity_responsibility_data_split(all_infos:list): # 没有提升
     # from src.data_splits.indemnity_responsibility_split_block import indemnity_responsibility_data_split
     # aibox, _ = init()
     # return indemnity_responsibility_data_split(all_infos,aibox)

@@ -12,6 +12,8 @@ ENV/
 env.bak/
 venv.bak/
 
+data/
+
 DATA/测试 A 集
 DATA/样例集
 DATA/测试 A 集2

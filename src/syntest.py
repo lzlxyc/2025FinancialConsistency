@@ -1,0 +1,9 @@
+
+
+def func():
+    s1 = 'After the formation of this contract, the policyholder may notify the insurer in writing to terminate the contract. From the time the insurer receives the application for termination of the insurance contract, the effectiveness of this contract shall cease.'
+    map1 = [(
+     'After the formation of this contract, the policyholder may notify the insurer in writing to terminate the contract. From the time the insurer receives the application for termination of the insurance contract, the effectiveness of this contract shall cease. Before the commencement of insurance liability, if the policyholder requests to terminate this contract, they shall pay a surrender charge of 5% of the insurance premium to the insurer, and the insurer shall refund the remaining portion of the insurance premium. If the contract is terminated after the commencement of insurance liability, the insurer shall collect the due insurance premium calculated on a daily basis from the start of insurance liability to the date of contract termination, and then refund the unexpired insurance premium. When the policyholder terminates this contract, they should provide the following documents and materials: (1) Application for termination of the insurance contract; (2) Original insurance policy; (3) Proof of payment of insurance premium; (4) Identity proof of the policyholder. The policyholder will suffer certain losses when terminating the contract.',
+     '本合同成立后，投保人可以书面形式通知保险人解除合同，自保险人接到保险合同解除申请书之时起，本合同的效力终止。保险责任开始前，投保人要求解除本合同的，应当按保险费的5%向保险人支付退保手续费，保险人应当退还剩余部分保险费。保险责任开始后解除本合同的，投保人要求解除本合同的，保险人收取自保险责任开始之日起至合同解除之日止按日比例计算应收的保险费后，退还未满期保险费。投保人解除本合同时，应提供下列证明文件和资料：（一）保险合同解除申请书；（二）保险单原件；（三）保险费交付凭证；（四）投保人身份证明。投保人解除合同会受到一定损失。')]
+if __name__ == '__main__':
+    print(len(['']))

@@ -1,0 +1,640 @@
+2025-06-30 08:35:35 - block_text_comparison.py:75 - ===============skip cnt：1 || material_id='m_00001a' || rule='基础产品销售信息' || end_result=True===============
+2025-06-30 08:35:35 - block_text_comparison.py:75 - ===============skip cnt：2 || material_id='m_00002a' || rule='赔付 & 领取规则' || end_result=False===============
+2025-06-30 08:35:35 - block_text_comparison.py:75 - ===============skip cnt：3 || material_id='m_00003a' || rule='责任免除' || end_result=True===============
+2025-06-30 08:35:35 - block_text_comparison.py:83 - ===============cnt：3 || material_id='m_00004a' || rule='投保条款' || label=None===============
+2025-06-30 08:35:35 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00004a/INTRODUCE_IMG/投保条款.txt...
+2025-06-30 08:35:35 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00004a/HEAD_IMG/投保条款.txt...
+2025-06-30 08:35:35 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00004a/CLAUSE/投保条款.txt...
+2025-06-30 08:35:35 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00004a/INSURE_NOTICE/投保条款.txt...
+2025-06-30 08:35:35 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00004a/ADDITIONAL_AGREEMENT/投保条款.txt...
+2025-06-30 08:35:35 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00004a/LIABILITY_EXCLUSION/投保条款.txt...
+2025-06-30 08:36:56 - block_text_comparison.py:103 - ===============<=1 cnt=3 || material_id='m_00004a' || rule='投保条款' || end_result=False===============
+2025-06-30 08:36:56 - block_text_comparison.py:83 - ===============cnt：4 || material_id='m_00005a' || rule='投保条款' || label=None===============
+2025-06-30 08:36:56 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00005a/HEALTH_INFORM/投保条款.txt...
+2025-06-30 08:36:56 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00005a/INTRODUCE_IMG/投保条款.txt...
+2025-06-30 08:36:56 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00005a/PRODUCT_MANUAL/投保条款.txt...
+2025-06-30 08:36:56 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00005a/HEAD_IMG/投保条款.txt...
+2025-06-30 08:36:56 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00005a/CLAUSE/投保条款.txt...
+2025-06-30 08:36:56 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00005a/INSURE_NOTICE/投保条款.txt...
+2025-06-30 08:36:56 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00005a/ADDITIONAL_AGREEMENT/投保条款.txt...
+2025-06-30 08:36:56 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00005a/LIABILITY_EXCLUSION/投保条款.txt...
+2025-06-30 08:38:04 - block_text_comparison.py:115 - 1. 分期缴费的缴费周期为月，总共 12 期；未缴付首期保费的，保险合同不成立，我们不承担保险责任。 
+vs
+ 分期缴费，请注意以下内容：分期缴费的缴费周期为月，未缴付首期保费，保险合同不成立，我们不承担保险责任。 
+>>> result=<res>文本一致</res>
+<冲突文本段>：无。
+2025-06-30 08:38:05 - block_text_comparison.py:115 - 3. 若您未按照保险合同约定的付款时间足额缴付当期保费，且自缴费日零时起 30 日内宽限期内仍未足额补缴当期保费的，则本保险合同的保险期间在上一个缴费周期结束时中止，保险期间中止后发生的保险事故，我们不承担给付保险金的责任。 
+vs
+ （2） 若您未按照保险合同约定的付款时间足额缴付当期保费，且自缴费日零时起30天宽限期内仍未足额补缴当期保费的，则本合同的保险期间在上一个缴费周期结束时终止，保险期间终止后发生的保险事故，我们不承担给付保险金的责任。 
+>>> result=<res>文本一致</res>
+<冲突文本段>：无。
+2025-06-30 08:38:05 - block_text_comparison.py:119 - results: [True, True]
+2025-06-30 08:38:05 - block_text_comparison.py:127 - ===============cnt=4 || material_id='m_00005a' || rule='投保条款' || end_result=True===============
+2025-06-30 08:38:05 - block_text_comparison.py:75 - ===============skip cnt：6 || material_id='m_00006a' || rule='责任免除' || end_result=True===============
+2025-06-30 08:38:05 - block_text_comparison.py:75 - ===============skip cnt：7 || material_id='m_00007a' || rule='续保条款' || end_result=False===============
+2025-06-30 08:38:05 - block_text_comparison.py:75 - ===============skip cnt：8 || material_id='m_00008a' || rule='责任免除' || end_result=False===============
+2025-06-30 08:38:05 - block_text_comparison.py:75 - ===============skip cnt：9 || material_id='m_00009a' || rule='出险条款' || end_result=True===============
+2025-06-30 08:38:05 - block_text_comparison.py:75 - ===============skip cnt：10 || material_id='m_00010a' || rule='保障相关时间' || end_result=True===============
+2025-06-30 08:38:05 - block_text_comparison.py:75 - ===============skip cnt：11 || material_id='m_00011a' || rule='赔付 & 领取规则' || end_result=False===============
+2025-06-30 08:38:05 - block_text_comparison.py:75 - ===============skip cnt：12 || material_id='m_00012a' || rule='责任免除' || end_result=False===============
+2025-06-30 08:38:05 - block_text_comparison.py:75 - ===============skip cnt：13 || material_id='m_00013a' || rule='责任免除' || end_result=False===============
+2025-06-30 08:38:05 - block_text_comparison.py:75 - ===============skip cnt：14 || material_id='m_00014a' || rule='保障责任' || end_result=True===============
+2025-06-30 08:38:05 - block_text_comparison.py:75 - ===============skip cnt：15 || material_id='m_00015a' || rule='退保条款' || end_result=False===============
+2025-06-30 08:38:05 - block_text_comparison.py:75 - ===============skip cnt：16 || material_id='m_00016a' || rule='保障责任' || end_result=False===============
+2025-06-30 08:38:05 - block_text_comparison.py:75 - ===============skip cnt：17 || material_id='m_00017a' || rule='赔付 & 领取规则' || end_result=False===============
+2025-06-30 08:38:05 - block_text_comparison.py:75 - ===============skip cnt：18 || material_id='m_00018a' || rule='退保条款' || end_result=True===============
+2025-06-30 08:38:05 - block_text_comparison.py:83 - ===============cnt：18 || material_id='m_00019a' || rule='投保条款' || label=None===============
+2025-06-30 08:38:05 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00019a/INTRODUCE_IMG/投保条款.txt...
+2025-06-30 08:38:05 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00019a/HEAD_IMG/投保条款.txt...
+2025-06-30 08:38:05 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00019a/CLAUSE/投保条款.txt...
+2025-06-30 08:38:05 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00019a/INSURE_NOTICE/投保条款.txt...
+2025-06-30 08:38:05 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00019a/ADDITIONAL_AGREEMENT/投保条款.txt...
+2025-06-30 08:38:05 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00019a/LIABILITY_EXCLUSION/投保条款.txt...
+2025-06-30 08:39:58 - block_text_comparison.py:115 - 4. **限购份数**：
+   - 本保险产品同一被保险人只可购买一份。同一被保险人购买多份的，保险人对该被保险人承担的保险责任以一份为限。 
+vs
+ 2、本保险同一被保险人只可购买一份。同一被保险人购买多份的，保险人对该被保险人承担的保险责任以一份为限。 
+>>> result=<res>文本一致</res>
+<冲突文本段>：无。
+2025-06-30 08:39:58 - block_text_comparison.py:119 - results: [True]
+2025-06-30 08:39:58 - block_text_comparison.py:127 - ===============cnt=18 || material_id='m_00019a' || rule='投保条款' || end_result=True===============
+2025-06-30 08:39:58 - block_text_comparison.py:75 - ===============skip cnt：20 || material_id='m_00020a' || rule='续保条款' || end_result=True===============
+2025-06-30 08:39:58 - block_text_comparison.py:75 - ===============skip cnt：21 || material_id='m_00021a' || rule='出险条款' || end_result=True===============
+2025-06-30 08:39:58 - block_text_comparison.py:83 - ===============cnt：21 || material_id='m_00022a' || rule='投保条款' || label=None===============
+2025-06-30 08:39:58 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00022a/INTRODUCE_IMG/投保条款.txt...
+2025-06-30 08:39:58 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00022a/HEAD_IMG/投保条款.txt...
+2025-06-30 08:39:58 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00022a/CLAUSE/投保条款.txt...
+2025-06-30 08:39:58 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00022a/INSURE_NOTICE/投保条款.txt...
+2025-06-30 08:39:58 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00022a/ADDITIONAL_AGREEMENT/投保条款.txt...
+2025-06-30 08:39:58 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00022a/LIABILITY_EXCLUSION/投保条款.txt...
+2025-06-30 08:41:21 - block_text_comparison.py:103 - ===============<=1 cnt=21 || material_id='m_00022a' || rule='投保条款' || end_result=False===============
+2025-06-30 08:41:21 - block_text_comparison.py:75 - ===============skip cnt：23 || material_id='m_00023a' || rule='续保条款' || end_result=True===============
+2025-06-30 08:41:21 - block_text_comparison.py:75 - ===============skip cnt：24 || material_id='m_00024a' || rule='责任免除' || end_result=True===============
+2025-06-30 08:41:21 - block_text_comparison.py:75 - ===============skip cnt：25 || material_id='m_00025a' || rule='保障相关时间' || end_result=True===============
+2025-06-30 08:41:21 - block_text_comparison.py:75 - ===============skip cnt：26 || material_id='m_00011a' || rule='保障责任' || end_result=False===============
+2025-06-30 08:41:21 - block_text_comparison.py:75 - ===============skip cnt：27 || material_id='m_00014a' || rule='责任免除' || end_result=True===============
+2025-06-30 08:41:21 - block_text_comparison.py:75 - ===============skip cnt：28 || material_id='m_00026a' || rule='保障责任' || end_result=True===============
+2025-06-30 08:41:21 - block_text_comparison.py:75 - ===============skip cnt：29 || material_id='m_00027a' || rule='责任免除' || end_result=True===============
+2025-06-30 08:41:21 - block_text_comparison.py:75 - ===============skip cnt：30 || material_id='m_00020a' || rule='保障责任' || end_result=True===============
+2025-06-30 08:41:21 - block_text_comparison.py:75 - ===============skip cnt：31 || material_id='m_00010a' || rule='责任免除' || end_result=True===============
+2025-06-30 08:41:21 - block_text_comparison.py:75 - ===============skip cnt：32 || material_id='m_00028a' || rule='术语解释' || end_result=True===============
+2025-06-30 08:41:21 - block_text_comparison.py:75 - ===============skip cnt：33 || material_id='m_00029a' || rule='保障相关时间' || end_result=True===============
+2025-06-30 08:41:21 - block_text_comparison.py:75 - ===============skip cnt：34 || material_id='m_00030a' || rule='基础产品销售信息' || end_result=True===============
+2025-06-30 08:41:21 - block_text_comparison.py:75 - ===============skip cnt：35 || material_id='m_00031a' || rule='责任免除' || end_result=False===============
+2025-06-30 08:41:21 - block_text_comparison.py:75 - ===============skip cnt：36 || material_id='m_00032a' || rule='责任免除' || end_result=False===============
+2025-06-30 08:41:21 - block_text_comparison.py:75 - ===============skip cnt：37 || material_id='m_00033a' || rule='赔付 & 领取规则' || end_result=True===============
+2025-06-30 08:41:21 - block_text_comparison.py:75 - ===============skip cnt：38 || material_id='m_00034a' || rule='基础产品销售信息' || end_result=False===============
+2025-06-30 08:41:21 - block_text_comparison.py:75 - ===============skip cnt：39 || material_id='m_00035a' || rule='赔付 & 领取规则' || end_result=True===============
+2025-06-30 08:41:21 - block_text_comparison.py:75 - ===============skip cnt：40 || material_id='m_00036a' || rule='附加条款' || end_result=False===============
+2025-06-30 08:41:21 - block_text_comparison.py:75 - ===============skip cnt：41 || material_id='m_00037a' || rule='退保条款' || end_result=True===============
+2025-06-30 08:41:21 - block_text_comparison.py:75 - ===============skip cnt：42 || material_id='m_00038a' || rule='保障相关时间' || end_result=True===============
+2025-06-30 08:41:21 - block_text_comparison.py:75 - ===============skip cnt：43 || material_id='m_00032a' || rule='续保条款' || end_result=True===============
+2025-06-30 08:41:21 - block_text_comparison.py:75 - ===============skip cnt：44 || material_id='m_00039a' || rule='保障相关时间' || end_result=True===============
+2025-06-30 08:41:21 - block_text_comparison.py:75 - ===============skip cnt：45 || material_id='m_00040a' || rule='保障责任' || end_result=True===============
+2025-06-30 08:41:21 - block_text_comparison.py:83 - ===============cnt：45 || material_id='m_00041a' || rule='投保条款' || label=None===============
+2025-06-30 08:41:21 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00041a/CLAUSE/投保条款.txt...
+2025-06-30 08:41:21 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00041a/INSURE_NOTICE/投保条款.txt...
+2025-06-30 08:41:21 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00041a/ADDITIONAL_AGREEMENT/投保条款.txt...
+2025-06-30 08:41:21 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00041a/LIABILITY_EXCLUSION/投保条款.txt...
+2025-06-30 08:42:18 - block_text_comparison.py:115 - 第九条 保险费交纳 本合同的交费方式和交费期间在保险单上载明。分期交纳保险费的，投保人在交纳首期保险费后，应按照保险费约定交纳日交纳其余各期的保险费，直至保险单上载明的交费期间届满为止。 
+vs
+ 3. 分期交纳保险费的，投保人在交纳首期保险费后，应按照保险费约定交纳日交纳其余各期的保险费，直至保险单上载明的交费期间届满为止。 
+>>> result=<res>文本一致</res>
+<冲突文本段>：无。
+2025-06-30 08:42:18 - block_text_comparison.py:115 - 第九条 保险费交纳 本合同的交费方式和交费期间在保险单上载明。分期交纳保险费的，投保人在交纳首期保险费后，应按照保险费约定交纳日交纳其余各期的保险费，直至保险单上载明的交费期间届满为止。 
+vs
+ 5 保险费交纳
+    本合同的交费方式和交费期间在保险单上载明。
+    分期交纳保险费的，投保人在交纳首期保险费后，应按照保险费约定交纳日交纳其余各期的保险费，直至保险单上载明的交费期间届满为止。 
+>>> result=<res>文本一致</res>
+<冲突文本段>：无。
+2025-06-30 08:42:20 - block_text_comparison.py:115 - 3. 分期交纳保险费的，投保人在交纳首期保险费后，应按照保险费约定交纳日交纳其余各期的保险费，直至保险单上载明的交费期间届满为止。 
+vs
+ 5 保险费交纳
+    本合同的交费方式和交费期间在保险单上载明。
+    分期交纳保险费的，投保人在交纳首期保险费后，应按照保险费约定交纳日交纳其余各期的保险费，直至保险单上载明的交费期间届满为止。 
+>>> result=<res>文本一致</res>
+<冲突文本段>：无。
+2025-06-30 08:42:20 - block_text_comparison.py:119 - results: [True, True, True]
+2025-06-30 08:42:20 - block_text_comparison.py:127 - ===============cnt=45 || material_id='m_00041a' || rule='投保条款' || end_result=True===============
+2025-06-30 08:42:20 - block_text_comparison.py:75 - ===============skip cnt：47 || material_id='m_00016a' || rule='附加条款' || end_result=True===============
+2025-06-30 08:42:20 - block_text_comparison.py:75 - ===============skip cnt：48 || material_id='m_00024a' || rule='保障责任' || end_result=True===============
+2025-06-30 08:42:20 - block_text_comparison.py:75 - ===============skip cnt：49 || material_id='m_00042a' || rule='出险条款' || end_result=True===============
+2025-06-30 08:42:20 - block_text_comparison.py:83 - ===============cnt：49 || material_id='m_00043a' || rule='投保条款' || label=None===============
+2025-06-30 08:42:20 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00043a/HEALTH_INFORM/投保条款.txt...
+2025-06-30 08:42:20 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00043a/INTRODUCE_IMG/投保条款.txt...
+2025-06-30 08:42:20 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00043a/HEAD_IMG/投保条款.txt...
+2025-06-30 08:42:20 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00043a/CLAUSE/投保条款.txt...
+2025-06-30 08:42:20 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00043a/INSURE_NOTICE/投保条款.txt...
+2025-06-30 08:42:20 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00043a/ADDITIONAL_AGREEMENT/投保条款.txt...
+2025-06-30 08:42:20 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00043a/LIABILITY_EXCLUSION/投保条款.txt...
+2025-06-30 08:45:34 - block_text_comparison.py:115 - ```
+投保条款（投保过程中的缴费约定、投被保人条件限制等）：
+``` 
+vs
+ ### 投保条款（投保过程中的缴费约定、投被保人条件限制等）
+#### 1.3 投保年龄
+- **定义**：指您投保时被保险人的年龄。
+- **范围**：本合同接受的新保年龄范围为出生满 30 天至 70 周岁（含 70 周岁）。被保险人在年满 100 周岁前（含 100 周岁），当保险期间届满且产品在办情形下，可以重新向我们申请投保本产品。
+#### 1.4 被保险人
+- **条件**：身体健康的能正常生活或正常工作的自然人，可作为本合同的被保险人。
+#### 1.5 投保人
+- **条件**：具有完全民事行为能力的被保险人本人、对被保险人有保险利益的其他自然人，可作为本合同的投保人。
+#### 4.4 保险费分期缴付 
+>>> result=<res>文本一致</res>
+<冲突文本段>：无。
+2025-06-30 08:45:35 - block_text_comparison.py:115 - 5. **续保**：
+   - 本合同为不保证续保合同。
+   - 保险期间届满，您需要重新向我们申请投保本产品，并经我们同意，交纳保险费，获得新的保险合同。
+   - 在我们收到保险费并同意承保后，本合同将自保险期间届满之时起续保1年。
+   - 若您在本合同保险期间届满后30日内未支付续保保费，以后则按重新投保处理，等待期重新计算。
+   - 若我们停止本保险产品的销售，将会及时通知您，我们自停止销售时起不再接受续保申请。 
+vs
+ 7. **不保证续保**
+   - 本合同为不保证续保合同。保险期间届满，您需要重新向我们申请投保本产品，并经我们同意，交纳保险费，获得新的保险合同。
+   - 在我们收到保险费并同意承保后，本合同将自保险期间届满之时起续保 1 年。
+   - 若您在本合同保险期间届满后 30 日内未支付续保保费，以后则按重新投保处理，等待期重新计算。
+   - 若我们停止本保险产品的销售，将会及时通知您，我们自停止销售时起不再接受续保申请。 
+>>> result=<res>文本一致</res>
+<冲突文本段>：无。
+2025-06-30 08:45:35 - block_text_comparison.py:119 - results: [True, True]
+2025-06-30 08:45:35 - block_text_comparison.py:127 - ===============cnt=49 || material_id='m_00043a' || rule='投保条款' || end_result=True===============
+2025-06-30 08:45:35 - block_text_comparison.py:75 - ===============skip cnt：51 || material_id='m_00017a' || rule='术语解释' || end_result=True===============
+2025-06-30 08:45:35 - block_text_comparison.py:75 - ===============skip cnt：52 || material_id='m_00044a' || rule='赔付 & 领取规则' || end_result=False===============
+2025-06-30 08:45:35 - block_text_comparison.py:83 - ===============cnt：52 || material_id='m_00045a' || rule='投保条款' || label=None===============
+2025-06-30 08:45:35 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00045a/HEALTH_INFORM/投保条款.txt...
+2025-06-30 08:45:35 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00045a/INTRODUCE_IMG/投保条款.txt...
+2025-06-30 08:45:35 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00045a/HEAD_IMG/投保条款.txt...
+2025-06-30 08:45:35 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00045a/CLAUSE/投保条款.txt...
+2025-06-30 08:45:35 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00045a/INSURE_NOTICE/投保条款.txt...
+2025-06-30 08:45:35 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00045a/ADDITIONAL_AGREEMENT/投保条款.txt...
+2025-06-30 08:45:35 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00045a/LIABILITY_EXCLUSION/投保条款.txt...
+2025-06-30 08:47:47 - block_text_comparison.py:115 - ```
+```
+以下是关于“投保条款（投保过程中的缴费约定、投被保人条件限制等）”的相关信息：
+"" 
+vs
+ ```
+投保条款（投保过程中的缴费约定、投被保人条件限制等）:
+``` 
+>>> result=<res>文本一致</res>
+<冲突文本段>：无。
+2025-06-30 08:47:47 - block_text_comparison.py:119 - results: [True]
+2025-06-30 08:47:47 - block_text_comparison.py:127 - ===============cnt=52 || material_id='m_00045a' || rule='投保条款' || end_result=True===============
+2025-06-30 08:47:47 - block_text_comparison.py:75 - ===============skip cnt：54 || material_id='m_00024a' || rule='保障相关时间' || end_result=True===============
+2025-06-30 08:47:47 - block_text_comparison.py:83 - ===============cnt：54 || material_id='m_00046a' || rule='投保条款' || label=None===============
+2025-06-30 08:47:47 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00046a/CLAUSE/投保条款.txt...
+2025-06-30 08:47:47 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00046a/INSURE_NOTICE/投保条款.txt...
+2025-06-30 08:47:47 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00046a/ADDITIONAL_AGREEMENT/投保条款.txt...
+2025-06-30 08:47:47 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00046a/LIABILITY_EXCLUSION/投保条款.txt...
+2025-06-30 08:49:06 - block_text_comparison.py:115 - 一、投保对象：凡年满 3-25 周岁(含 3 及 25 周岁)，能正常学习和生活的儿童，及大中小及中等专业学校全日制在册学生均可作为被保险人。
+二、投保人：18 周岁及 18 周岁以上有完全民事行为能力人可作为投保人，为本人、子 nǚ 投保本产品。 
+vs
+     一、投保对象：凡年满3-25周岁，能正常学习和生活的儿童，及大中小及中等专业学校全日制在册学生均可作为被保险人。 
+>>> result=<res>文本一致</res>
+<冲突文本段>：无。
+2025-06-30 08:49:07 - block_text_comparison.py:115 - 六、按中国银保监会规定，未满 10 周岁的被保险人身故保额累计不得超过 20 万元，超出部分无效；已满 10 周岁但未满 18 周岁的被保险人身故保额累计不得超过人民币 50 万元，超出部分无效；但航空意外和重大自然灾害意外死亡保险金额不受此限。 
+vs
+ ```
+【特别约定】
+    六、按中国银保监会规定，未满10周岁的被保险人身故保额累计不得超过20万元，超出部分无效；已满10周岁但未满18周岁的被保险人身故保额累计不得超过人民币50万元，超出部分无效；但航空意外和重大自然灾害意外死亡保险金额不受此限。
+``` 
+>>> result=<res>文本一致</res>
+<冲突文本段>：无。
+2025-06-30 08:49:07 - block_text_comparison.py:119 - results: [True, True]
+2025-06-30 08:49:07 - block_text_comparison.py:127 - ===============cnt=54 || material_id='m_00046a' || rule='投保条款' || end_result=True===============
+2025-06-30 08:49:07 - block_text_comparison.py:75 - ===============skip cnt：56 || material_id='m_00047a' || rule='术语解释' || end_result=True===============
+2025-06-30 08:49:07 - block_text_comparison.py:75 - ===============skip cnt：57 || material_id='m_00048a' || rule='责任免除' || end_result=False===============
+2025-06-30 08:49:07 - block_text_comparison.py:75 - ===============skip cnt：58 || material_id='m_00049a' || rule='责任免除' || end_result=False===============
+2025-06-30 08:49:07 - block_text_comparison.py:75 - ===============skip cnt：59 || material_id='m_00050a' || rule='术语解释' || end_result=True===============
+2025-06-30 08:49:07 - block_text_comparison.py:75 - ===============skip cnt：60 || material_id='m_00051a' || rule='续保条款' || end_result=True===============
+2025-06-30 08:49:07 - block_text_comparison.py:75 - ===============skip cnt：61 || material_id='m_00052a' || rule='赔付 & 领取规则' || end_result=False===============
+2025-06-30 08:49:07 - block_text_comparison.py:75 - ===============skip cnt：62 || material_id='m_00053a' || rule='保障相关时间' || end_result=True===============
+2025-06-30 08:49:07 - block_text_comparison.py:75 - ===============skip cnt：63 || material_id='m_00054a' || rule='术语解释' || end_result=True===============
+2025-06-30 08:49:07 - block_text_comparison.py:75 - ===============skip cnt：64 || material_id='m_00043a' || rule='赔付 & 领取规则' || end_result=False===============
+2025-06-30 08:49:07 - block_text_comparison.py:75 - ===============skip cnt：65 || material_id='m_00055a' || rule='责任免除' || end_result=True===============
+2025-06-30 08:49:07 - block_text_comparison.py:75 - ===============skip cnt：66 || material_id='m_00056a' || rule='赔付 & 领取规则' || end_result=False===============
+2025-06-30 08:49:07 - block_text_comparison.py:75 - ===============skip cnt：67 || material_id='m_00043a' || rule='保障相关时间' || end_result=True===============
+2025-06-30 08:49:07 - block_text_comparison.py:75 - ===============skip cnt：68 || material_id='m_00044a' || rule='附加条款' || end_result=True===============
+2025-06-30 08:49:07 - block_text_comparison.py:75 - ===============skip cnt：69 || material_id='m_00055a' || rule='退保条款' || end_result=False===============
+2025-06-30 08:49:07 - block_text_comparison.py:75 - ===============skip cnt：70 || material_id='m_00057a' || rule='续保条款' || end_result=True===============
+2025-06-30 08:49:07 - block_text_comparison.py:75 - ===============skip cnt：71 || material_id='m_00058a' || rule='续保条款' || end_result=True===============
+2025-06-30 08:49:07 - block_text_comparison.py:75 - ===============skip cnt：72 || material_id='m_00059a' || rule='责任免除' || end_result=True===============
+2025-06-30 08:49:07 - block_text_comparison.py:75 - ===============skip cnt：73 || material_id='m_00060a' || rule='基础产品销售信息' || end_result=False===============
+2025-06-30 08:49:07 - block_text_comparison.py:83 - ===============cnt：73 || material_id='m_00061a' || rule='投保条款' || label=None===============
+2025-06-30 08:49:07 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00061a/HEALTH_INFORM/投保条款.txt...
+2025-06-30 08:49:07 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00061a/INTRODUCE_IMG/投保条款.txt...
+2025-06-30 08:49:07 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00061a/PRODUCT_MANUAL/投保条款.txt...
+2025-06-30 08:49:07 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00061a/HEAD_IMG/投保条款.txt...
+2025-06-30 08:49:07 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00061a/CLAUSE/投保条款.txt...
+2025-06-30 08:49:07 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00061a/INSURE_NOTICE/投保条款.txt...
+2025-06-30 08:49:07 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00061a/ADDITIONAL_AGREEMENT/投保条款.txt...
+2025-06-30 08:49:07 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00061a/LIABILITY_EXCLUSION/投保条款.txt...
+2025-06-30 08:51:27 - block_text_comparison.py:103 - ===============<=1 cnt=73 || material_id='m_00061a' || rule='投保条款' || end_result=False===============
+2025-06-30 08:51:27 - block_text_comparison.py:75 - ===============skip cnt：75 || material_id='m_00062a' || rule='赔付 & 领取规则' || end_result=False===============
+2025-06-30 08:51:27 - block_text_comparison.py:75 - ===============skip cnt：76 || material_id='m_00056a' || rule='续保条款' || end_result=True===============
+2025-06-30 08:51:27 - block_text_comparison.py:75 - ===============skip cnt：77 || material_id='m_00063a' || rule='保障责任' || end_result=True===============
+2025-06-30 08:51:27 - block_text_comparison.py:75 - ===============skip cnt：78 || material_id='m_00064a' || rule='保障责任' || end_result=True===============
+2025-06-30 08:51:27 - block_text_comparison.py:75 - ===============skip cnt：79 || material_id='m_00047a' || rule='保障相关时间' || end_result=True===============
+2025-06-30 08:51:27 - block_text_comparison.py:75 - ===============skip cnt：80 || material_id='m_00065a' || rule='基础产品销售信息' || end_result=False===============
+2025-06-30 08:51:27 - block_text_comparison.py:75 - ===============skip cnt：81 || material_id='m_00066a' || rule='出险条款' || end_result=True===============
+2025-06-30 08:51:27 - block_text_comparison.py:83 - ===============cnt：81 || material_id='m_00067a' || rule='投保条款' || label=None===============
+2025-06-30 08:51:27 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00067a/INTRODUCE_IMG/投保条款.txt...
+2025-06-30 08:51:27 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00067a/PRODUCT_MANUAL/投保条款.txt...
+2025-06-30 08:51:27 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00067a/HEAD_IMG/投保条款.txt...
+2025-06-30 08:51:27 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00067a/CLAUSE/投保条款.txt...
+2025-06-30 08:51:27 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00067a/INSURE_NOTICE/投保条款.txt...
+2025-06-30 08:51:27 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00067a/ADDITIONAL_AGREEMENT/投保条款.txt...
+2025-06-30 08:53:12 - block_text_comparison.py:115 - 不定期追加保险费 
+在个人账户注销之前，经我们同意，您可以不定期追加保险费，交费金额由
+您在不定期追加保险费时与我们约定，并在保险合同中载明。  
+vs
+ 3.2 定期追加保险费变更 在个人账户注销之前，经我们同意，您可以不定期追加保险费，交费金额由您在不定期追加保险费时与我们约定，并在保险合同中载明。 
+>>> result=<res>文本一致</res>
+<冲突文本段>：无。
+2025-06-30 08:53:13 - block_text_comparison.py:115 - （八）投保范围 
+投保人：须具有完全民事行为能力且对被保险人具有保险利益。 
+被保险人：须出生 28 日（含）以上、85 周岁（含）以下且符合我们规定。  
+vs
+ 6.4 特殊解除合同政策 投保人：须具有完全民事行为能力且对被保险人具有保险利益。被保险人：须出生28日（含）以上、85周岁（含）以下且符合我们规定。 
+>>> result=<res>文本一致</res>
+<冲突文本段>：无。
+2025-06-30 08:53:14 - block_text_comparison.py:115 - 在个人账户注销之前，我们提供三次定期追加保险费申请的机会，增加或者
+减少定期追加保险费金额的申请除外。  
+vs
+    - **定期追加保险费**：经我们同意，您可以在投保时或者在个人账户注销之前申请定期追加保险费，定期追加保险费的金额、交费频率和定期追加保险费开始交纳日由您在申请时与我们约定并在保险合同中载明。约定的金额须符合我们当时的规定。您应在定期追加保险费约定交纳日交纳每期的定期追加保险费。本合同的定期追加保险费交费期间为至个人账户注销前。在个人账户注销之前，我们提供三次定期追加保险费申请的机会，增加或者减少定期追加保险费金额的申请除外。 
+>>> result=<res>文本一致</res>
+<冲突文本段>：无。
+2025-06-30 08:53:14 - block_text_comparison.py:115 - 3.2 定期追加保险费变更 在个人账户注销之前，经我们同意，您可以不定期追加保险费，交费金额由您在不定期追加保险费时与我们约定，并在保险合同中载明。 
+vs
+    - **不定期追加保险费**：在个人账户注销之前，经我们同意，您可以不定期追加保险费，交费金额由您在不定期追加保险费时与我们约定，并在保险合同中载明。 
+>>> result=<res>文本一致</res>
+<冲突文本段>：无。
+2025-06-30 08:53:14 - block_text_comparison.py:119 - results: [True, True, True, True]
+2025-06-30 08:53:14 - block_text_comparison.py:127 - ===============cnt=81 || material_id='m_00067a' || rule='投保条款' || end_result=True===============
+2025-06-30 08:53:14 - block_text_comparison.py:75 - ===============skip cnt：83 || material_id='m_00068a' || rule='赔付 & 领取规则' || end_result=False===============
+2025-06-30 08:53:14 - block_text_comparison.py:75 - ===============skip cnt：84 || material_id='m_00069a' || rule='保障责任' || end_result=False===============
+2025-06-30 08:53:14 - block_text_comparison.py:75 - ===============skip cnt：85 || material_id='m_00061a' || rule='赔付 & 领取规则' || end_result=True===============
+2025-06-30 08:53:14 - block_text_comparison.py:75 - ===============skip cnt：86 || material_id='m_00070a' || rule='赔付 & 领取规则' || end_result=False===============
+2025-06-30 08:53:14 - block_text_comparison.py:75 - ===============skip cnt：87 || material_id='m_00071a' || rule='术语解释' || end_result=True===============
+2025-06-30 08:53:14 - block_text_comparison.py:75 - ===============skip cnt：88 || material_id='m_00072a' || rule='保障相关时间' || end_result=True===============
+2025-06-30 08:53:14 - block_text_comparison.py:75 - ===============skip cnt：89 || material_id='m_00073a' || rule='保障责任' || end_result=True===============
+2025-06-30 08:53:14 - block_text_comparison.py:75 - ===============skip cnt：90 || material_id='m_00036a' || rule='赔付 & 领取规则' || end_result=False===============
+2025-06-30 08:53:14 - block_text_comparison.py:75 - ===============skip cnt：91 || material_id='m_00074a' || rule='附加条款' || end_result=True===============
+2025-06-30 08:53:14 - block_text_comparison.py:83 - ===============cnt：91 || material_id='m_00036a' || rule='投保条款' || label=None===============
+2025-06-30 08:53:14 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00036a/HEALTH_INFORM/投保条款.txt...
+2025-06-30 08:53:14 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00036a/INTRODUCE_IMG/投保条款.txt...
+2025-06-30 08:53:14 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00036a/HEAD_IMG/投保条款.txt...
+2025-06-30 08:53:14 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00036a/CLAUSE/投保条款.txt...
+2025-06-30 08:53:14 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00036a/INSURE_NOTICE/投保条款.txt...
+2025-06-30 08:53:14 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00036a/ADDITIONAL_AGREEMENT/投保条款.txt...
+2025-06-30 08:53:14 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00036a/LIABILITY_EXCLUSION/投保条款.txt...
+2025-06-30 08:55:16 - block_text_comparison.py:103 - ===============<=1 cnt=91 || material_id='m_00036a' || rule='投保条款' || end_result=False===============
+2025-06-30 08:55:16 - block_text_comparison.py:83 - ===============cnt：92 || material_id='m_00075a' || rule='投保条款' || label=None===============
+2025-06-30 08:55:16 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00075a/INTRODUCE_IMG/投保条款.txt...
+2025-06-30 08:55:16 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00075a/HEAD_IMG/投保条款.txt...
+2025-06-30 08:55:16 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00075a/CLAUSE/投保条款.txt...
+2025-06-30 08:55:16 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00075a/INSURE_NOTICE/投保条款.txt...
+2025-06-30 08:55:16 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00075a/LIABILITY_EXCLUSION/投保条款.txt...
+2025-06-30 08:56:04 - block_text_comparison.py:103 - ===============<=1 cnt=92 || material_id='m_00075a' || rule='投保条款' || end_result=False===============
+2025-06-30 08:56:04 - block_text_comparison.py:75 - ===============skip cnt：94 || material_id='m_00076a' || rule='保障相关时间' || end_result=True===============
+2025-06-30 08:56:04 - block_text_comparison.py:75 - ===============skip cnt：95 || material_id='m_00077a' || rule='出险条款' || end_result=True===============
+2025-06-30 08:56:04 - block_text_comparison.py:83 - ===============cnt：95 || material_id='m_00078a' || rule='投保条款' || label=None===============
+2025-06-30 08:56:04 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00078a/INTRODUCE_IMG/投保条款.txt...
+2025-06-30 08:56:04 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00078a/HEAD_IMG/投保条款.txt...
+2025-06-30 08:56:04 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00078a/CLAUSE/投保条款.txt...
+2025-06-30 08:56:04 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00078a/INSURE_NOTICE/投保条款.txt...
+2025-06-30 08:56:04 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00078a/ADDITIONAL_AGREEMENT/投保条款.txt...
+2025-06-30 08:56:04 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00078a/LIABILITY_EXCLUSION/投保条款.txt...
+2025-06-30 08:56:59 - block_text_comparison.py:103 - ===============<=1 cnt=95 || material_id='m_00078a' || rule='投保条款' || end_result=False===============
+2025-06-30 08:56:59 - block_text_comparison.py:75 - ===============skip cnt：97 || material_id='m_00079a' || rule='赔付 & 领取规则' || end_result=False===============
+2025-06-30 08:56:59 - block_text_comparison.py:83 - ===============cnt：97 || material_id='m_00080a' || rule='投保条款' || label=None===============
+2025-06-30 08:56:59 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00080a/INTRODUCE_IMG/投保条款.txt...
+2025-06-30 08:56:59 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00080a/HEAD_IMG/投保条款.txt...
+2025-06-30 08:56:59 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00080a/CLAUSE/投保条款.txt...
+2025-06-30 08:56:59 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00080a/INSURE_NOTICE/投保条款.txt...
+2025-06-30 08:56:59 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00080a/ADDITIONAL_AGREEMENT/投保条款.txt...
+2025-06-30 08:56:59 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00080a/LIABILITY_EXCLUSION/投保条款.txt...
+2025-06-30 08:58:07 - block_text_comparison.py:103 - ===============<=1 cnt=97 || material_id='m_00080a' || rule='投保条款' || end_result=False===============
+2025-06-30 08:58:07 - block_text_comparison.py:75 - ===============skip cnt：99 || material_id='m_00081a' || rule='附加条款' || end_result=True===============
+2025-06-30 08:58:07 - block_text_comparison.py:75 - ===============skip cnt：100 || material_id='m_00039a' || rule='赔付 & 领取规则' || end_result=False===============
+2025-06-30 08:58:07 - block_text_comparison.py:83 - ===============cnt：100 || material_id='m_00082a' || rule='投保条款' || label=None===============
+2025-06-30 08:58:07 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00082a/HEALTH_INFORM/投保条款.txt...
+2025-06-30 08:58:07 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00082a/INTRODUCE_IMG/投保条款.txt...
+2025-06-30 08:58:07 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00082a/PRODUCT_MANUAL/投保条款.txt...
+2025-06-30 08:58:07 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00082a/HEAD_IMG/投保条款.txt...
+2025-06-30 08:58:07 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00082a/CLAUSE/投保条款.txt...
+2025-06-30 08:58:07 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00082a/INSURE_NOTICE/投保条款.txt...
+2025-06-30 08:58:07 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00082a/LIABILITY_EXCLUSION/投保条款.txt...
+2025-06-30 08:58:39 - block_text_comparison.py:103 - ===============<=1 cnt=100 || material_id='m_00082a' || rule='投保条款' || end_result=False===============
+2025-06-30 08:58:39 - block_text_comparison.py:83 - ===============cnt：101 || material_id='m_00083a' || rule='投保条款' || label=None===============
+2025-06-30 08:58:39 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00083a/CLAUSE/投保条款.txt...
+2025-06-30 08:58:39 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00083a/INSURE_NOTICE/投保条款.txt...
+2025-06-30 08:58:39 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00083a/ADDITIONAL_AGREEMENT/投保条款.txt...
+2025-06-30 08:58:39 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00083a/LIABILITY_EXCLUSION/投保条款.txt...
+2025-06-30 09:00:59 - block_text_comparison.py:103 - ===============<=1 cnt=101 || material_id='m_00083a' || rule='投保条款' || end_result=False===============
+2025-06-30 09:00:59 - block_text_comparison.py:75 - ===============skip cnt：103 || material_id='m_00084a' || rule='保障相关时间' || end_result=False===============
+2025-06-30 09:00:59 - block_text_comparison.py:75 - ===============skip cnt：104 || material_id='m_00075a' || rule='保障相关时间' || end_result=True===============
+2025-06-30 09:00:59 - block_text_comparison.py:75 - ===============skip cnt：105 || material_id='m_00085a' || rule='赔付 & 领取规则' || end_result=False===============
+2025-06-30 09:00:59 - block_text_comparison.py:75 - ===============skip cnt：106 || material_id='m_00013a' || rule='续保条款' || end_result=True===============
+2025-06-30 09:00:59 - block_text_comparison.py:75 - ===============skip cnt：107 || material_id='m_00055a' || rule='保障责任' || end_result=True===============
+2025-06-30 09:00:59 - block_text_comparison.py:75 - ===============skip cnt：108 || material_id='m_00086a' || rule='赔付 & 领取规则' || end_result=False===============
+2025-06-30 09:00:59 - block_text_comparison.py:83 - ===============cnt：108 || material_id='m_00087a' || rule='投保条款' || label=None===============
+2025-06-30 09:00:59 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00087a/HEALTH_INFORM/投保条款.txt...
+2025-06-30 09:00:59 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00087a/CLAUSE/投保条款.txt...
+2025-06-30 09:00:59 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00087a/INSURE_NOTICE/投保条款.txt...
+2025-06-30 09:00:59 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00087a/ADDITIONAL_AGREEMENT/投保条款.txt...
+2025-06-30 09:00:59 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00087a/LIABILITY_EXCLUSION/投保条款.txt...
+2025-06-30 09:01:52 - block_text_comparison.py:103 - ===============<=1 cnt=108 || material_id='m_00087a' || rule='投保条款' || end_result=False===============
+2025-06-30 09:01:52 - block_text_comparison.py:75 - ===============skip cnt：110 || material_id='m_00088a' || rule='赔付 & 领取规则' || end_result=False===============
+2025-06-30 09:01:52 - block_text_comparison.py:75 - ===============skip cnt：111 || material_id='m_00089a' || rule='附加条款' || end_result=True===============
+2025-06-30 09:01:52 - block_text_comparison.py:75 - ===============skip cnt：112 || material_id='m_00005a' || rule='保障相关时间' || end_result=True===============
+2025-06-30 09:01:52 - block_text_comparison.py:75 - ===============skip cnt：113 || material_id='m_00017a' || rule='保障相关时间' || end_result=True===============
+2025-06-30 09:01:52 - block_text_comparison.py:75 - ===============skip cnt：114 || material_id='m_00090a' || rule='附加条款' || end_result=False===============
+2025-06-30 09:01:52 - block_text_comparison.py:75 - ===============skip cnt：115 || material_id='m_00091a' || rule='保障责任' || end_result=True===============
+2025-06-30 09:01:52 - block_text_comparison.py:75 - ===============skip cnt：116 || material_id='m_00036a' || rule='责任免除' || end_result=False===============
+2025-06-30 09:01:52 - block_text_comparison.py:75 - ===============skip cnt：117 || material_id='m_00092a' || rule='赔付 & 领取规则' || end_result=False===============
+2025-06-30 09:01:52 - block_text_comparison.py:83 - ===============cnt：117 || material_id='m_00093a' || rule='投保条款' || label=None===============
+2025-06-30 09:01:52 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00093a/HEALTH_INFORM/投保条款.txt...
+2025-06-30 09:01:52 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00093a/INTRODUCE_IMG/投保条款.txt...
+2025-06-30 09:01:52 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00093a/HEAD_IMG/投保条款.txt...
+2025-06-30 09:01:52 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00093a/CLAUSE/投保条款.txt...
+2025-06-30 09:01:52 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00093a/INSURE_NOTICE/投保条款.txt...
+2025-06-30 09:01:52 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00093a/ADDITIONAL_AGREEMENT/投保条款.txt...
+2025-06-30 09:01:52 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00093a/LIABILITY_EXCLUSION/投保条款.txt...
+2025-06-30 09:03:18 - block_text_comparison.py:115 - 7.3 年龄错误的处理
+您在申请投保时，应将与有效身份证件相符的被保险人的出生日期在投保书上填明，如果发生错误按照下列方式办理： 
+vs
+     投被保人条件限制
+        年龄错误处理
+            您在申请投保时，应将与有效身份证件相符的被保险人的出生日期在投保书上填明，如果发生错误按照下列方式办理： 
+>>> result=<res>文本一致</res>
+<冲突文本段>：无。
+2025-06-30 09:03:18 - block_text_comparison.py:119 - results: [True]
+2025-06-30 09:03:18 - block_text_comparison.py:127 - ===============cnt=117 || material_id='m_00093a' || rule='投保条款' || end_result=True===============
+2025-06-30 09:03:18 - block_text_comparison.py:83 - ===============cnt：118 || material_id='m_00034a' || rule='投保条款' || label=None===============
+2025-06-30 09:03:18 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00034a/INTRODUCE_IMG/投保条款.txt...
+2025-06-30 09:03:18 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00034a/HEAD_IMG/投保条款.txt...
+2025-06-30 09:03:18 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00034a/CLAUSE/投保条款.txt...
+2025-06-30 09:03:18 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00034a/INSURE_NOTICE/投保条款.txt...
+2025-06-30 09:03:18 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00034a/LIABILITY_EXCLUSION/投保条款.txt...
+2025-06-30 09:04:03 - block_text_comparison.py:103 - ===============<=1 cnt=118 || material_id='m_00034a' || rule='投保条款' || end_result=False===============
+2025-06-30 09:04:03 - block_text_comparison.py:75 - ===============skip cnt：120 || material_id='m_00094a' || rule='责任免除' || end_result=False===============
+2025-06-30 09:04:03 - block_text_comparison.py:75 - ===============skip cnt：121 || material_id='m_00095a' || rule='退保条款' || end_result=True===============
+2025-06-30 09:04:03 - block_text_comparison.py:75 - ===============skip cnt：122 || material_id='m_00096a' || rule='基础产品销售信息' || end_result=True===============
+2025-06-30 09:04:03 - block_text_comparison.py:75 - ===============skip cnt：123 || material_id='m_00046a' || rule='责任免除' || end_result=True===============
+2025-06-30 09:04:03 - block_text_comparison.py:75 - ===============skip cnt：124 || material_id='m_00097a' || rule='附加条款' || end_result=True===============
+2025-06-30 09:04:03 - block_text_comparison.py:83 - ===============cnt：124 || material_id='m_00016a' || rule='投保条款' || label=None===============
+2025-06-30 09:04:03 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00016a/INTRODUCE_IMG/投保条款.txt...
+2025-06-30 09:04:03 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00016a/HEAD_IMG/投保条款.txt...
+2025-06-30 09:04:03 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00016a/CLAUSE/投保条款.txt...
+2025-06-30 09:04:03 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00016a/INSURE_NOTICE/投保条款.txt...
+2025-06-30 09:04:03 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00016a/ADDITIONAL_AGREEMENT/投保条款.txt...
+2025-06-30 09:04:03 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00016a/LIABILITY_EXCLUSION/投保条款.txt...
+2025-06-30 09:05:30 - block_text_comparison.py:115 - ```
+   - 对于被保险人不满10周岁的，不得超过人民币20万元。
+   - 对于被保险人已满10周岁但未满18周岁的，不得超过人民币50万元。
+``` 
+vs
+ （一）对于被保险人不满10周岁的，不得超过人民币20万元。
+（二）对于被保险人已满10周岁但未满18周岁的，不得超过人民币50万元 。 
+>>> result=<res>文本一致</res>
+<冲突文本段>：无。
+2025-06-30 09:05:31 - block_text_comparison.py:115 - 3. 保障计划必须在被保险人离开境内日常居住地或日常工作地前投保，否则无效。保险期间必须完整覆盖被保险人离开及返回到日常生活、工作所在地的旅行期间。 
+vs
+ ```
+◆保障计划必须在被保险人离开境内日常居住地或日常工作地前投保，否则无效。  
+``` 
+>>> result=<res>文本一致</res>
+<冲突文本段>：无。
+2025-06-30 09:05:31 - block_text_comparison.py:115 - 3. 保障计划必须在被保险人离开境内日常居住地或日常工作地前投保，否则无效。保险期间必须完整覆盖被保险人离开及返回到日常生活、工作所在地的旅行期间。 
+vs
+ ```
+◆保险期间必须完整覆盖被保险人离开及返回到日常生活、工作所在地的旅行期间。
+``` 
+>>> result=<res>文本一致</res>
+<冲突文本段>：无。
+2025-06-30 09:05:32 - block_text_comparison.py:115 - ```
+◆ 保障计划必须在被保险人离开境内日常居住地或日常工作地前投保，否则无效。  保险期间必须完整覆盖被保险人离开及返回到日常生活、工作所在地的旅行期间。 
+``` 
+vs
+ ```
+◆保障计划必须在被保险人离开境内日常居住地或日常工作地前投保，否则无效。  
+``` 
+>>> result=<res>文本一致</res>
+<冲突文本段>：无。
+2025-06-30 09:05:33 - block_text_comparison.py:115 - ```
+◆ 保障计划必须在被保险人离开境内日常居住地或日常工作地前投保，否则无效。  保险期间必须完整覆盖被保险人离开及返回到日常生活、工作所在地的旅行期间。 
+``` 
+vs
+ ```
+◆保险期间必须完整覆盖被保险人离开及返回到日常生活、工作所在地的旅行期间。
+``` 
+>>> result=<res>文本一致</res>
+<冲突文本段>：无。
+2025-06-30 09:05:33 - block_text_comparison.py:119 - results: [True, True, True, True, True]
+2025-06-30 09:05:33 - block_text_comparison.py:127 - ===============cnt=124 || material_id='m_00016a' || rule='投保条款' || end_result=True===============
+2025-06-30 09:05:33 - block_text_comparison.py:75 - ===============skip cnt：126 || material_id='m_00063a' || rule='附加条款' || end_result=True===============
+2025-06-30 09:05:33 - block_text_comparison.py:75 - ===============skip cnt：127 || material_id='m_00098a' || rule='出险条款' || end_result=False===============
+2025-06-30 09:05:33 - block_text_comparison.py:75 - ===============skip cnt：128 || material_id='m_00067a' || rule='退保条款' || end_result=True===============
+2025-06-30 09:05:33 - block_text_comparison.py:83 - ===============cnt：128 || material_id='m_00099a' || rule='投保条款' || label=None===============
+2025-06-30 09:05:33 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00099a/HEAD_IMG/投保条款.txt...
+2025-06-30 09:05:33 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00099a/CLAUSE/投保条款.txt...
+2025-06-30 09:05:33 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00099a/INSURE_NOTICE/投保条款.txt...
+2025-06-30 09:05:33 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00099a/ADDITIONAL_AGREEMENT/投保条款.txt...
+2025-06-30 09:05:33 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00099a/LIABILITY_EXCLUSION/投保条款.txt...
+2025-06-30 09:06:26 - block_text_comparison.py:115 - 1.2 投保范围 凡十八周岁以上、五十五周岁以下，身体健康者均可作为被保险人，由本人或对其具有保险利益的人作为投保人向中国人寿保险股份有限公司（以下简称本公司）投保本保险。 
+vs
+ 1. **基本信息**
+   - 凡18周岁以上、60周岁以下，身体健康者均可作为被保险人，由本人或对其具有保险利益的人作为投保人向中国人寿保险股份有限公司（以下简称本公司）投保本保险。 
+>>> result=<res>文本冲突</res>
+<冲突文本段>：
+- 片段1：凡十八周岁以上、五十五周岁以下，身体健康者均可作为被保险人
+- 片段2：凡18周岁以上、60周岁以下，身体健康者均可作为被保险人
+2025-06-30 09:06:26 - block_text_comparison.py:119 - results: [False]
+2025-06-30 09:06:26 - block_text_comparison.py:127 - ===============cnt=128 || material_id='m_00099a' || rule='投保条款' || end_result=False===============
+2025-06-30 09:06:26 - block_text_comparison.py:75 - ===============skip cnt：130 || material_id='m_00052a' || rule='保障相关时间' || end_result=False===============
+2025-06-30 09:06:26 - block_text_comparison.py:75 - ===============skip cnt：131 || material_id='m_00100a' || rule='保障责任' || end_result=False===============
+2025-06-30 09:06:26 - block_text_comparison.py:75 - ===============skip cnt：132 || material_id='m_00101a' || rule='保障责任' || end_result=True===============
+2025-06-30 09:06:26 - block_text_comparison.py:75 - ===============skip cnt：133 || material_id='m_00102a' || rule='出险条款' || end_result=True===============
+2025-06-30 09:06:26 - block_text_comparison.py:75 - ===============skip cnt：134 || material_id='m_00103a' || rule='基础产品销售信息' || end_result=True===============
+2025-06-30 09:06:26 - block_text_comparison.py:75 - ===============skip cnt：135 || material_id='m_00104a' || rule='续保条款' || end_result=True===============
+2025-06-30 09:06:26 - block_text_comparison.py:83 - ===============cnt：135 || material_id='m_00105a' || rule='投保条款' || label=None===============
+2025-06-30 09:06:26 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00105a/PRODUCT_MANUAL/投保条款.txt...
+2025-06-30 09:06:26 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00105a/CLAUSE/投保条款.txt...
+2025-06-30 09:06:26 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00105a/INSURE_NOTICE/投保条款.txt...
+2025-06-30 09:06:26 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00105a/ADDITIONAL_AGREEMENT/投保条款.txt...
+2025-06-30 09:07:39 - block_text_comparison.py:115 - 首次保险费 
+本合同的首次保险费由您在投保时一次性交纳，具体金额由您在投保时与我
+们约定并在保险单上载明，但应符合我们的规定。  
+vs
+ 3.1 保险费的交纳 本合同的首次保险费由您在投保时一次性交纳，具体金额由您在投保时与我们约定并在保险单上载明，但应符合我们的规定。 
+>>> result=<res>文本一致</res>
+<冲突文本段>：无。
+2025-06-30 09:07:40 - block_text_comparison.py:115 - 不定期追加保险费 
+在个人账户注销之前，经我们同意，您可以不定期追加保险费，交费金额由
+您在不定期追加保险费时与我们约定，并在保险合同中载明。  
+vs
+ 3.2 定期追加保险费变更 在个人账户注销之前，经我们同意，您可以不定期追加保险费，交费金额由您在不定期追加保险费时与我们约定，并在保险合同中载明。 
+>>> result=<res>文本一致</res>
+<冲突文本段>：无。
+2025-06-30 09:07:41 - block_text_comparison.py:115 - ```
+定。 
+（八）投保范围 
+投保人：须具有完全民事行为能力且对被保险人具有保险利益。 
+被保险人：须出生 28 日（含）以上、85 周岁（含）以下且符合我们规定。
+``` 
+vs
+ 7.1 投保范围 投保人：须具有完全民事行为能力且对被保险人具有保险利益。被保险人：须出生28日（含）以上、85周岁（含）以下且符合我们规定。 
+>>> result=<res>文本一致</res>
+<冲突文本段>：无。
+2025-06-30 09:07:42 - block_text_comparison.py:115 - 们在扣除相应的初始费用后按照约定的分配比例分别计入各投资组合账户。 
+在个人账户注销之前，经我们同意，您可以定期或不定期追加保险费。  
+vs
+ 5. **保险费的交纳**：
+   - 本合同的保险费分为首次保险费、定期追加保险费和不定期追加保险费。您每次缴纳的保险费，我们在扣除相应的初始费用后按照约定的分配比例分别计入各投资组合账户。
+   - 在个人账户注销之前，经我们同意，您可以定期或不定期追加保险费。 
+>>> result=<res>文本一致</res>
+<冲突文本段>：无。
+2025-06-30 09:07:42 - block_text_comparison.py:115 - 在个人账户注销之前，我们提供三次定期追加保险费申请的机会，增加或者
+减少定期追加保险费金额的申请除外。  
+vs
+    - 您应在定期追加保险费约定交纳日交纳每期的定期追加保险费。本合同的定期追加保险费交费期间为至个人账户注销前。
+   - 在个人账户注销之前，我们提供三次定期追加保险费申请的机会，增加或者减少定期追加保险费金额的申请除外。 
+>>> result=<res>文本一致</res>
+<冲突文本段>：无。
+2025-06-30 09:07:43 - block_text_comparison.py:115 - 3.1 保险费的交纳 本合同的首次保险费由您在投保时一次性交纳，具体金额由您在投保时与我们约定并在保险单上载明，但应符合我们的规定。 
+vs
+    - 首次保险费：本合同的首次保险费由您在投保时一次性交纳，具体金额由您在投保时与我们约定并在保险单上载明，但应符合我们的规定。 
+>>> result=<res>文本一致</res>
+<冲突文本段>：无。
+2025-06-30 09:07:44 - block_text_comparison.py:115 - 3.2 定期追加保险费变更 在个人账户注销之前，经我们同意，您可以不定期追加保险费，交费金额由您在不定期追加保险费时与我们约定，并在保险合同中载明。 
+vs
+    - 不定期追加保险费：在个人账户注销之前，经我们同意，您可以不定期追加保险费，交费金额由您在不定期追加保险费时与我们约定，并在保险合同中载明。 
+>>> result=<res>文本一致</res>
+<冲突文本段>：无。
+2025-06-30 09:07:44 - block_text_comparison.py:119 - results: [True, True, True, True, True, True, True]
+2025-06-30 09:07:44 - block_text_comparison.py:127 - ===============cnt=135 || material_id='m_00105a' || rule='投保条款' || end_result=True===============
+2025-06-30 09:07:44 - block_text_comparison.py:83 - ===============cnt：136 || material_id='m_00065a' || rule='投保条款' || label=None===============
+2025-06-30 09:07:44 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00065a/HEALTH_INFORM/投保条款.txt...
+2025-06-30 09:07:44 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00065a/INTRODUCE_IMG/投保条款.txt...
+2025-06-30 09:07:44 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00065a/PRODUCT_MANUAL/投保条款.txt...
+2025-06-30 09:07:44 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00065a/HEAD_IMG/投保条款.txt...
+2025-06-30 09:07:44 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00065a/CLAUSE/投保条款.txt...
+2025-06-30 09:07:44 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00065a/INSURE_NOTICE/投保条款.txt...
+2025-06-30 09:07:44 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00065a/LIABILITY_EXCLUSION/投保条款.txt...
+2025-06-30 09:08:27 - block_text_comparison.py:115 - ```
+（一）投保范围 凡投保时出生满28天至55周岁，身体健康的个人均可作为被保险人参加本保险。
+``` 
+vs
+ 凡投保时出生满28天至55周岁（见7.1），身体健康的个人均可作为被保险人参加本保险。1.1 被保险人范围 
+>>> result=<res>文本一致</res>
+<冲突文本段>：无。
+2025-06-30 09:08:27 - block_text_comparison.py:119 - results: [True]
+2025-06-30 09:08:27 - block_text_comparison.py:127 - ===============cnt=136 || material_id='m_00065a' || rule='投保条款' || end_result=True===============
+2025-06-30 09:08:27 - block_text_comparison.py:75 - ===============skip cnt：138 || material_id='m_00090a' || rule='术语解释' || end_result=True===============
+2025-06-30 09:08:27 - block_text_comparison.py:75 - ===============skip cnt：139 || material_id='m_00106a' || rule='保障相关时间' || end_result=True===============
+2025-06-30 09:08:27 - block_text_comparison.py:75 - ===============skip cnt：140 || material_id='m_00107a' || rule='赔付 & 领取规则' || end_result=False===============
+2025-06-30 09:08:27 - block_text_comparison.py:75 - ===============skip cnt：141 || material_id='m_00108a' || rule='续保条款' || end_result=True===============
+2025-06-30 09:08:27 - block_text_comparison.py:75 - ===============skip cnt：142 || material_id='m_00083a' || rule='保障相关时间' || end_result=True===============
+2025-06-30 09:08:27 - block_text_comparison.py:75 - ===============skip cnt：143 || material_id='m_00109a' || rule='出险条款' || end_result=True===============
+2025-06-30 09:08:27 - block_text_comparison.py:75 - ===============skip cnt：144 || material_id='m_00110a' || rule='退保条款' || end_result=True===============
+2025-06-30 09:08:27 - block_text_comparison.py:75 - ===============skip cnt：145 || material_id='m_00030a' || rule='赔付 & 领取规则' || end_result=False===============
+2025-06-30 09:08:27 - block_text_comparison.py:75 - ===============skip cnt：146 || material_id='m_00111a' || rule='退保条款' || end_result=True===============
+2025-06-30 09:08:27 - block_text_comparison.py:75 - ===============skip cnt：147 || material_id='m_00082a' || rule='责任免除' || end_result=False===============
+2025-06-30 09:08:27 - block_text_comparison.py:75 - ===============skip cnt：148 || material_id='m_00004a' || rule='责任免除' || end_result=True===============
+2025-06-30 09:08:27 - block_text_comparison.py:83 - ===============cnt：148 || material_id='m_00112a' || rule='投保条款' || label=None===============
+2025-06-30 09:08:27 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00112a/INTRODUCE_IMG/投保条款.txt...
+2025-06-30 09:08:27 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00112a/HEAD_IMG/投保条款.txt...
+2025-06-30 09:08:27 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00112a/CLAUSE/投保条款.txt...
+2025-06-30 09:08:27 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00112a/INSURE_NOTICE/投保条款.txt...
+2025-06-30 09:08:27 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00112a/ADDITIONAL_AGREEMENT/投保条款.txt...
+2025-06-30 09:08:27 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00112a/LIABILITY_EXCLUSION/投保条款.txt...
+2025-06-30 09:09:00 - block_text_comparison.py:103 - ===============<=1 cnt=148 || material_id='m_00112a' || rule='投保条款' || end_result=False===============
+2025-06-30 09:09:00 - block_text_comparison.py:75 - ===============skip cnt：150 || material_id='m_00113a' || rule='保障相关时间' || end_result=False===============
+2025-06-30 09:09:00 - block_text_comparison.py:83 - ===============cnt：150 || material_id='m_00114a' || rule='投保条款' || label=None===============
+2025-06-30 09:09:00 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00114a/HEALTH_INFORM/投保条款.txt...
+2025-06-30 09:09:00 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00114a/INTRODUCE_IMG/投保条款.txt...
+2025-06-30 09:09:00 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00114a/HEAD_IMG/投保条款.txt...
+2025-06-30 09:09:00 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00114a/CLAUSE/投保条款.txt...
+2025-06-30 09:09:00 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00114a/INSURE_NOTICE/投保条款.txt...
+2025-06-30 09:09:00 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00114a/ADDITIONAL_AGREEMENT/投保条款.txt...
+2025-06-30 09:09:00 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00114a/LIABILITY_EXCLUSION/投保条款.txt...
+2025-06-30 09:10:07 - block_text_comparison.py:103 - ===============<=1 cnt=150 || material_id='m_00114a' || rule='投保条款' || end_result=False===============
+2025-06-30 09:10:07 - block_text_comparison.py:75 - ===============skip cnt：152 || material_id='m_00115a' || rule='出险条款' || end_result=True===============
+2025-06-30 09:10:07 - block_text_comparison.py:83 - ===============cnt：152 || material_id='m_00068a' || rule='投保条款' || label=None===============
+2025-06-30 09:10:07 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00068a/INTRODUCE_IMG/投保条款.txt...
+2025-06-30 09:10:07 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00068a/HEAD_IMG/投保条款.txt...
+2025-06-30 09:10:07 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00068a/CLAUSE/投保条款.txt...
+2025-06-30 09:10:07 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00068a/INSURE_NOTICE/投保条款.txt...
+2025-06-30 09:10:07 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00068a/ADDITIONAL_AGREEMENT/投保条款.txt...
+2025-06-30 09:10:07 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00068a/LIABILITY_EXCLUSION/投保条款.txt...
+2025-06-30 09:11:18 - block_text_comparison.py:115 - 2.7 保险期间与不保证续保
+   本合同的保险期间由投保人和保险人双方协商确定，并在保险合同中载明，最长为一年。本合同为不保证续保合同。本产品保险期间为一年（或不超过一年）。保险期间届满，投保人需要重新向保险公司申请投保本产品，并经保险人同意，交纳保险费，获得新的保险合同。 
+vs
+ 4 本产品不保证续保；保险期间届满，投保人需要重新向保险公司申请投保本产品，并经保险人同意，交纳保险费，获得新的保险合同。 
+>>> result=<res>文本一致</res>
+<冲突文本段>：无。
+2025-06-30 09:11:18 - block_text_comparison.py:119 - results: [True]
+2025-06-30 09:11:18 - block_text_comparison.py:127 - ===============cnt=152 || material_id='m_00068a' || rule='投保条款' || end_result=True===============
+2025-06-30 09:11:18 - block_text_comparison.py:75 - ===============skip cnt：154 || material_id='m_00086a' || rule='退保条款' || end_result=True===============
+2025-06-30 09:11:18 - block_text_comparison.py:75 - ===============skip cnt：155 || material_id='m_00116a' || rule='退保条款' || end_result=True===============
+2025-06-30 09:11:18 - block_text_comparison.py:75 - ===============skip cnt：156 || material_id='m_00114a' || rule='赔付 & 领取规则' || end_result=False===============
+2025-06-30 09:11:18 - block_text_comparison.py:75 - ===============skip cnt：157 || material_id='m_00051a' || rule='保障责任' || end_result=False===============
+2025-06-30 09:11:18 - block_text_comparison.py:75 - ===============skip cnt：158 || material_id='m_00117a' || rule='赔付 & 领取规则' || end_result=False===============
+2025-06-30 09:11:18 - block_text_comparison.py:83 - ===============cnt：158 || material_id='m_00118a' || rule='投保条款' || label=None===============
+2025-06-30 09:11:18 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00118a/PRODUCT_MANUAL/投保条款.txt...
+2025-06-30 09:11:18 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00118a/CLAUSE/投保条款.txt...
+2025-06-30 09:11:18 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00118a/INSURE_NOTICE/投保条款.txt...
+2025-06-30 09:11:18 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00118a/ADDITIONAL_AGREEMENT/投保条款.txt...
+2025-06-30 09:11:18 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00118a/LIABILITY_EXCLUSION/投保条款.txt...
+2025-06-30 09:11:51 - block_text_comparison.py:103 - ===============<=1 cnt=158 || material_id='m_00118a' || rule='投保条款' || end_result=False===============
+2025-06-30 09:11:51 - block_text_comparison.py:75 - ===============skip cnt：160 || material_id='m_00119a' || rule='责任免除' || end_result=False===============
+2025-06-30 09:11:51 - block_text_comparison.py:75 - ===============skip cnt：161 || material_id='m_00025a' || rule='术语解释' || end_result=True===============
+2025-06-30 09:11:51 - block_text_comparison.py:75 - ===============skip cnt：162 || material_id='m_00046a' || rule='基础产品销售信息' || end_result=False===============
+2025-06-30 09:11:51 - block_text_comparison.py:75 - ===============skip cnt：163 || material_id='m_00102a' || rule='退保条款' || end_result=True===============
+2025-06-30 09:11:51 - block_text_comparison.py:75 - ===============skip cnt：164 || material_id='m_00120a' || rule='保障相关时间' || end_result=True===============
+2025-06-30 09:11:51 - block_text_comparison.py:75 - ===============skip cnt：165 || material_id='m_00098a' || rule='责任免除' || end_result=False===============
+2025-06-30 09:11:51 - block_text_comparison.py:75 - ===============skip cnt：166 || material_id='m_00008a' || rule='赔付 & 领取规则' || end_result=False===============
+2025-06-30 09:11:51 - block_text_comparison.py:75 - ===============skip cnt：167 || material_id='m_00121a' || rule='退保条款' || end_result=True===============
+2025-06-30 09:11:51 - block_text_comparison.py:75 - ===============skip cnt：168 || material_id='m_00026a' || rule='术语解释' || end_result=True===============
+2025-06-30 09:11:51 - block_text_comparison.py:75 - ===============skip cnt：169 || material_id='m_00122a' || rule='保障责任' || end_result=True===============
+2025-06-30 09:11:51 - block_text_comparison.py:75 - ===============skip cnt：170 || material_id='m_00072a' || rule='出险条款' || end_result=True===============
+2025-06-30 09:11:51 - block_text_comparison.py:75 - ===============skip cnt：171 || material_id='m_00123a' || rule='术语解释' || end_result=True===============
+2025-06-30 09:11:51 - block_text_comparison.py:75 - ===============skip cnt：172 || material_id='m_00089a' || rule='赔付 & 领取规则' || end_result=False===============
+2025-06-30 09:11:51 - block_text_comparison.py:75 - ===============skip cnt：173 || material_id='m_00052a' || rule='责任免除' || end_result=False===============
+2025-06-30 09:11:51 - block_text_comparison.py:75 - ===============skip cnt：174 || material_id='m_00005a' || rule='基础产品销售信息' || end_result=True===============
+2025-06-30 09:11:51 - block_text_comparison.py:75 - ===============skip cnt：175 || material_id='m_00124a' || rule='责任免除' || end_result=False===============
+2025-06-30 09:11:51 - block_text_comparison.py:83 - ===============cnt：175 || material_id='m_00125a' || rule='投保条款' || label=None===============
+2025-06-30 09:11:51 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00125a/HEALTH_INFORM/投保条款.txt...
+2025-06-30 09:11:51 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00125a/HEAD_IMG/投保条款.txt...
+2025-06-30 09:11:51 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00125a/CLAUSE/投保条款.txt...
+2025-06-30 09:11:51 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00125a/INSURE_NOTICE/投保条款.txt...
+2025-06-30 09:11:51 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00125a/ADDITIONAL_AGREEMENT/投保条款.txt...
+2025-06-30 09:11:51 - block_text_comparison.py:89 - load data data/clean_data_qwen2.5-72b-instruct/materials/m_00125a/LIABILITY_EXCLUSION/投保条款.txt...
+2025-06-30 09:12:55 - block_text_comparison.py:103 - ===============<=1 cnt=175 || material_id='m_00125a' || rule='投保条款' || end_result=False===============
+2025-06-30 09:12:55 - block_text_comparison.py:75 - ===============skip cnt：177 || material_id='m_00126a' || rule='保障责任' || end_result=True===============
+2025-06-30 09:12:55 - block_text_comparison.py:75 - ===============skip cnt：178 || material_id='m_00127a' || rule='赔付 & 领取规则' || end_result=False===============
+2025-06-30 09:12:55 - block_text_comparison.py:75 - ===============skip cnt：179 || material_id='m_00128a' || rule='基础产品销售信息' || end_result=False===============
+2025-06-30 09:12:55 - block_text_comparison.py:75 - ===============skip cnt：180 || material_id='m_00129a' || rule='保障相关时间' || end_result=True===============
+2025-06-30 09:12:55 - block_text_comparison.py:75 - ===============skip cnt：181 || material_id='m_00032a' || rule='保障责任' || end_result=False===============
+2025-06-30 09:12:55 - block_text_comparison.py:75 - ===============skip cnt：182 || material_id='m_00004a' || rule='退保条款' || end_result=True===============
+2025-06-30 09:12:55 - block_text_comparison.py:75 - ===============skip cnt：183 || material_id='m_00130a' || rule='赔付 & 领取规则' || end_result=True===============
+2025-06-30 09:12:55 - block_text_comparison.py:75 - ===============skip cnt：184 || material_id='m_00041a' || rule='责任免除' || end_result=True===============
+2025-06-30 09:12:55 - block_text_comparison.py:75 - ===============skip cnt：185 || material_id='m_00088a' || rule='保障责任' || end_result=True===============
+2025-06-30 09:12:55 - block_text_comparison.py:75 - ===============skip cnt：186 || material_id='m_00131a' || rule='出险条款' || end_result=True===============
+2025-06-30 09:12:55 - block_text_comparison.py:75 - ===============skip cnt：187 || material_id='m_00132a' || rule='保障责任' || end_result=True===============
+2025-06-30 09:12:55 - block_text_comparison.py:75 - ===============skip cnt：188 || material_id='m_00129a' || rule='术语解释' || end_result=True===============
+2025-06-30 09:12:55 - block_text_comparison.py:75 - ===============skip cnt：189 || material_id='m_00116a' || rule='责任免除' || end_result=False===============
+2025-06-30 09:12:55 - block_text_comparison.py:75 - ===============skip cnt：190 || material_id='m_00133a' || rule='责任免除' || end_result=True===============
+2025-06-30 09:12:55 - block_text_comparison.py:75 - ===============skip cnt：191 || material_id='m_00134a' || rule='基础产品销售信息' || end_result=True===============
+2025-06-30 09:12:55 - block_text_comparison.py:75 - ===============skip cnt：192 || material_id='m_00016a' || rule='基础产品销售信息' || end_result=True===============
+2025-06-30 09:12:55 - block_text_comparison.py:75 - ===============skip cnt：193 || material_id='m_00135a' || rule='附加条款' || end_result=True===============
+2025-06-30 09:12:55 - block_text_comparison.py:75 - ===============skip cnt：194 || material_id='m_00136a' || rule='附加条款' || end_result=True===============
+2025-06-30 09:12:55 - block_text_comparison.py:75 - ===============skip cnt：195 || material_id='m_00137a' || rule='附加条款' || end_result=True===============
+2025-06-30 09:12:55 - block_text_comparison.py:75 - ===============skip cnt：196 || material_id='m_00138a' || rule='基础产品销售信息' || end_result=True===============
+2025-06-30 09:12:55 - block_text_comparison.py:75 - ===============skip cnt：197 || material_id='m_00120a' || rule='附加条款' || end_result=True===============
+2025-06-30 09:12:55 - block_text_comparison.py:75 - ===============skip cnt：198 || material_id='m_00139a' || rule='基础产品销售信息' || end_result=True===============
+2025-06-30 09:12:55 - block_text_comparison.py:75 - ===============skip cnt：199 || material_id='m_00061a' || rule='责任免除' || end_result=False===============
+2025-06-30 09:12:55 - block_text_comparison.py:75 - ===============skip cnt：200 || material_id='m_00066a' || rule='赔付 & 领取规则' || end_result=False===============
+2025-06-30 09:12:55 - block_text_comparison.py:133 - Done! 文件保存至:data/clean_data_qwen2.5-72b-instruct/clean_data_投保条款_splitv2.csv

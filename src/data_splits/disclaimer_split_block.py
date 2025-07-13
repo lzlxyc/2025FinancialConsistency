@@ -1,14 +1,47 @@
 import re
-from src.data_splits.patterns import disclaimer_patterns
+from tqdm import tqdm
 
-from src.data_splits.tools import (
+from .patterns import disclaimer_patterns
+
+from .tools import (
     zh_same_string,
     diff_similarity,
     keep_only_chinese_strict,
     ngram_similarity
 )
 
-
+'''
+责任免除切分逻辑：
+1、先对同种情形的条款进行分大块：
+    END@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    因下列原因造成被保险人住院治疗或医疗费用支出的，保险人不承担给付保险金责任：
+    1. 投保人对被保险人的故意杀害或故意伤害；
+    2. 被保险人故意自杀、自伤，但被保险人自杀时为无民事行为能力人的除外；
+    START@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+2、再保留文本相似度高的大块，并组成后续“一致性比较”的文本对：
+pair = (块1，块2)
+1)块1： 
+    因下列原因造成被保险人住院治疗或医疗费用支出的，保险人不承担给付保险金责任：
+    1. 投保人对被保险人的故意杀害或故意伤害；
+    2. 被保险人故意自杀、自伤，但被保险人自杀时为无民事行为能力人的除外；
+2)块2：
+    因下列原因造成被保险人住院治疗或医疗费用支出的，保险人不承担给付保险金责任：
+    1. 投保人对被保险人的故意杀害或故意伤害；
+    2. 被保险人故意自杀，但被保险人自杀时为无民事行为能力人的除外；
+3、再将相似度高的大块，进行细分小块，得到每条条款，进一步计算小块之间的文本相似度，保留相似度高的小块文本对，作为“一致性比较”的文本对：
+1）细分小块：
+    1. 投保人对被保险人的故意杀害或故意伤害；
+    2. 被保险人故意自杀、自伤，但被保险人自杀时为无民事行为能力人的除外；
+    1. 投保人对被保险人的故意杀害或故意伤害；
+    2. 被保险人故意自杀，但被保险人自杀时为无民事行为能力人的除外；
+2）进行去重（完全一致的不必须进入后续的一致性对比）：
+    1. 投保人对被保险人的故意杀害或故意伤害；
+    2. 被保险人故意自杀、自伤，但被保险人自杀时为无民事行为能力人的除外；
+    2. 被保险人故意自杀，但被保险人自杀时为无民事行为能力人的除外；
+3）保留相似度高的小块文本对,输入到一致性对比模型：
+    pair = (2. 被保险人故意自杀、自伤，但被保险人自杀时为无民事行为能力人的除外；, 
+            2. 被保险人故意自杀，但被保险人自杀时为无民事行为能力人的除外；)
+'''
 
 def __disclaimer_data_presplit(data:str) -> list:
     '''责任免除分块'''
@@ -42,7 +75,7 @@ def disclaimer_data_split(all_infos:list):
 
     sim_blocks = []
     len_inputs = len(inputs)
-    for i in range(len_inputs):
+    for i in tqdm(range(len_inputs)):
         for j in range(i+1, len_inputs):
             if zh_same_string(inputs[i], inputs[j]): continue
 

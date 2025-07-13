@@ -31,6 +31,7 @@ def rule_info_extract_from_file(rule: str, md_dir: str, aibox: AiBox) -> None:
         return
 
     all_infos = []
+
     for path in glob.glob(f"{md_dir}/*.md"):
         print(f'processing file:{path}...')
         sample_response = rule_info_extract_form_md(rule, path, aibox)
@@ -77,5 +78,61 @@ def rule_preprocess(data_name='验证集'):
             rule_info_extract(rule,material_path, aibox)
 
 
+
+def rule_txt_merge(data_name:str='', retain_rules:list=[]) -> None:
+    '''合并同rule的txt文件'''
+    from utils import rule_clauses, get_rule, save_sample
+
+    M_DIR = f'../data/{data_name}/materials'
+    df = pd.read_json(f"../data/{data_name}/data.jsonl", lines=True)
+
+    df['rule'] = df['rule'].apply(get_rule)
+
+    cnt = 0
+
+    from src.data_splits import back_data_split
+    module_content_list = []
+    for row in df.iloc[:].iterrows():
+        cnt += 1
+        rule, rule_id, material_id = row[1].rule, row[1].rule_id, row[1].material_id
+        label = row[1].result if 'result' in df.columns else None
+
+        if rule not in retain_rules: continue
+
+        material_path = f'{M_DIR}/{material_id}'
+
+        logger.info(f"==============={cnt=} || {material_id=} || {rule=} || {label=}===============")
+
+
+        for file in os.listdir(material_path):
+            path = f'{material_path}/{file}/{rule}.txt'
+            logger.info(f"load data {path}...")
+            if not os.path.exists(path): continue
+
+            sample = open(path, 'r', encoding='utf-8').read()
+            if len(re.sub(r'[^\u4e00-\u9fff]', '', sample)) <=4: continue
+
+            module_content_list.append('START@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@')
+            module_content_list.append(f"mid::{material_id} >> {file}")
+            module_content_list.append(sample)
+            module_content_list.append('END@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\n')
+
+    save_path = f"../logs/{'#'.join(retain_rules)}_merge.txt"
+    print(save_path)
+    with open(save_path, 'w', encoding='utf-8') as fp:
+        fp.write('\n******************************************************\n'.join(module_content_list))
+
+        # datas = back_data_split(module_content_list)
+        #
+        # for data in datas:
+        #     print(data)
+        #     print("*"*150+'\n')
+            # with open(f'../logs/{retain_rule}_merge.txt', 'w', encoding='utf-8') as fp:
+            #     fp.write('\n******************************************************\n'.join(datas))
+
+
+
+
+
 if __name__ == '__main__':
-    rule_preprocess("测试 A 集")
+    rule_txt_merge("测试A集_clean", ["保障责任"])
