@@ -2,18 +2,15 @@
 __pycache__/
 *.py[cod]
 *$py.class
+.ipynb_checkpoints
 
-# Environments
-.env
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
-
-DATA/测试 A 集
-DATA/样例集
-DATA/测试 A 集2
-DATA/.ipynb_checkpoints
+DATA
+data
 outputs
+logs
+models
+other
+.env
+docs/*.pdf
+reports/*.jsonl
+reports/llm*.jsonl

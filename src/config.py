@@ -1,0 +1,1 @@
+Qwen2_5_7b_Model_Path = 'D:/LZL/workspace/ModelHub/Qwen2.5-7B-Instruct'

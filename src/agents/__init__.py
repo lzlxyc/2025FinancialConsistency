@@ -1,0 +1,3 @@
+from .RuleTextConsistencyValidatorAgent import RuleTextConsistencyValidatorAgent
+
+__all__ = [RuleTextConsistencyValidatorAgent]

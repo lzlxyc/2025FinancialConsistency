@@ -1,0 +1,2 @@
+accuracy,precision,recall,f1,mode
+0.8,0.6666666666666666,1.0,0.8,llm_mix_simgle

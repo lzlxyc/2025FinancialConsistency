@@ -5,14 +5,13 @@ from difflib import SequenceMatcher
 
 
 
-def keep_only_chinese_strict(text:str) ->str:
-    '''只保留中文字符串'''
-    return re.sub(r'[^\u4e00-\u9fff]', '', text)
+def keep_zh_number(text:str) ->str:
+    return re.sub(r'[^\u4e00-\u9fff0-9]', '', text)
 
-
-def zh_same_string(text1:str, text2:str) -> bool:
+def zh_number_same_string(text1:str, text2:str) -> bool:
     '''中文字符串文本对比'''
-    return keep_only_chinese_strict(text1) == keep_only_chinese_strict(text2)
+    return keep_zh_number(text1) == keep_zh_number(text2)
+
 
 
 def preprocess(text):
