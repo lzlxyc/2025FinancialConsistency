@@ -157,8 +157,6 @@ def disclaimer_data_split(all_infos:list):
                 for bj in blocks_j:
                     if len(bj) < 6: continue
 
-                    if '房屋连续' in bi and '房屋连续' in bj:
-                        print()
                     if zh_number_same_string(bi, bj): continue
 
                     score = diff_similarity(bi, bj)

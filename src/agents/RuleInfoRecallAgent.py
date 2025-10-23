@@ -29,7 +29,7 @@ class RuleInfoRecallAgent(BaseAgent):
 
 
 
-    def _rule_info_extract_form_md(self, rule: str, md_path: str, chunk_size: int = 120000) -> str:
+    def _rule_info_extract_form_md(self, rule: str, md_path: str, chunk_size: int = 50000) -> str:
         '''分段循环抽取规则信息并拼接，避免输入超长报错'''
         rule_full = f"{rule}（{rule_clauses[rule]}）"
         system_prompt = f"提取出下面文本的关于“{rule_full}”的信息，要完整的、不要有遗漏的信息，更不要修改数据内容。如果相关的本文本不存在，则输出一个空字符串。如果其中包含政策或者法律敏感内容,该内容则通过拼音输出"

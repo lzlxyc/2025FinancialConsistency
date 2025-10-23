@@ -63,5 +63,6 @@ def claim_clause_data_split(all_infos:list):#出险条款
 def term_explanation_data_split(all_infos:list):#术语解释
     return data_no_split(all_infos,)
 
+
 if __name__  == '__main__':
     pass

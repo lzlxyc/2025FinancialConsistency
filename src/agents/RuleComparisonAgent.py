@@ -33,9 +33,14 @@ class RuleComparisonAgent(BaseAgent):
 
 
 
-    def _sample_comparison(self, rule: str, text1: str, text2: str) -> str:
+    def _sample_comparison(self, rule: str, pair:tuple[str, str]) -> str:
+        text1, text2 = pair[0], pair[1]
         Comparison_System, PT_Text_Comparison = build_text_comp_prompt(rule, text1, text2)
-        return self.llm_inference(prompt=PT_Text_Comparison, system=Comparison_System)
+        sample = self.llm_inference(prompt=PT_Text_Comparison, system=Comparison_System)
+        if '文本冲突' in sample:
+            logger.info(f"{text1} \nvs\n {text2} \n>>> result={sample}")
+        # 后处理
+        return self._res_check(sample)
 
 
     def _res_check(self, result_str: str) -> bool:
@@ -51,18 +56,10 @@ class RuleComparisonAgent(BaseAgent):
 
         results = []
         for pair in tqdm(pairs_to_comp):
-            text1, text2 = pair[0], pair[1]
-            sample = self._sample_comparison(rule, text1, text2)
-            result = self._res_check(sample)
+            result = self._sample_comparison(rule, pair)
             results.append(result)
-            if '文本冲突' in sample:
-                logger.info(f"{text1} \nvs\n {text2} \n>>> result={sample}")
             if not result:
                 break
 
         logger.info(f"results: {results}")
         return all(res for res in results) if results else True
-
-
-
-

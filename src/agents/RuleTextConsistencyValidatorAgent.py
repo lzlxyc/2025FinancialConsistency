@@ -56,18 +56,20 @@ class RuleTextConsistencyValidatorAgent(BaseAgent):
             os.remove(self.SAVE_PATH)
 
         self.is_use_voting_model = is_use_voting_model
+
+        self.rule_info_recall_agent = RuleInfoRecallAgent(self.aibox, is_rule_pre_standard)
+        self.rule_info_split_agent = RuleInfoSplitAgent()
+
         if is_use_voting_model:
-            self.rule_comp_mul_voting_agent = RuleComparisonMultiVotingAgent()
+            self.rule_comparison_agent = RuleComparisonMultiVotingAgent()
         else:
-            self.rule_info_recall_agent = RuleInfoRecallAgent(self.aibox, is_rule_pre_standard)
-            self.rule_info_split_agent = RuleInfoSplitAgent()
             self.rule_comparison_agent = RuleComparisonAgent(self.aibox, use_local_comp_model)
 
         self.test_datas = None
 
     def agent_chain(self):
         df, df_sample = load_data(self.data_name)
-        # df = df.iloc[:5]
+        # df = df.iloc[:3]
         ypreds = []
 
         for cnt, row in enumerate(df.iterrows()):
@@ -89,7 +91,8 @@ class RuleTextConsistencyValidatorAgent(BaseAgent):
                 end_result = bool(df_sample.iloc[cnt].result)
                 logger_info = f"===========skip "
 
-            _info = f"{logger_info} {cnt=} || {material_id=} || {rule=} || {end_result=}==============="
+            res = bool(end_result == ytrue)
+            _info = f"{logger_info}:{cnt=}|{material_id=}|{rule=}|{end_result=}|{ytrue=}|{res=}==============="
             logger.info(_info)
 
             ypreds.append(end_result)
@@ -103,12 +106,7 @@ class RuleTextConsistencyValidatorAgent(BaseAgent):
 
 
     def run(self):
-        if self.is_use_voting_model:
-            df, _ = load_data(self.data_name)
-            self.rule_comp_mul_voting_agent.run(df, self.SAVE_PATH, self.M_DIR)
-        else:
-            self.agent_chain()
-
+        self.agent_chain()
         logger.info("Done!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
 
     def compute_metrics(self):

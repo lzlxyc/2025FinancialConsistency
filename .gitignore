@@ -12,5 +12,6 @@ models
 other
 .env
 docs/*.pdf
+docs/*.pptx
 reports/*.jsonl
 reports/llm*.jsonl

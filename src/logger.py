@@ -8,7 +8,7 @@ def setup_logger(log_file='app.log', overwrite=False):
 
     # 创建 logger 实例
     logger = logging.getLogger()
-    logger.setLevel(logging.DEBUG)
+    logger.setLevel(logging.INFO)
 
     if logger.handlers:
         logger.handlers = []

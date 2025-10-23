@@ -28,7 +28,8 @@ def text_validate(args):
         model=args.model,
         api_key=get_api_key(),
         save_file=args.save_file,
-        use_local_comp_model=args.use_local_comp_model
+        use_local_comp_model=args.use_local_comp_model,
+        is_use_voting_model=args.is_use_voting_model,
 
     )
     validator.run()

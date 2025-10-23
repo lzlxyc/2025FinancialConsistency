@@ -1,0 +1,4 @@
+material_id,rule_id,rule,result,ypred
+m_00006a,r_00006,责任免除,True,False
+m_00008a,r_00008,责任免除,False,True
+m_00009a,r_00009,出险条款,True,True

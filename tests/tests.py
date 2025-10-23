@@ -18,11 +18,15 @@ class ConfigTests:
     save_file:str
     data_name = 'test_datas'
     model_mode = 'api'
-    model = 'ds'
+    model = 'qw72'
 
     use_local_comp_model = False
     is_rule_pre_standard = False
     is_use_voting_model = False
+
+    def __post_init__(self):
+        # 如果 compare 为 'single'，则设置 is_use_voting_model 为 True
+        self.is_use_voting_model = self.compare == 'more'
 
 
 def main_test():
@@ -36,7 +40,7 @@ def main_test():
     '''
     recall_modes = ['llm']
     data_split_modes = ['mix']
-    compare_modes = ['simgle']
+    compare_modes = ['more']
 
     all_metrics = []
     for recall in recall_modes:
@@ -53,6 +57,8 @@ def main_test():
                     save_file=save_file,
                     log_file=log_file
                 )
+                print(vars(args))
+
                 metrics = text_validate(args)
                 metrics['mode'] = curr_mode
                 all_metrics.append(metrics)
