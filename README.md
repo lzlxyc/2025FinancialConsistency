@@ -77,8 +77,9 @@ python -m src.main
 ```bash
 python tests/tests.py
 '''
-在下面的参数中输入需要对比测试的模式，即可生成测试报告
-报告生成在report/all_metrics.csv
+【1】在下面的参数中输入需要对比测试的模式，即可生成测试报告
+【2】报告生成在report/all_metrics.csv
+【3】具体参数参考下面参数配置说明
 recall_modes = ['regular','model','mix']
 data_split_modes = ['regular','model']
 compare_modes = ['single']
