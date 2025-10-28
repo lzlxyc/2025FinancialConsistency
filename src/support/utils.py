@@ -46,7 +46,7 @@ def save_sample(
 
 
 def load_data(data_name):
-    df = pd.read_json(f"data/{data_name}/data.jsonl", lines=True)
+    df = pd.read_json(f"data/{data_name}/ab.jsonl", lines=True)
     # df_sample = pd.read_json(f"outputs/notrans_['赔付 & 领取规则'].jsonl", lines=True)
     # assert len(df) == len(df_sample)
 

@@ -36,9 +36,13 @@ class RuleComparisonAgent(BaseAgent):
     def _sample_comparison(self, rule: str, pair:tuple[str, str]) -> str:
         text1, text2 = pair[0], pair[1]
         Comparison_System, PT_Text_Comparison = build_text_comp_prompt(rule, text1, text2)
+
         sample = self.llm_inference(prompt=PT_Text_Comparison, system=Comparison_System)
-        if '文本冲突' in sample:
+
+        if True or '文本冲突' in sample:
+        # if '无需比较' in sample:
             logger.info(f"{text1} \nvs\n {text2} \n>>> result={sample}")
+
         # 后处理
         return self._res_check(sample)
 

@@ -7,7 +7,7 @@ import logging
 from src.agents.BaseAgent import BaseAgent
 from src.support.llms import AiBox
 from src.support.utils import read_markdown
-from src.support.prompts import rule_clauses
+from src.support.prompts import built_recall_system_pt
 from src.support.qwen_rule_standard import QwenRuleStandard
 
 logger = logging.getLogger(__name__)
@@ -21,18 +21,18 @@ class RuleInfoRecallAgent(BaseAgent):
         >>> data_recallor = RuleInfoRecallAgent(aibox)
         >>> data_recallor.run(material_path, rule)
     '''
-    def __init__(self, aibox:AiBox, is_rule_pre_standard=False) -> None:
-        '''is_rule_pre_standard: 表示是否需要进行数据标准化
+    def __init__(self, aibox:AiBox, recall_mode='model', is_rule_pre_standard=False) -> None:
+        '''
+        recall_mode: 召回模式：regular(规则、关键词检索)、model（大模型）、mix（混合模式）
+        is_rule_pre_standard: 表示是否需要进行数据标准化
         '''
         self.aibox = aibox
+        self.recall_mode = recall_mode
         self.qwen_rule_standard  = QwenRuleStandard() if is_rule_pre_standard else None
-
-
 
     def _rule_info_extract_form_md(self, rule: str, md_path: str, chunk_size: int = 50000) -> str:
         '''分段循环抽取规则信息并拼接，避免输入超长报错'''
-        rule_full = f"{rule}（{rule_clauses[rule]}）"
-        system_prompt = f"提取出下面文本的关于“{rule_full}”的信息，要完整的、不要有遗漏的信息，更不要修改数据内容。如果相关的本文本不存在，则输出一个空字符串。如果其中包含政策或者法律敏感内容,该内容则通过拼音输出"
+        system_prompt = built_recall_system_pt(rule)
 
         text = read_markdown(md_path)
         results = []

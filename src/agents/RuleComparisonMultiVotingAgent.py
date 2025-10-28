@@ -35,7 +35,7 @@ model_configs = [
 
 class RuleComparisonMultiVotingAgent(BaseAgent):
     '''
-    负责进行文本比对的agent
+    多模型负责进行文本比对的agent
     input: 输入待比对的文本对列表，以及对应的rule
     return(bool): 比对的结果：True:文本一致；False: 文本冲突
     '''
@@ -100,6 +100,10 @@ class RuleComparisonMultiVotingAgent(BaseAgent):
 
         # 进行投票（原逻辑保持不变）
         logger.info(f">>>>>>>>>>>> 多模型投票：all results: {all_res} ****{round(time() - s_time, 4)}")
-        return sum(all_res) <= len(all_res) / 2
+
+        true_count = sum(all_res)
+        false_count = len(all_res) - true_count
+
+        return true_count > false_count
 
 

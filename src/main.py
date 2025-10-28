@@ -19,6 +19,11 @@ def get_api_key() -> dict:
 
 
 def text_validate(args):
+    '''
+    recall_mode: 召回模式：regular(规则、关键词检索)、model（大模型）、mix（混合模式）
+    data_split_mode: 数据分块模式：regular(正则)、model（神经网络模型）、mix（混合模式）
+    compare_mode: 文本比对模式：single(单模型模式)、ensemble(多模式模式)、train_model(微调模型模式)
+    '''
     # 配置统一的日志
     setup_logger(args.log_file, True)
 
@@ -28,9 +33,10 @@ def text_validate(args):
         model=args.model,
         api_key=get_api_key(),
         save_file=args.save_file,
-        use_local_comp_model=args.use_local_comp_model,
-        is_use_voting_model=args.is_use_voting_model,
-
+        is_rule_pre_standard=False,
+        recall_mode=args.recall_mode,
+        data_split_mode=args.data_split_mode,
+        compare_mode=args.compare_mode
     )
     validator.run()
     metrics = validator.compute_metrics()

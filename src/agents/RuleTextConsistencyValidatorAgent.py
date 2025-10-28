@@ -41,12 +41,21 @@ class RuleTextConsistencyValidatorAgent(BaseAgent):
     '''
     def __init__(self, data_name:str, model_mode='api',
                  model='qw72',api_key={},save_file='result',
-                 use_local_comp_model=False,
                  is_rule_pre_standard=False,
-                 is_use_voting_model=False):
+                 recall_mode='model',
+                 data_split_mode='mix',
+                 compare_mode='single'
+                 ):
         '''
-        data_name: 数据集名称
-        use_local_comp_model：是否使用本地模型进行比对
+        :param data_name: 数据集名称
+        :param model_mode: 大模型使用本地还是api
+        :param model: 使用的具体模型
+        :param api_key: 模型密钥
+        :param save_file: 保存的路径
+        :param is_rule_pre_standard: 是否使用预处理
+        :param recall_mode: 召回模式：regular(规则、关键词检索)、model（大模型）、mix（混合模式）
+        :param data_split_mode: 数据分块模式：regular(正则)、model（神经网络模型）、mix（混合模式）
+        :param compare_mode: 文本比对模式：single(单模型模式)、ensemble(多模式模式)、train_model(微调模型模式)
         '''
         self.data_name = data_name
         self.aibox = AiBox(mode=model_mode, model=model, api_key=api_key)
@@ -55,21 +64,23 @@ class RuleTextConsistencyValidatorAgent(BaseAgent):
         if os.path.exists(self.SAVE_PATH):
             os.remove(self.SAVE_PATH)
 
-        self.is_use_voting_model = is_use_voting_model
+        # 召回
+        self.rule_info_recall_agent = RuleInfoRecallAgent(self.aibox, recall_mode, is_rule_pre_standard)
+        # 分块
+        self.rule_info_split_agent = RuleInfoSplitAgent(data_split_mode)
 
-        self.rule_info_recall_agent = RuleInfoRecallAgent(self.aibox, is_rule_pre_standard)
-        self.rule_info_split_agent = RuleInfoSplitAgent()
-
-        if is_use_voting_model:
+        # 对比模式
+        if compare_mode == 'ensemble':
             self.rule_comparison_agent = RuleComparisonMultiVotingAgent()
         else:
+            use_local_comp_model = compare_mode == 'train_model'
             self.rule_comparison_agent = RuleComparisonAgent(self.aibox, use_local_comp_model)
 
         self.test_datas = None
 
     def agent_chain(self):
         df, df_sample = load_data(self.data_name)
-        # df = df.iloc[:3]
+        # df = df.iloc[28:31]
         ypreds = []
 
         for cnt, row in enumerate(df.iterrows()):

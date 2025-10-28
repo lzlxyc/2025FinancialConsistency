@@ -29,8 +29,8 @@ class AiBox:
                 self.model = "deepseek-chat"
                 self.api_key = api_key['ds']
                 BASE_URL = "https://api.deepseek.com"
-            elif model == 'qw3':
-                self.model = "qwen3-32b"
+            elif model == 'qw32':
+                self.model = "qwen2.5-32b-instruct"
                 self.api_key = api_key['qwen']
                 BASE_URL = "https://dashscope.aliyuncs.com/compatible-mode/v1"
             else:
@@ -81,6 +81,7 @@ class AiBox:
         '''
         if self.mode == 'api':
             messages = self.message_make(prompt, system)
+
             response = self.client.chat.completions.create(
                 model=self.model, messages=messages,
                 temperature=0.1,# top_p=0.7 ,

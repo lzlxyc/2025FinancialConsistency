@@ -20,7 +20,8 @@ from .multi_task_split_block import \
     surrender_data_split,\
     additional_term_data_split,\
     renewal_term_data_split,\
-    claim_clause_data_split
+    claim_clause_data_split, \
+    base_nn_data_split
 
 data_split_map = {
     '责任免除': disclaimer_data_split,
@@ -34,6 +35,8 @@ data_split_map = {
     '附加条款': additional_term_data_split,
     '续保条款': renewal_term_data_split,
     '出险条款': claim_clause_data_split,
+    '模型分块': base_nn_data_split,
+    '规则分块': disclaimer_data_split
 }
 
 

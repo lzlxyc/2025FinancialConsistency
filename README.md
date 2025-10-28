@@ -76,20 +76,29 @@ python -m src.main
 #### 运行对比测试
 ```bash
 python tests/tests.py
+'''
+在下面的参数中输入需要对比测试的模式，即可生成测试报告
+报告生成在report/all_metrics.csv
+recall_modes = ['regular','model','mix']
+data_split_modes = ['regular','model']
+compare_modes = ['single']
+'''
 ```
 
 #### 参数配置说明
 
-| 参数名称 | 类型 | 默认值             | 说明 |
-|---------|------|-----------------|------|
-| `data_name` | string | -               | 测试集名称 |
-| `model_mode` | string | `'api'`         | 大模型调用方式 |
-| `model` | string | `'qw72'`        | 使用的大模型标识 |
-| `save_file` | string | result          | 结果保存文件名 |
-| `log_file` | string | ./logs/test.log | 日志文件路径 |
-| `use_local_comp_model` | bool | `False`         | 是否使用本地微调的比对模型 |
-| `is_rule_pre_standard` | bool | `False`         | 是否使用大模型进行前期数据标准化 |
-| `is_use_voting_model` | bool | `False`         | 是否使用多模型投票策略 |
+| 参数名称 | 类型 | 默认值 | 说明 |
+|---------|------|--------|------|
+| `data_name` | string | - | 数据集名称 |
+| `model_mode` | string | `'api'` | 大模型使用本地还是api |
+| `model` | string | `'qw72'` | 使用的具体模型 |
+| `api_key` | string | - | 模型密钥 |
+| `save_file` | string | result | 保存的路径 |
+| `is_rule_pre_standard` | bool | `False` | 是否使用预处理 |
+| `recall_mode` | string | - | 召回模式：regular(规则、关键词检索)、model（大模型）、mix（混合模式） |
+| `data_split_mode` | string | - | 数据分块模式：regular(正则)、model（神经网络模型）、mix（混合模式） |
+| `compare_mode` | string | - | 文本比对模式：single(单模型模式)、ensemble(多模式模式)、train_model(微调模型模式) |
+
 
 **注意事项**：
 - 启用 `use_local_comp_model` 时，需在 `./src/config.py` 中配置 Qwen2.5-7B-Instruct 模型路径

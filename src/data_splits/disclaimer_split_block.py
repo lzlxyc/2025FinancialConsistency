@@ -184,15 +184,6 @@ def disclaimer_data_split(all_infos:list):
                                     if (diff_similarity(k1, k2) >= 0.7):
                                         sim_blocks.append((k1, k2))
 
-                        #                 print(k1)
-                        #                 print('vs')
-                        #                 print(k2)
-                        #                 print("#"*100)
-                        # print(bi)
-                        # print('vs')
-                        # print(bj)
-                        # print("#" * 200)
-
                         sim_blocks.append((bi, bj))
 
     sim_blocks = list(set(sim_blocks))

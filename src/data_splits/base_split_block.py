@@ -84,7 +84,7 @@ def data_presplit(data:str,aibox,chunker,rule:str) -> list:
             print(eng2zh_map, '******************************\n')
     return blocks
 
-def data_presplit_no_translate(data:str,chunker,rule:str) -> list:
+def data_presplit_no_translate(data:str,chunker) -> list:
     text = data
     if re.search(r'[\u4e00-\u9fff]', text) is None:
         return []
@@ -100,10 +100,10 @@ def data_presplit_no_translate(data:str,chunker,rule:str) -> list:
 
 
 
-def data_split(all_infos:list, chunker,rule):
+def nn_data_split(all_infos:list, chunker):
     inputs = []
     for info in all_infos:
-        blocks = data_presplit_no_translate(info,chunker,rule)
+        blocks = data_presplit_no_translate(info,chunker)
         # blocks = [s for s in blocks if len(s.split()) > 1 or len(s) >= 50]
         blocks = list(dict.fromkeys(blocks))
         inputs.append(blocks)
@@ -125,7 +125,7 @@ def data_split(all_infos:list, chunker,rule):
 
     return sim_blocks
 
-def data_no_split(all_infos:list) -> list:
+def nn_data_no_split(all_infos:list) -> list:
     '''不分块 直接召回对比'''
     sim_blocks = []
     all_infos = [remove_blank_line(remove_html_tags(infos)) for infos in all_infos]

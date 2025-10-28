@@ -19,8 +19,19 @@ class RuleInfoSplitAgent(BaseAgent):
         >>> data_spliter = RuleInfoSplitAgent()
         >>> data_spliter.run(material_path, rule)
     '''
-    def __init__(self):
+    def __init__(self, data_split_mode='mix'):
+        '''默认是混合分块模式
+        data_split_mode：
+        mix: 混合模式，包含规则和神经网络分词
+        model：神经网络分词
+        regular:使用规则进行分词
+        '''
         self.tables = str.maketrans(word_map)
+        self.data_split_mode = data_split_mode
+        self.mode_map = {
+            'model': '模型分块',
+            'regular':'规则分块'
+        }
 
 
     def run(self, material_path:str, rule:str) -> list:
@@ -44,8 +55,10 @@ class RuleInfoSplitAgent(BaseAgent):
 
         if len(module_content_list) <=1:
             return []
+        # 分块模式
+        _rule = self.mode_map.get(self.data_split_mode, rule)
 
-        return data_split_block(module_content_list, rule)
+        return data_split_block(module_content_list, _rule)
 
 
 

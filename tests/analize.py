@@ -5,7 +5,7 @@ from sklearn.metrics import (
 
 
 def ana():
-    data = pd.read_csv('../reports/llm_mix_simgle.csv')
+    data = pd.read_csv('../reports/llm_mix_simgle_qw.csv')
     data = data[data['material_id'].apply(lambda x: 's' not in x)]
     print(len(data))
     y_true = data['result']
