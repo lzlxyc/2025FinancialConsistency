@@ -25,7 +25,7 @@ class ConfigTests:
     save_file:str
     data_name = 'test_datas'
     model_mode = 'api'
-    model = 'qw72'
+    model = 'qw32'
 
     is_rule_pre_standard = False
 
@@ -40,8 +40,8 @@ def main_test():
     compare_modes = ['single', 'ensemble','train_model']
     '''
     recall_modes = ['model']
-    data_split_modes = ['regula']
-    compare_modes = ['single']
+    data_split_modes = ['mix']
+    compare_modes = ['ensemble']
 
     all_metrics = []
     for recall in recall_modes:

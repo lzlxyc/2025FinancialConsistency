@@ -26,7 +26,8 @@ class AiBox:
                 self.api_key = api_key
                 BASE_URL = api_url
             elif model == 'ds':
-                self.model = "deepseek-chat"
+                # self.model = "deepseek-chat"
+                self.model = "DeepSeek-v3.2-Exp"
                 self.api_key = api_key['ds']
                 BASE_URL = "https://api.deepseek.com"
             elif model == 'qw32':
@@ -39,7 +40,7 @@ class AiBox:
                 BASE_URL = "https://dashscope.aliyuncs.com/compatible-mode/v1"
             
             print(f"{mode=} || {self.model=} {self.api_key}")
-
+            BASE_URL = 'https://api.poe.com/v1'
             self.client = OpenAI(api_key=self.api_key, base_url=BASE_URL)
         else:
             self.init_local_model()

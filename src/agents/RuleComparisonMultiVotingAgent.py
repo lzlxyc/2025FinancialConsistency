@@ -33,6 +33,25 @@ model_configs = [
     },
 ]
 
+
+model_configs = [
+    {
+        'model': "deepseek-chat",
+        'api_url': "https://api.poe.com/v1",
+        'api_key': "6o2pEkzlRNq0nZPsPVQFw2kTPmS9jzN8HrBs4u21_8E"
+    },
+    {
+        'model': "qwen2.5-72b-instruct",
+        'api_url': "https://api.poe.com/v1",
+        'api_key': "6o2pEkzlRNq0nZPsPVQFw2kTPmS9jzN8HrBs4u21_8E"
+    },
+    {
+        'model': "qwen2.5-32b-instruct",
+        'api_url': "https://api.poe.com/v1",
+        'api_key': "6o2pEkzlRNq0nZPsPVQFw2kTPmS9jzN8HrBs4u21_8E"
+    },
+]
+
 class RuleComparisonMultiVotingAgent(BaseAgent):
     '''
     多模型负责进行文本比对的agent

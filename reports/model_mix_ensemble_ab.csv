@@ -1,0 +1,142 @@
+material_id,rule_id,rule,result,ypred
+m_00006a,r_00006,责任免除,True,False
+m_00008a,r_00008,责任免除,False,False
+m_00009a,r_00009,出险条款,True,True
+m_00013a,r_00013,责任免除,False,False
+m_00016a,r_00016,保障责任,False,False
+m_00020a,r_00020,续保条款,True,True
+m_00021a,r_00021,出险条款,True,True
+m_00023a,r_00023,续保条款,True,True
+m_00024a,r_00024,责任免除,True,True
+m_00011a,r_00026,保障责任,True,False
+m_00026a,r_00028,保障责任,False,False
+m_00027a,r_00029,责任免除,True,True
+m_00010a,r_00031,责任免除,True,False
+m_00028a,r_00032,术语解释,True,True
+m_00031a,r_00035,责任免除,False,False
+m_00032a,r_00036,责任免除,False,False
+m_00032a,r_00043,续保条款,True,True
+m_00049a,r_00058,责任免除,False,False
+m_00050a,r_00059,术语解释,True,True
+m_00051a,r_00060,续保条款,True,True
+m_00053a,r_00062,保障相关时间,True,True
+m_00054a,r_00063,术语解释,True,True
+m_00044a,r_00068,附加条款,True,True
+m_00057a,r_00070,续保条款,True,True
+m_00056a,r_00076,续保条款,True,True
+m_00074a,r_00091,附加条款,True,True
+m_00081a,r_00099,附加条款,True,True
+m_00013a,r_00106,续保条款,True,True
+m_00089a,r_00111,附加条款,True,True
+m_00090a,r_00114,附加条款,True,True
+m_00036a,r_00116,责任免除,False,False
+m_00094a,r_00120,责任免除,False,False
+m_00097a,r_00124,附加条款,True,True
+m_00063a,r_00126,附加条款,True,True
+m_00101a,r_00132,保障责任,False,False
+m_00104a,r_00135,续保条款,True,True
+m_00090a,r_00138,术语解释,True,True
+m_00108a,r_00141,续保条款,True,True
+m_00082a,r_00147,责任免除,True,False
+m_00004a,r_00148,责任免除,True,False
+m_00115a,r_00152,出险条款,True,True
+m_00116a,r_00155,退保条款,True,True
+m_00119a,r_00160,责任免除,False,False
+m_00025a,r_00161,术语解释,True,True
+m_00026a,r_00168,术语解释,True,True
+m_00122a,r_00169,保障责任,False,False
+m_00123a,r_00171,术语解释,True,True
+m_00052a,r_00173,责任免除,False,False
+m_00124a,r_00175,责任免除,False,True
+m_00129a,r_00188,术语解释,True,True
+m_00116a,r_00189,责任免除,False,False
+m_00135a,r_00193,附加条款,True,True
+m_00137a,r_00195,附加条款,True,False
+m_00004a,r_00004,投保条款,False,False
+m_00007a,r_00007,续保条款,False,False
+m_00012a,r_00012,责任免除,False,False
+m_00017a,r_00017,赔付 & 领取规则,False,False
+m_00030a,r_00034,基础产品销售信息,False,False
+m_00039a,r_00044,保障相关时间,False,False
+m_00024a,r_00054,保障相关时间,False,False
+m_00048a,r_00057,责任免除,False,False
+m_00043a,r_00064,赔付 & 领取规则,False,False
+m_00056a,r_00066,赔付 & 领取规则,False,False
+m_00055a,r_00069,退保条款,False,False
+m_00058a,r_00071,续保条款,True,True
+m_00059a,r_00072,责任免除,False,True
+m_00061a,r_00085,赔付 & 领取规则,False,False
+m_00070a,r_00086,赔付 & 领取规则,False,False
+m_00075a,r_00093,投保条款,False,False
+m_00078a,r_00096,投保条款,False,True
+m_00080a,r_00098,投保条款,False,False
+m_00039a,r_00100,赔付 & 领取规则,False,False
+m_00083a,r_00102,投保条款,False,False
+m_00017a,r_00113,保障相关时间,False,False
+m_00016a,r_00125,投保条款,False,False
+m_00099a,r_00129,投保条款,False,False
+m_00052a,r_00130,保障相关时间,False,False
+m_00065a,r_00137,投保条款,False,False
+m_00107a,r_00140,赔付 & 领取规则,False,False
+m_00083a,r_00142,保障相关时间,False,False
+m_00030a,r_00145,赔付 & 领取规则,False,False
+m_00117a,r_00158,赔付 & 领取规则,False,False
+m_00102a,r_00163,退保条款,False,False
+m_00098a,r_00165,责任免除,False,False
+m_00008a,r_00166,赔付 & 领取规则,False,False
+m_00089a,r_00172,赔付 & 领取规则,False,False
+m_00005a,r_00174,基础产品销售信息,False,False
+m_00126a,r_00177,保障责任,False,False
+m_00016a,r_00192,基础产品销售信息,False,False
+m_00061a,r_00199,责任免除,False,False
+m_00002a,r_00002,赔付 & 领取规则,False,False
+m_00002b,r_00002,基础产品销售信息,False,False
+m_00003b,r_00003,赔付 & 领取规则,False,False
+m_00006b,r_00006,保障相关时间,False,False
+m_00008b,r_00008,责任免除,False,False
+m_00015b,r_00015,保障相关时间,False,False
+m_00009b,r_00019,责任免除,False,False
+m_00020b,r_00021,赔付 & 领取规则,False,False
+m_00015b,r_00024,责任免除,False,False
+m_00007b,r_00029,保障相关时间,False,False
+m_00029b,r_00032,投保条款,False,False
+m_00006b,r_00033,赔付 & 领取规则,False,False
+m_00030b,r_00034,赔付 & 领取规则,False,True
+m_00019b,r_00047,续保条款,False,True
+m_00040b,r_00048,投保条款,False,True
+m_00041b,r_00049,投保条款,False,True
+m_00056b,r_00065,保障责任,False,True
+m_00059b,r_00069,投保条款,False,True
+m_00060b,r_00071,赔付 & 领取规则,False,True
+m_00019b,r_00072,基础产品销售信息,False,True
+m_00062b,r_00074,保障相关时间,False,True
+m_00052b,r_00077,保障责任,False,True
+m_00068b,r_00083,投保条款,False,True
+m_00070b,r_00086,责任免除,False,True
+m_00071b,r_00088,责任免除,False,True
+m_00077b,r_00095,投保条款,False,True
+m_00080b,r_00099,保障相关时间,False,True
+m_00081b,r_00100,赔付 & 领取规则,False,True
+m_00084b,r_00103,投保条款,False,True
+m_00085b,r_00104,赔付 & 领取规则,False,True
+m_00052b,r_00108,保障相关时间,False,True
+m_00030b,r_00109,附加条款,False,True
+m_00093b,r_00115,基础产品销售信息,False,True
+m_00059b,r_00116,赔付 & 领取规则,False,True
+m_00094b,r_00117,投保条款,False,True
+m_00092b,r_00119,基础产品销售信息,False,True
+m_00064b,r_00123,投保条款,False,True
+m_00059b,r_00126,保障责任,False,True
+m_00079b,r_00127,保障责任,False,True
+m_00062b,r_00134,投保条款,False,True
+m_00100b,r_00135,退保条款,False,True
+m_00101b,r_00137,投保条款,False,True
+m_00103b,r_00140,投保条款,False,True
+m_00043b,r_00145,续保条款,False,True
+m_00106b,r_00146,投保条款,False,True
+m_00079b,r_00147,赔付 & 领取规则,False,True
+m_00020b,r_00148,投保条款,False,True
+m_00108b,r_00150,保障责任,False,True
+m_00114b,r_00161,投保条款,False,True
+m_00117b,r_00166,基础产品销售信息,False,True
+m_00118b,r_00167,赔付 & 领取规则,False,True
