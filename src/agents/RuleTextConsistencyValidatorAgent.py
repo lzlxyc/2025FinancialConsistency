@@ -60,6 +60,7 @@ class RuleTextConsistencyValidatorAgent(BaseAgent):
         '''
         self.data_name = data_name
         self.aibox = AiBox(mode=model_mode, model=model, api_key=api_key)
+
         self.M_DIR = f'data/{data_name}/materials'
         self.SAVE_PATH = f'reports/{save_file}.jsonl'
         if os.path.exists(self.SAVE_PATH):
@@ -97,7 +98,6 @@ class RuleTextConsistencyValidatorAgent(BaseAgent):
                 # 分块
                 pairs_to_comp = self.rule_info_split_agent.run(material_path, rule)
                 # 对比
-                # pairs_to_comp = []
                 end_result = self.rule_comparison_agent.run(pairs_to_comp, rule)
                 logger_info = f"=========={len(pairs_to_comp)} "
             else:

@@ -3,6 +3,8 @@
 '''
 import os, re, glob
 import logging
+from concurrent.futures import ThreadPoolExecutor
+
 
 from src.agents.BaseAgent import BaseAgent
 from src.support.llms import AiBox
@@ -99,8 +101,7 @@ class RuleInfoRecallAgent(BaseAgent):
 
     def _rule_info_extract_form_md(self, rule: str, md_path: str, chunk_size: int = 10000) -> str:
         '''分段循环抽取规则信息并拼接，避免输入超长报错'''
-        system_prompt = built_recall_system_pt(rule)
-
+        print(f'processing file:{md_path}...')
         text = read_markdown(md_path).replace('.', '．')
         text = re.sub('\n\s', '\n', text)
         if len(text) <= 6: return ''
@@ -108,23 +109,40 @@ class RuleInfoRecallAgent(BaseAgent):
         if self.data_pre_process:
             try:
                 blocks = self.data_preprocess_to_block(text)
+                return self.recall(rule, blocks)
             except Exception as e:
-                print(e)
-                blocks = self.base_preprocess_to_block(text, chunk_size)
-        else:
-            blocks = self.base_preprocess_to_block(text, chunk_size)
+                print(">>>>>>>>>>> recall", e)
 
-        # for i in blocks:
-        #     print('>>>', i)
-        # input()
-        recall_res = []
-        for block in blocks:
-            res = self.aibox.chat(prompt=block, system=system_prompt)
-            if len(res) >=4:
-                recall_res.append(res)
+        blocks = self.base_preprocess_to_block(text, chunk_size)
+        return self.recall(rule, blocks)
 
 
-        return '\n'.join(recall_res)
+    def recall(self, rule, blocks):
+        system_prompt = built_recall_system_pt(rule)
+
+        with ThreadPoolExecutor(max_workers=6) as executor:
+            # 使用map简化代码
+            results = executor.map(
+                lambda block: self.aibox.chat(prompt=block, system=system_prompt),
+                blocks
+            )
+            recall_res = list(results)
+            recall_res = [res for res in recall_res if len(res) >=4]
+
+        # recall_res = []
+        # for block in blocks:
+        #     res = self.aibox.chat(prompt=block, system=system_prompt)
+        #     if len(res) >=4:
+        #         recall_res.append(res)
+
+        print('#' * 150)
+        sample_response = '\n'.join(recall_res)
+
+        if sample_response and self.qwen_rule_standard is not None:
+            sample_response = self.qwen_rule_standard.chat(sample_response)
+
+        return sample_response
+
 
 
     def _rule_info_extract_from_file(self, rule: str, md_dir: str) -> None:
@@ -135,19 +153,10 @@ class RuleInfoRecallAgent(BaseAgent):
             print(f'file {save_path} exists......')
             return
 
-
+        all_paths = [path for path in glob.glob(f"{md_dir}/*.md")]
         all_infos = []
-        for path in glob.glob(f"{md_dir}/*.md"):
-            print(f'processing file:{path}...')
+        for path in all_paths:
             sample_response = self._rule_info_extract_form_md(rule, path)
-            print('#' * 150)
-            # print(sample_response)
-
-            if sample_response:
-                # 进行排版标准化
-                if self.qwen_rule_standard is not None:
-                    sample_response = self.qwen_rule_standard.chat(sample_response)
-
             all_infos.append(sample_response)
 
         with open(save_path, 'w', encoding='utf-8') as fp:

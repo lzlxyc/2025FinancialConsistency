@@ -41,7 +41,7 @@ def main_test():
     data_split_modes = ['regula','model','mix']
     compare_modes = ['single', 'ensemble','train_model']
     '''
-    model = 'qw72'
+    model = 'qw32'
     data_pre_process = [True]
     recall_modes = ['model']
     data_split_modes = ['mix']

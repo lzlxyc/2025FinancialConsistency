@@ -3,6 +3,8 @@
 '''
 from tqdm import tqdm
 import logging
+from concurrent.futures import ThreadPoolExecutor
+
 
 from src.agents.BaseAgent import BaseAgent
 from src.support.prompts import build_text_comp_prompt
@@ -58,12 +60,29 @@ class RuleComparisonAgent(BaseAgent):
         if not pairs_to_comp:
             return True
 
-        results = []
-        for pair in tqdm(pairs_to_comp):
-            result = self._sample_comparison(rule, pair)
-            results.append(result)
-            if not result:
-                break
+        # results = []
+        # for pair in tqdm(pairs_to_comp):
+        #     result = self._sample_comparison(rule, pair)
+        #     results.append(result)
+        #     if not result:
+        #         break
 
-        logger.info(f"results: {results}")
-        return all(res for res in results) if results else True
+        all_results = []
+
+        thread_num = 6
+        for i in tqdm(range(0, len(pairs_to_comp), thread_num)):
+            pairs = pairs_to_comp[i:i+thread_num]
+
+            with ThreadPoolExecutor(max_workers=thread_num) as executor:
+                # 使用map简化代码
+                results = executor.map(
+                    lambda pair: self._sample_comparison(rule, pair),
+                    pairs
+                )
+                tmp_res = list(results)
+                all_results += tmp_res
+                if any(res is False for res in tmp_res):
+                    break
+
+        logger.info(f"results: {all_results}")
+        return all(res for res in all_results) if all_results else True
