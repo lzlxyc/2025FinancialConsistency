@@ -33,7 +33,7 @@ def text_validate(args):
         model=args.model,
         api_key=get_api_key(),
         save_file=args.save_file,
-        is_rule_pre_standard=False,
+        data_pre_process=args.data_pre_process,
         recall_mode=args.recall_mode,
         data_split_mode=args.data_split_mode,
         compare_mode=args.compare_mode

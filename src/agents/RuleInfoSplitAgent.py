@@ -19,7 +19,7 @@ class RuleInfoSplitAgent(BaseAgent):
         >>> data_spliter = RuleInfoSplitAgent()
         >>> data_spliter.run(material_path, rule)
     '''
-    def __init__(self, data_split_mode='mix'):
+    def __init__(self, data_split_mode='mix', data_pre_process=False):
         '''默认是混合分块模式
         data_split_mode：
         mix: 混合模式，包含规则和神经网络分词
@@ -28,6 +28,7 @@ class RuleInfoSplitAgent(BaseAgent):
         '''
         self.tables = str.maketrans(word_map)
         self.data_split_mode = data_split_mode
+        self.recall_data_mode = '.preproce.txt' if data_pre_process else '.txt'
         self.mode_map = {
             'model': '模型分块',
             'regular':'规则分块'
@@ -41,7 +42,7 @@ class RuleInfoSplitAgent(BaseAgent):
         module_content_list = []
         module_file_name_list = []
         for file in os.listdir(material_path):
-            path = f'{material_path}/{file}/{rule}.txt'
+            path = f'{material_path}/{file}/{rule}{self.recall_data_mode}'
             logger.info(f"load data {path}...")
             if not os.path.exists(path): continue
 

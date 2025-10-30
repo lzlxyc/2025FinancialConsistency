@@ -34,10 +34,13 @@ class AiBox:
                 self.model = "qwen2.5-32b-instruct"
                 self.api_key = api_key['qwen']
                 BASE_URL = "https://dashscope.aliyuncs.com/compatible-mode/v1"
-            else:
+            elif model == 'qw72':
                 self.model = "qwen2.5-72b-instruct"
                 self.api_key = api_key['qwen']
                 BASE_URL = "https://dashscope.aliyuncs.com/compatible-mode/v1"
+            else:
+                self.model = "Gemini-2.5-Pro"
+                self.api_key = api_key['qwen']
             
             print(f"{mode=} || {self.model=} {self.api_key}")
             BASE_URL = 'https://api.poe.com/v1'

@@ -36,7 +36,7 @@ model_configs = [
 
 model_configs = [
     {
-        'model': "deepseek-chat",
+        'model': "DeepSeek-v3.2-Exp",
         'api_url': "https://api.poe.com/v1",
         'api_key': "6o2pEkzlRNq0nZPsPVQFw2kTPmS9jzN8HrBs4u21_8E"
     },

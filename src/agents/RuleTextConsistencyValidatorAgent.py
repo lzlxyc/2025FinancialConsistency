@@ -41,7 +41,7 @@ class RuleTextConsistencyValidatorAgent(BaseAgent):
     '''
     def __init__(self, data_name:str, model_mode='api',
                  model='qw72',api_key={},save_file='result',
-                 is_rule_pre_standard=False,
+                 data_pre_process=False,
                  recall_mode='model',
                  data_split_mode='mix',
                  compare_mode='single'
@@ -53,6 +53,7 @@ class RuleTextConsistencyValidatorAgent(BaseAgent):
         :param api_key: 模型密钥
         :param save_file: 保存的路径
         :param is_rule_pre_standard: 是否使用预处理
+        :param data_pre_process: 是否启动数据预处理
         :param recall_mode: 召回模式：regular(规则、关键词检索)、model（大模型）、mix（混合模式）
         :param data_split_mode: 数据分块模式：regular(正则)、model（神经网络模型）、mix（混合模式）
         :param compare_mode: 文本比对模式：single(单模型模式)、ensemble(多模式模式)、train_model(微调模型模式)
@@ -65,9 +66,9 @@ class RuleTextConsistencyValidatorAgent(BaseAgent):
             os.remove(self.SAVE_PATH)
 
         # 召回
-        self.rule_info_recall_agent = RuleInfoRecallAgent(self.aibox, recall_mode, is_rule_pre_standard)
+        self.rule_info_recall_agent = RuleInfoRecallAgent(self.aibox, recall_mode, data_pre_process)
         # 分块
-        self.rule_info_split_agent = RuleInfoSplitAgent(data_split_mode)
+        self.rule_info_split_agent = RuleInfoSplitAgent(data_split_mode, data_pre_process)
 
         # 对比模式
         if compare_mode == 'ensemble':
@@ -96,6 +97,7 @@ class RuleTextConsistencyValidatorAgent(BaseAgent):
                 # 分块
                 pairs_to_comp = self.rule_info_split_agent.run(material_path, rule)
                 # 对比
+                # pairs_to_comp = []
                 end_result = self.rule_comparison_agent.run(pairs_to_comp, rule)
                 logger_info = f"=========={len(pairs_to_comp)} "
             else:
